@@ -789,7 +789,11 @@ CS <- function(layers) {
     dplyr::mutate(layer = "element_wts_cs_km2_x_storage") %>%
     dplyr::select(rgn_id = region_id, habitat, extent_rank, layer)
 
-
+  write.csv(
+    weights,
+    sprintf(here("region2019/temp/element_wts_cs_km2_x_storage_%s.csv"), scen_year),
+    row.names = FALSE
+  )
 
   layers$data$element_wts_cs_km2_x_storage <- weights
 
@@ -948,7 +952,11 @@ CP <- function(layers) {
     dplyr::mutate(layer = "element_wts_cp_km2_x_protection") %>%
     dplyr::select(rgn_id = region_id, habitat, extent_rank, layer)
 
-
+  write.csv(
+    weights,
+    sprintf(here("region2019/temp/element_wts_cp_km2_x_protection_%s.csv"), scen_year),
+    row.names = FALSE
+  )
 
   layers$data$element_wts_cp_km2_x_protection <- weights
 
@@ -1511,6 +1519,10 @@ HAB <- function(layers) {
     dplyr::mutate(boolean = 1) %>%
     dplyr::mutate(layer = "element_wts_hab_pres_abs") %>%
     dplyr::select(rgn_id = region_id, habitat, boolean, layer)
+
+  write.csv(weights,
+            sprintf(here("region2019/temp/element_wts_hab_pres_abs_%s.csv"), scen_year),
+            row.names = FALSE)
 
 
   layers$data$element_wts_hab_pres_abs <- weights
