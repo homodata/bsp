@@ -1,4 +1,4 @@
-# Ocean Health Index for Ecuador [ecu]
+# Ocean Health Index for Ecuador [mse]
 
 This is the Ocean Health Index repository for Ecuador. 
 
