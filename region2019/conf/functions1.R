@@ -1234,8 +1234,8 @@ ICO <- function(layers) {
   scores_NA <- data.frame(
     goal = "ICO",
     dimension = rep(c("status", "trend"),
-                    each = 1),
-    region_id = 6,
+                    each = length(regions_NA)),
+    region_id = regions_NA,
     score = NA
   )
   
