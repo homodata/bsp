@@ -402,7 +402,7 @@ FP <- function(layers, scores) {
 
 AO <- function(layers) {
   Sustainability <- 1.0
-#browser()  
+  
   scen_year <- layers$data$scenario_year
   
   r <- AlignDataYears(layer_nm = "ao_access", layers_obj = layers) %>%
@@ -1234,8 +1234,8 @@ ICO <- function(layers) {
   scores_NA <- data.frame(
     goal = "ICO",
     dimension = rep(c("status", "trend"),
-                    each = 1),
-    region_id = 6,
+                    each = length(regions_NA)),
+    region_id = regions_NA,
     score = NA
   )
   
