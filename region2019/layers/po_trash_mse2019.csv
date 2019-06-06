@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 "rgn_id,year,pressure_score"
 "6,2010,0.34"
 "7,2010,0.20"
+=======
+"rgn_id,year,pressure_score"
+"6,2010,0.34"
+"7,2010,0.20"
+>>>>>>> 69fec6710ff1711206e278567907bfc6049c14ac
