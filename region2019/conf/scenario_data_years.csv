@@ -624,8 +624,6 @@ ss_wgi,2015,2013
 ss_wgi,2016,2014
 ss_wgi,2017,2015
 ss_wgi,2018,2016
-tr_jobs_pct_tourism,2008,2007
-tr_jobs_pct_tourism,2009,2008
 tr_jobs_pct_tourism,2010,2009
 tr_jobs_pct_tourism,2011,2010
 tr_jobs_pct_tourism,2012,2011
@@ -635,8 +633,6 @@ tr_jobs_pct_tourism,2015,2014
 tr_jobs_pct_tourism,2016,2015
 tr_jobs_pct_tourism,2017,2016
 tr_jobs_pct_tourism,2018,2017
-tr_sustainability,2008,2017
-tr_sustainability,2009,2017
 tr_sustainability,2010,2017
 tr_sustainability,2011,2017
 tr_sustainability,2012,2017
@@ -646,8 +642,6 @@ tr_sustainability,2015,2017
 tr_sustainability,2016,2017
 tr_sustainability,2017,2017
 tr_sustainability,2018,2017
-tr_travelwarnings,2008,2015
-tr_travelwarnings,2009,2015
 tr_travelwarnings,2010,2015
 tr_travelwarnings,2011,2015
 tr_travelwarnings,2012,2015
