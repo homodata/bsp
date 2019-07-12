@@ -677,6 +677,9 @@ liv_status,2016,2016
 liv_status,2017,2017
 liv_status,2018,2018
 liv_status,2019,2018
+liv_trend,2015,2018
+liv_trend,2016,2018
+liv_trend,2017,2018
 liv_trend,2018,2018
 liv_trend,2019,2019
 eco_status,2014,2013
@@ -685,6 +688,10 @@ eco_status,2016,2015
 eco_status,2017,2016
 eco_status,2018,2017
 eco_status,2019,2017
+eco_trend,2015,2017
+eco_trend,2016,2017
+eco_trend,2017,2017
+eco_trend,2018,2017
 eco_trend,2019,2017
 species_diversity_3nm,2013,2013
 species_diversity_3nm,2014,2014
