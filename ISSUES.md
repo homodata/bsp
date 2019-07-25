@@ -10,7 +10,8 @@ output:
 
 # Capas verificadas
 
-## AO
+## AO [OK]
+`AO` was verified and changes were made.
 
 ### Correcciones: Archivo `scenario_data_years.csv`
 ```
@@ -48,21 +49,8 @@ Dado los cambios, los scores se actualizaron a
 
 
 
-## CW
-***Clear waters was verified and changes are required.***
-
-**PROBLEMA**
-Las cuatro capas de CW para el _trend_ contienen
-datos fuera del rango permitido: -1.0 y +1.0. Las capas
-afectadas son
-```
-cw_chemical_trend_mse2019.csv
-cw_nutrient_trend_mse2019.csv
-cw_pathogen_trend_mse2019.csv
-cw_trash_trend_mse2019.csv
-```
-
-Nota: esto también sucede para las capas _trend_ de la meta *ECO*.
+## CW [OK]
+`CW` was verified and changes were made. Scores do not change.
 
 Removed empty and wrong named layer `cw_nutrients_trend_mse2019.csv`.
 
@@ -73,15 +61,15 @@ Table of scores
 1         6   CW    status 72.291514
 2         7   CW    status 79.405656
 3         6   CW     trend -0.882890
-4         7   CW     trend -1.622609 ! <------------------ ERROR!
+4         7   CW     trend -1.622609
 ```
 
-## ECO
+## ECO [NO-OK]
 
 **PROBLEMA**
 
 Los datos en el archivo `eco_trend_mse2019.csv` requieren revisión: hay datos fuera del 
-fuera del rango [-1.0, +1.0].
+fuera del rango [-1.0, +1.0]. Revisar `layers.csv` Renglón 50 `ECO,eco_trend`
 
 ### Correciones
 Score is being estimated twice. This is because in `scenario_data_years.csv`
