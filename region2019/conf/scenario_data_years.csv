@@ -676,12 +676,10 @@ liv_status,2015,2015
 liv_status,2016,2016
 liv_status,2017,2017
 liv_status,2018,2018
-liv_status,2019,2018
 liv_trend,2015,2018
 liv_trend,2016,2018
 liv_trend,2017,2018
 liv_trend,2018,2018
-liv_trend,2019,2019
 eco_status,2013,2013
 eco_status,2014,2014
 eco_status,2015,2015
@@ -760,8 +758,8 @@ tr_jobs_pct_tourism,2019,2017
 tr_sustainability,2019,2017
 tr_travelwarnings,2019,2018
 wgi_all,2019,2016
-liv_status,2019,2013
-liv_trend,2019,2013
+liv_status,2019,2018
+liv_trend,2019,2019
 eco_status,2019,2017
 eco_trend,2019,2017
 species_diversity_3nm,2019,2018

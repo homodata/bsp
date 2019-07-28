@@ -3,8 +3,8 @@ title: "Issues MSE 2019"
 author: "A M Sajo Castelli"
 date: "25 July 2019"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 
@@ -63,6 +63,10 @@ Table of scores
 3         6   CW     trend -0.882890
 4         7   CW     trend -1.622609
 ```
+Working domain
+
+  *  Status 0-100
+  *  Trend 0-100
 
 ## ECO [NO-OK]
 
@@ -99,6 +103,76 @@ Tabla temporal
 2         7  ECO    status 100.0000000
 3         6  ECO     trend   0.4523954
 4         7  ECO     trend  -1.5032097   <------ ! ERROR not in [-1, +1]
+```
+
+Working domain
+
+  *  Status 0-100
+  *  Trend 0-1
+
+# LIV
+
+Fixed and scores don't change.
+
+Initial scores
+```
+  region_id goal dimension      score
+1         6  LIV    status 98.9924668
+2         7  LIV    status 98.9924668
+3        NA  LIV    status         NA
+4         6  LIV     trend  0.9519295
+5         7  LIV     trend  0.9342872
+6        NA  LIV     trend         NA
+```
+
+Working domain
+
+  *  Status 0-100
+  *  Trend 0-1
+
+Final fixed scores
+```
+  region_id goal dimension      score
+1         6  LIV    status 98.9924668
+2         7  LIV    status 98.9924668
+3         6  LIV     trend  0.9519295
+4         7  LIV     trend  0.9342872
+```
+
+Updated `scenario_data_years.csv` `diff -u`
+```diff
+»  git diff scenario_data_years.csv
+diff --git a/region2019/conf/scenario_data_years.csv b/region2019/conf/scenario_data_years.csv
+index 27e4626..67367ff 100644
+--- a/region2019/conf/scenario_data_years.csv
++++ b/region2019/conf/scenario_data_years.csv
+@@ -676,12 +676,10 @@
+ liv_status,2015,2015
+ liv_status,2016,2016
+ liv_status,2017,2017
+ liv_status,2018,2018
+-liv_status,2019,2018
+ liv_trend,2015,2018
+ liv_trend,2016,2018
+ liv_trend,2017,2018
+ liv_trend,2018,2018
+-liv_trend,2019,2019
+ eco_status,2013,2013
+ eco_status,2014,2014
+ eco_status,2015,2015
+@@ -760,8 +758,8 @@
+ tr_jobs_pct_tourism,2019,2017
+ tr_sustainability,2019,2017
+ tr_travelwarnings,2019,2018
+ wgi_all,2019,2016
+-liv_status,2019,2013
+-liv_trend,2019,2013
++liv_status,2019,2018
++liv_trend,2019,2019
+ eco_status,2019,2017
+ eco_trend,2019,2017
+ species_diversity_3nm,2019,2018
+
 ```
 
 # Ignore rest of report
