@@ -9,7 +9,7 @@ output:
 
 # Table of progress
 goal|status|layer issues | action
-----+------+-------------+---------
+----|------|-------------|---------
 AO| <span style="color:orange">**Ok**</span> | score chaged | Revision required 
 BD| GL | Global data |
 CP | GL | Global data |
