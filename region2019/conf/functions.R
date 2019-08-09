@@ -710,11 +710,12 @@ CS <- function(layers) {
   health_lyrs <-
     c('hab_mangrove_health',
       'hab_seagrass_health',
-      'hab_saltmarsh_health')
+     'hab_saltmarsh_health')
   trend_lyrs <-
     c('hab_mangrove_trend',
-      'hab_seagrass_trend',
-      'hab_saltmarsh_trend')
+     'hab_seagrass_trend',
+     'hab_saltmarsh_trend')
+
   
   # get data together:
   extent <- AlignManyDataYears(extent_lyrs) %>%
