@@ -1,5 +1,3 @@
 "rgn_id","habitat","extent_rank","layer"
-6,"coral",286.4264,"element_wts_cp_km2_x_protection"
-7,"coral",286.4264,"element_wts_cp_km2_x_protection"
-6,"mangrove",2115.631104,"element_wts_cp_km2_x_protection"
-7,"mangrove",2115.631104,"element_wts_cp_km2_x_protection"
+6,"mangrove",1.2,"element_wts_cp_km2_x_protection"
+7,"mangrove",112.2,"element_wts_cp_km2_x_protection"
