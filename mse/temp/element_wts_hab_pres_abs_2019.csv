@@ -1,1 +1,5 @@
 "rgn_id","habitat","boolean","layer"
+6,"mangrove",1,"element_wts_hab_pres_abs"
+7,"mangrove",1,"element_wts_hab_pres_abs"
+6,"soft_bottom",1,"element_wts_hab_pres_abs"
+7,"soft_bottom",1,"element_wts_hab_pres_abs"
