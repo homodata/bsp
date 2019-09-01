@@ -1,5 +1,15 @@
 rgn_id,habitat,year,health
+6,mangrove,1984 ,1.00139
+6,mangrove,1987 ,1.00139
+6,mangrove,1991 ,1.00139
+6,mangrove,1995 ,0.89306
+6,mangrove,1999 ,0.25597
 6,mangrove,2006,0.22320
 6,mangrove,2016,0.20989
+7,mangrove,1984 ,0.66881
+7,mangrove,1987 ,0.53052
+7,mangrove,1991 ,0.45485
+7,mangrove,1995 ,0.28127
+7,mangrove,1999 ,0.16820
 7,mangrove,2006,0.23697
 7,mangrove,2016,0.19533

@@ -1,7 +1,7 @@
 ---
 title: "Scores IdSO MSE"
 author: "Lelys"
-date: "8/29/2019"
+date: "8/31/2019"
 output: html_document
 ---
 
@@ -28,7 +28,7 @@ SP| GL | Global data | Use local data + Fix R code problem
 CW | MSE | <span style="color:green">**Ok**</span> | Final revision
 HAB| MSE  | <span style="color:orange">**Ok**</span> | Revision required
 SPP| MSE | <span style="color:orange">**Ok**</span>| Revision required
-BD| MSE | Requires final layers | Revision required
+BD| MSE | Requires final scores | Revision required
 
 
 
@@ -91,11 +91,11 @@ BD| MSE | Requires final layers | Revision required
 ```
 ```
 > CW(layers)
-  region_id goal dimension      score
-1         6   CW    status 72.2915138
-2         7   CW    status 79.4056561
-3         6   CW     trend -0.5103900
-4         7   CW     trend -0.7276086
+  region_id goal dimension       score
+1         6   CW    status 72.29151383
+2         7   CW    status 79.40565609
+3         6   CW     trend -0.09486703
+4         7   CW     trend -0.25114921
 ```
 
 
