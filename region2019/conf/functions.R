@@ -1144,27 +1144,28 @@ LE <- function(scores, layers) {
 }
 
 ICO <- function(layers) {
-  # scen_year <- layers$data$scenario_year
+  scen_year <- layers$data$scenario_year
 
-  # rk <-
-  #   AlignDataYears(layer_nm = "ico_spp_iucn_status", layers_obj = layers) %>%
-  #   dplyr::select(
-  #     region_id = rgn_id,
-  #     sciname,
-  #     iucn_sid,
-  #     iucn_cat = category,
-  #     scenario_year,
-  #     eval_yr,
-  #     ico_spp_iucn_status_year
-  #   ) %>%
-  #   dplyr::mutate(iucn_cat = as.character(iucn_cat)) %>%
-  #   dplyr::group_by(region_id, iucn_sid) %>%
-  #   dplyr::mutate(sample_n = length(na.omit(unique(eval_yr[eval_yr > scen_year-19])))) %>%
-  #   dplyr::ungroup() %>%
-  #   dplyr::group_by(sciname, region_id) %>%
-  #   dplyr::mutate(sample_n = min(sample_n)) %>%
-  #   dplyr::ungroup()
-  #
+  rk <-
+    AlignDataYears(layer_nm = "ico_spp_iucn_status", layers_obj = layers) %>%
+    dplyr::select(
+      region_id = rgn_id,
+      sciname,
+      iucn_sid,
+      iucn_cat = category,
+      scenario_year,
+      eval_yr,
+      ico_spp_iucn_status_year
+    ) %>%
+    dplyr::mutate(iucn_cat = as.character(iucn_cat)) %>%
+    dplyr::group_by(region_id, iucn_sid) %>%
+    dplyr::mutate(sample_n = length(na.omit(unique(eval_yr[eval_yr > scen_year-19])))) %>%
+    dplyr::ungroup() %>%
+    dplyr::group_by(sciname, region_id) %>%
+    dplyr::mutate(sample_n = min(sample_n)) %>%
+    dplyr::ungroup()
+
+
   # # lookup for weights status
   # #  LC <- "LOWER RISK/LEAST CONCERN (LR/LC)"
   # #  NT <- "LOWER RISK/NEAR THREATENED (LR/NT)"
@@ -1177,95 +1178,94 @@ ICO <- function(layers) {
   # #  DD <- "INDETERMINATE (I)"
   # #  DD <- "STATUS INADEQUATELY KNOWN-SURVEY REQUIRED OR DATA SOUGHT"
   #
-  # w.risk_category <-
-  #   data.frame(
-  #     iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
-  #     risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)
-  #   ) %>%
-  #   dplyr::mutate(status_score = 1 - risk_score) %>%
-  #   dplyr::mutate(iucn_cat = as.character(iucn_cat))
-  #
+  w.risk_category <-
+    data.frame(
+      iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
+      risk_score = c(0,  0.2,  0.3,  0.4,  0.6,  0.8,  1, NA)
+    ) %>%
+    dplyr::mutate(status_score = 1 - risk_score) %>%
+    dplyr::mutate(iucn_cat = as.character(iucn_cat))
+
   # ####### status
   # # STEP 1: take mean of subpopulation scores
-  # r.status_spp <- rk %>%
-  #   dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
-  #   dplyr::group_by(region_id, sciname, scenario_year, ico_spp_iucn_status_year) %>%
-  #   dplyr::summarize(spp_mean = mean(status_score, na.rm = TRUE)) %>%
-  #   dplyr::ungroup()
+  r.status_spp <- rk %>%
+    dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
+    dplyr::group_by(region_id, sciname, scenario_year, ico_spp_iucn_status_year) %>%
+    dplyr::summarize(spp_mean = mean(status_score, na.rm = TRUE)) %>%
+    dplyr::ungroup()
   #
   # # STEP 2: take mean of populations within regions
-  # r.status <- r.status_spp %>%
-  #   dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
-  #   dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
-  #   dplyr::ungroup()
+  r.status <- r.status_spp %>%
+    dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
+    dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
+    dplyr::ungroup()
   #
   # ####### status
-  # status <- r.status %>%
-  #   filter(scenario_year == scen_year) %>%
-  #   mutate(score = status * 100) %>%
-  #   mutate(dimension = "status") %>%
-  #   select(region_id, score, dimension)
+  status <- r.status %>%
+    filter(scenario_year == scen_year) %>%
+    mutate(score = status * 100) %>%
+    mutate(dimension = "status") %>%
+    select(region_id, score, dimension)
   #
   # ####### trend
-  # trend_years <- (scen_year - 19):(scen_year)
+  trend_years <- (scen_year - 19):(scen_year)
   #
   # # trend calculated with status filtered for species with 2+ iucn evaluations in trend_years
-  # r.status_filtered <- rk %>%
-  #   dplyr::filter(sample_n >= 2) %>%
-  #   dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
-  #   dplyr::group_by(region_id, sciname, scenario_year, ico_spp_iucn_status_year) %>%
-  #   dplyr::summarize(spp_mean = mean(status_score, na.rm = TRUE)) %>%
-  #   dplyr::ungroup() %>%
-  #   dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
-  #   dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
-  #   dplyr::ungroup()
+  r.status_filtered <- rk %>%
+    dplyr::filter(sample_n >= 2) %>%
+    dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
+    dplyr::group_by(region_id, sciname, scenario_year, ico_spp_iucn_status_year) %>%
+    dplyr::summarize(spp_mean = mean(status_score, na.rm = TRUE)) %>%
+    dplyr::ungroup() %>%
+    dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
+    dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
+    dplyr::ungroup()
   #
-  # trend <-
-  #   CalculateTrend(status_data = r.status_filtered, trend_years = trend_years)
-  #
-  #
-  # # return scores
-  # scores <-  rbind(status, trend) %>%
-  #   dplyr::mutate('goal' = 'ICO') %>%
-  #   dplyr::select(goal, dimension, region_id, score) %>%
-  #   data.frame()
+  trend <-
+    CalculateTrend(status_data = r.status_filtered, trend_years = trend_years)
   #
   #
+  # return scores
+  scores <-  rbind(status, trend) %>%
+    dplyr::mutate('goal' = 'ICO') %>%
+    dplyr::select(goal, dimension, region_id, score) %>%
+    data.frame()
+
+
+  # scores_NA <- data.frame(
+  #   goal = "ICO",
+  #   dimension = rep(c("status", "trend"),
+  #                   each = 1),
+  #   region_id = 6,
+  #   score = NA
+  # )
   #
-  scores_NA <- data.frame(
-    goal = "ICO",
-    dimension = rep(c("status", "trend"),
-                    each = 1),
-    region_id = 6,
-    score = NA
-  )
-  #
-  # scores <- scores %>%
-  #   rbind(scores_NA) %>%
-  #   dplyr::mutate(region_id = as.numeric(region_id)) %>%
-  #   dplyr::left_join(un_regions, by = "region_id") %>%
-  #   dplyr::group_by(dimension, r2) %>%
-  #   dplyr::mutate(score_gf = mean(score, na.rm = TRUE)) %>%
-  #   dplyr::arrange(dimension, region_id) %>%
-  #   data.frame()
-  #
+  #scores <- scores %>%
+  rbind(scores_NA) %>%
+    dplyr::mutate(region_id = as.numeric(region_id)) %>%
+    dplyr::left_join(un_regions, by = "region_id") %>%
+    dplyr::group_by(dimension, r2) %>%
+    dplyr::mutate(score_gf = mean(score, na.rm = TRUE)) %>%
+    dplyr::arrange(dimension, region_id) %>%
+    data.frame()
+
   # # save gapfilling records
-  # scores_gf <- scores %>%
-  #   dplyr::mutate(gapfilled = ifelse(is.na(score) &
-  #                                      !is.na(score_gf), "1", "0")) %>%
-  #   dplyr::mutate(method = ifelse(
-  #     is.na(score) &
-  #       !is.na(score_gf),
-  #     "UN geopolitical avg. (r2)",
-  #     NA
-  #   )) %>%
-  #   dplyr::select(goal, dimension, region_id, gapfilled, method)
-  # write.csv(scores_gf, here("mse/temp/ICO_status_trend_gf.csv"), row.names = FALSE)
-  #
-  # scores <- scores %>%
-  #   dplyr::mutate(score2 = ifelse(is.na(score), score_gf, score)) %>%
-  #   dplyr::select(goal, dimension, region_id, score = score2) %>%
-  #   data.frame()
+  scores_gf <- scores %>%
+    dplyr::mutate(gapfilled = ifelse(is.na(score) &
+                                       !is.na(score_gf), "1", "0")) %>%
+    dplyr::mutate(method = ifelse(
+      is.na(score) &
+        !is.na(score_gf),
+      "UN geopolitical avg. (r2)",
+      NA
+    )) %>%
+    dplyr::select(goal, dimension, region_id, gapfilled, method)
+  write.csv(scores_gf, here("mse/temp/ICO_status_trend_gf.csv"), row.names = FALSE)
+
+  scores <- scores %>%
+    dplyr::mutate(score2 = ifelse(is.na(score), score_gf, score)) %>%
+    dplyr::select(goal, dimension, region_id, score = score2) %>%
+    data.frame()
 
   return(scores_NA)
 
