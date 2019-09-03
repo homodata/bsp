@@ -1232,44 +1232,7 @@ ICO <- function(layers) {
     data.frame()
 
 
-  # scores_NA <- data.frame(
-  #   goal = "ICO",
-  #   dimension = rep(c("status", "trend"),
-  #                   each = 1),
-  #   region_id = 6,
-  #   score = NA
-  # )
-  #
-  #scores <- scores %>%
-  rbind(scores_NA) %>%
-    dplyr::mutate(region_id = as.numeric(region_id)) %>%
-    dplyr::left_join(un_regions, by = "region_id") %>%
-    dplyr::group_by(dimension, r2) %>%
-    dplyr::mutate(score_gf = mean(score, na.rm = TRUE)) %>%
-    dplyr::arrange(dimension, region_id) %>%
-    data.frame()
-
-  # # save gapfilling records
-  scores_gf <- scores %>%
-    dplyr::mutate(gapfilled = ifelse(is.na(score) &
-                                       !is.na(score_gf), "1", "0")) %>%
-    dplyr::mutate(method = ifelse(
-      is.na(score) &
-        !is.na(score_gf),
-      "UN geopolitical avg. (r2)",
-      NA
-    )) %>%
-    dplyr::select(goal, dimension, region_id, gapfilled, method)
-  write.csv(scores_gf, here("mse/temp/ICO_status_trend_gf.csv"), row.names = FALSE)
-
-  scores <- scores %>%
-    dplyr::mutate(score2 = ifelse(is.na(score), score_gf, score)) %>%
-    dplyr::select(goal, dimension, region_id, score = score2) %>%
-    data.frame()
-
-  return(scores_NA)
-
-  # return(scores)
+ return(scores)
 
 }
 
