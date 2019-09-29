@@ -278,10 +278,11 @@ MAR <- function(layers) {
 
   all_rgns <- all_rgns[!(all_rgns$rgn_id %in% ry$rgn_id),]
 
-  uninhabited <- read.csv("https://raw.githubusercontent.com/OHI-Science/ohiprep/master/globalprep/spatial/v2017/output/rgn_uninhabited_islands.csv")
-
-  uninhabited <- uninhabited %>%
-    dplyr::filter(rgn_nam != "British Indian Ocean Territory") # remove British Indian Ocean Territory which has fishing activity and a population size of 3000 inhabitants
+  ## Region_id alignement issue?
+  # uninhabited <- read.csv("https://raw.githubusercontent.com/OHI-Science/ohiprep/master/globalprep/spatial/v2017/output/rgn_uninhabited_islands.csv")
+  # uninhabited <- uninhabited %>%
+  #  dplyr::filter(rgn_nam != "British Indian Ocean Territory") # remove British Indian Ocean Territory which has fishing activity and a population size of 3000 inhabitants
+  uninhabited <- data.frame(rgn_id = integer(0), rgn_nam = factor(), Southern_Islands = integer(0), Inhabited = integer(0), est_population = integer(0))
 
   ## Combine all regions with mariculture data table
   ry_all_rgns <- all_rgns %>%
@@ -309,6 +310,10 @@ MAR <- function(layers) {
   scores = rbind(status, trend) %>%
     dplyr::mutate(goal = 'MAR')
 
+  # MSE UPDATE: Filter to return only regions of interest 6:7 !
+  # All uninhabited regions 1:250 are forced to zero (i.e. this edition
+  # does not include island data)
+  scores <- scores %>% filter(region_id %in% c(6:7))
   return(scores)
 }
 
@@ -1165,19 +1170,18 @@ ICO <- function(layers) {
     dplyr::mutate(sample_n = min(sample_n)) %>%
     dplyr::ungroup()
 
+  # lookup for weights status
+  #  LC <- "LOWER RISK/LEAST CONCERN (LR/LC)"
+  #  NT <- "LOWER RISK/NEAR THREATENED (LR/NT)"
+  #  T  <- "THREATENED (T)" treat as "EN"
+  #  VU <- "VULNERABLE (V)"
+  #  EN <- "ENDANGERED (E)"
+  #  LR/CD <- "LOWER RISK/CONSERVATION DEPENDENT (LR/CD)" treat as between VU and NT
+  #  CR <- "VERY RARE AND BELIEVED TO BE DECREASING IN NUMBERS"
+  #  DD <- "INSUFFICIENTLY KNOWN (K)"
+  #  DD <- "INDETERMINATE (I)"
+  #  DD <- "STATUS INADEQUATELY KNOWN-SURVEY REQUIRED OR DATA SOUGHT"
 
-  # # lookup for weights status
-  # #  LC <- "LOWER RISK/LEAST CONCERN (LR/LC)"
-  # #  NT <- "LOWER RISK/NEAR THREATENED (LR/NT)"
-  # #  T  <- "THREATENED (T)" treat as "EN"
-  # #  VU <- "VULNERABLE (V)"
-  # #  EN <- "ENDANGERED (E)"
-  # #  LR/CD <- "LOWER RISK/CONSERVATION DEPENDENT (LR/CD)" treat as between VU and NT
-  # #  CR <- "VERY RARE AND BELIEVED TO BE DECREASING IN NUMBERS"
-  # #  DD <- "INSUFFICIENTLY KNOWN (K)"
-  # #  DD <- "INDETERMINATE (I)"
-  # #  DD <- "STATUS INADEQUATELY KNOWN-SURVEY REQUIRED OR DATA SOUGHT"
-  #
   w.risk_category <-
     data.frame(
       iucn_cat = c('LC', 'NT', 'CD', 'VU', 'EN', 'CR', 'EX', 'DD'),
@@ -1186,31 +1190,31 @@ ICO <- function(layers) {
     dplyr::mutate(status_score = 1 - risk_score) %>%
     dplyr::mutate(iucn_cat = as.character(iucn_cat))
 
-  # ####### status
-  # # STEP 1: take mean of subpopulation scores
+  ####### status
+  # STEP 1: take mean of subpopulation scores
   r.status_spp <- rk %>%
     dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
     dplyr::group_by(region_id, sciname, scenario_year, ico_spp_iucn_status_year) %>%
     dplyr::summarize(spp_mean = mean(status_score, na.rm = TRUE)) %>%
     dplyr::ungroup()
-  #
-  # # STEP 2: take mean of populations within regions
+
+  # STEP 2: take mean of populations within regions
   r.status <- r.status_spp %>%
     dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
     dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
     dplyr::ungroup()
-  #
-  # ####### status
+
+  ####### status
   status <- r.status %>%
     filter(scenario_year == scen_year) %>%
     mutate(score = status * 100) %>%
     mutate(dimension = "status") %>%
     select(region_id, score, dimension)
-  #
-  # ####### trend
+
+  ####### trend
   trend_years <- (scen_year - 19):(scen_year)
-  #
-  # # trend calculated with status filtered for species with 2+ iucn evaluations in trend_years
+
+  # trend calculated with status filtered for species with 2+ iucn evaluations in trend_years
   r.status_filtered <- rk %>%
     dplyr::filter(sample_n >= 2) %>%
     dplyr::left_join(w.risk_category, by = 'iucn_cat') %>%
@@ -1220,19 +1224,18 @@ ICO <- function(layers) {
     dplyr::group_by(region_id, scenario_year, ico_spp_iucn_status_year) %>%
     dplyr::summarize(status = mean(spp_mean, na.rm = TRUE)) %>%
     dplyr::ungroup()
-  #
+
   trend <-
     CalculateTrend(status_data = r.status_filtered, trend_years = trend_years)
-  #
-  #
+
+
   # return scores
   scores <-  rbind(status, trend) %>%
     dplyr::mutate('goal' = 'ICO') %>%
     dplyr::select(goal, dimension, region_id, score) %>%
     data.frame()
 
-
- return(scores)
+  return(scores)
 
 }
 

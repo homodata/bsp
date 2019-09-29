@@ -1,33 +1,231 @@
 ---
-title: "Issues MSE 2019"
+title: "Progress Report for MSE 2019"
 author: "A M Sajo Castelli"
-date: "31 August 2019"
+date: "29 September 2019"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
+ASSESSMENT AREA (region_id=0) + regions 6 and 7.
+
 # Table of progress
-goal|status|layer issues | action
-----|------|-------------|---------
-AO| <span style="color:green">**Ok**</span> | score chaged | Revise
-BD| GL | Global data |
-CP | GL | Global data |
-CS| GL | Global data |
-CW | <span style="color:green">**Ok**</span> | score changed | Revise
-ECO | <span style="color:green">**Ok**</span> | score changed| Revise
-FIS | GL | Global data| 
-FP| GL | Global data |
-HAB| GL | Global data |
-ICO| GL | R Code problems|
-LE | GL | Global data |
-LIV| <span style="color:green">**Ok**</span>  |
-LSP| GL | Global data |
-MAR| GL | Global data |
-NP| GL | Global data |
-SP| GL | Global data |
-SPP| <span style="color:green">**Ok**</span> |
-TR| <span style="color:green">**Ok**</span> |  score changed | Revise 
+
+goal|pr|layer|status | action
+----|--|----|------------------------------------|---------
+AO  |  | <span style="color:green">**Ok**</span> |  | 
+$\,$|AO| <span style="color:red">GL</span> | Global data |
+$\,$|BD| <span style="color:red">GL</span> | Global data |
+CP  |  | <span style="color:green">**Ok**</span> | Mix GL and LL |
+$\,$|CP| <span style="color:red">GL</span> | Global data |
+CS  |  | <span style="color:green">**Ok**</span> | Mix GL and LL |
+CW  |  | <span style="color:green">**Ok**</span> |  |
+$\,$|CW| <span style="color:green">**Ok**</span> |  | 
+ECO |  | <span style="color:green">**Ok**</span> | | 
+$\,$|ECO|<span style="color:red">GL</span> | Global data |
+FIS |  | <span style="color:red">**GL**</span> | Layer `fis_meancatch_mse2019` empty data column| 
+$\,$|FIS|<span style="color:red">GL</span> | Global data |
+$\,$|FP| <span style="color:red">GL</span> | Global data |
+HAB |  | <span style="color:green">**Ok**</span> |  |
+$\,$|HAB| <span style="color:red">GL</span> | Global data |
+ICO |  | <span style="color:green">**Ok**</span> | |
+$\,$|ICO| <span style="color:red">GL</span> | Global data |
+LIV |  | <span style="color:green">**Ok**</span>  |
+$\,$|LIV| <span style="color:red">GL</span> | Global data |
+LSP |  | <span style="color:red">GL</span> | Global data |
+MAR |  | <span style="color:red">GL</span> | Global data |
+NP  |  | <span style="color:red">GL</span> | Global data |
+SPP |  |<span style="color:green">**Ok**</span> |
+TR  |  |<span style="color:green">**Ok**</span> |   |  
+
+# Latest scores (29 September 2019)
+```
+> scores %>% filter(dimension %in% c("status", "score"))
+     goal dimension region_id  score
+1      AO     score         0  88.27
+2      AO     score         6  86.77
+3      AO     score         7  89.77
+4      AO    status         0  81.53
+5      AO    status         6  80.72
+6      AO    status         7  82.34
+7      BD     score         0  72.00
+8      BD     score         6  70.99
+9      BD     score         7  73.00
+10     BD    status         0  76.71
+11     BD    status         6  76.72
+12     BD    status         7  76.71
+13     CP     score         0  76.09
+14     CP     score         6  72.52
+15     CP     score         7  79.66
+16     CP    status         0  96.59
+17     CP    status         6  99.96
+18     CP    status         7  93.22
+19     CS     score         0  15.85
+20     CS     score         6  15.12
+21     CS     score         7  16.58
+22     CS    status         0  20.26
+23     CS    status         6  20.99
+24     CS    status         7  19.53
+25     CW     score         0  72.63
+26     CW     score         6  70.57
+27     CW     score         7  74.70
+28     CW    status         0  75.85
+29     CW    status         6  72.29
+30     CW    status         7  79.41
+31    ECO     score         0  84.11
+32    ECO     score         6  98.68
+33    ECO     score         7  69.55
+34    ECO    status         0  98.68
+35    ECO    status         6  97.36
+36    ECO    status         7 100.00
+37    FIS     score         0  54.56
+38    FIS     score         6  54.56
+39    FIS     score         7  54.56
+40    FIS    status         0  53.20
+41    FIS    status         6  53.20
+42    FIS    status         7  53.20
+43     FP     score         0  76.50
+44     FP     score         6  76.50
+45     FP     score         7  76.50
+46     FP    status         0  75.80
+47     FP    status         6  75.80
+48     FP    status         7  75.80
+49    HAB     score         0  46.58
+50    HAB     score         6  44.57
+51    HAB     score         7  48.59
+52    HAB    status         0  58.60
+53    HAB    status         6  58.61
+54    HAB    status         7  58.59
+55    ICO     score         0  69.50
+56    ICO     score         6  69.08
+57    ICO     score         7  69.92
+58    ICO    status         0  64.12
+59    ICO    status         6  64.12
+60    ICO    status         7  64.12
+61  Index     score         0  71.90
+62  Index     score         6  73.11
+63  Index     score         7  70.68
+64     LE     score         0  91.81
+65     LE     score         6  99.09
+66     LE     score         7  84.52
+67     LE    status         0  98.84
+68     LE    status         6  98.18
+69     LE    status         7  99.50
+70    LIV     score         0  99.50
+71    LIV     score         6  99.50
+72    LIV     score         7  99.50
+73    LIV    status         0  98.99
+74    LIV    status         6  98.99
+75    LIV    status         7  98.99
+76    LSP     score         0 100.00
+77    LSP     score         6 100.00
+78    LSP     score         7 100.00
+79    LSP    status         0 100.00
+80    LSP    status         6 100.00
+81    LSP    status         7 100.00
+82    MAR     score         0 100.00
+83    MAR     score         6 100.00
+84    MAR     score         7 100.00
+85    MAR    status         0 100.00
+86    MAR    status         6 100.00
+87    MAR    status         7 100.00
+88     NP     score         0  56.06
+89     NP     score         6  56.06
+90     NP     score         7  56.06
+91     NP    status         0  52.38
+92     NP    status         6  52.38
+93     NP    status         7  52.38
+94     SP     score         0  84.75
+95     SP     score         6  84.54
+96     SP     score         7  84.96
+97     SP    status         0  82.06
+98     SP    status         6  82.06
+99     SP    status         7  82.06
+100   SPP     score         0  97.41
+101   SPP     score         6  97.41
+102   SPP     score         7  97.41
+103   SPP    status         0  94.82
+104   SPP    status         6  94.82
+105   SPP    status         7  94.82
+106    TR     score         0  85.01
+107    TR     score         6  98.98
+108    TR     score         7  71.03
+109    TR    status         0  83.53
+110    TR    status         6  97.97
+111    TR    status         7  69.09
+```
+
+# Updates 28 September 2019
+  1. Local `fis_meancatch` layer does not contain data column and is using illegal characters e.g. "ñ".
+  3. MAR goal has fixed URL file for layer data! this should point to a local layer!
+```
+uninhabited <- read.csv("https://raw.githubusercontent.com/OHI-Science/ohiprep/master/globalprep/spatial/v2017/output/rgn_uninhabited_islands.csv")
+```
+    is replaced by empty data frame, i.e., we don't include island data.
+    It also filters scores to only include `region_id`s 6 and 7.
+  4. Notes from `CalculateAll()`
+  
+```
+  Some regions/habitats have extent data, but no trend data. Consider estimating these values. 
+
+Calculating Status and Trend for each region for SPP...
+Calculating Pressures for each region...
+There are 6 pressures subcategories: 
+  pollution, 
+  alien_species, 
+  habitat_destruction, 
+  fishing_pressure, 
+  climate_change, 
+  social
+  
+These goal-elements are in the weighting data layers, but not included in the pressure_matrix.csv:
+  LIV-tra, 
+  ECO-tra
+  
+These goal-elements are in the pressure_matrix.csv, but not included in the weighting data layers:
+  ECO-aqf, 
+  ECO-mar, 
+  LIV-mar, 
+  CP-saltmarsh, 
+  CP-seagrass, 
+  CS-saltmarsh, 
+  CS-seagrass, 
+  HAB-saltmarsh, 
+  HAB-seagrass, 
+  NP-shells, 
+  NP-sponges, 
+  ECO-mmw, 
+  LIV-mmw, 
+  LIV-ph, 
+  LIV-tran, 
+  CP-seaice_shoreline, 
+  HAB-seaice_edge, 
+  ECO-wte, 
+  LIV-wte, 
+  LIV-sb
+  
+Calculating Resilience for each region...
+There are 7 Resilience subcategories: 
+  ecological, 
+  alien_species, 
+  goal, 
+  fishing_pressure, 
+  habitat_destruction, 
+  pollution, 
+  social 
+
+These goal-elements are in the resilience_matrix.csv, but not included in the weighting data layers:
+  CP-saltmarsh, 
+  CP-seagrass, 
+  CS-saltmarsh, 
+  CS-seagrass, 
+  HAB-saltmarsh, 
+  HAB-seagrass, 
+  NP-shells, 
+  NP-sponges, 
+  HAB-seaice_edge, 
+  CP-seaice_shoreline
+```
 
 # Updates 31 August 2019
   1. Incorrectly named layer `cw_nutrients_trend_mse2019.csv` renamed to `cw_nutrient_trend_mse2019.csv`
