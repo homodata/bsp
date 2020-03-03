@@ -1,3 +1,3 @@
-rgn_id,year,resilience_score
-6,2019,1
-7,2019,1
+rgn_id;year;resilience_score
+6;2019;0,875
+7;2019;0,25
