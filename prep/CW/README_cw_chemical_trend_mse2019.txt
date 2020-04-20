@@ -2,10 +2,10 @@ cw_chemical_trend: Chemical pollution trend
 Capa de datos: Tendencias en la contaminación química, basado en el tráfico comercial marítimo, la actividad portuaria, el uso de pesticidas procedente de fuentes terrestres (contaminación orgánica), y la escorrentía urbana (contaminación inorgánica) dentro de la ZEE.
 
 1. Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
-	• Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO).
-      http://www.fao.org/faostat/en/#data/EP
-	• Instituto Nacional de Estadística y Censos (INEC)
-      http://www.ecuadorencifras.gob.ec/informacion-de-anos-anteriores-espac/
+- Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO).
+http://www.fao.org/faostat/en/#data/EP
+- Instituto Nacional de Estadística y Censos (INEC)
+http://www.ecuadorencifras.gob.ec/informacion-de-anos-anteriores-espac/
 
 2. Institución que provee los datos a este Proyecto (si es distinta de la recolectora).
 
@@ -19,7 +19,7 @@ Capa de datos: Tendencias en la contaminación química, basado en el tráfico come
 4. Estimación del cambio anual en el consumo de pesticidas utilizando un modelo de regresión lineal con los 5 años más recientes, de este procedimiento se obtiene la pendiente.
 5. La tendencia es calculada multiplicando la pendiente por 5 para estimar el cambio en 5 años y se divide por el año más antiguo que se utiliza en el cálculo de la recta de regresión lineal.
 
-6. Período de tiempo que cubren los datos (año desde y año hasta). O enumeración de años si no son consecutivos.
+5. Período de tiempo que cubren los datos (año desde y año hasta). O enumeración de años si no son consecutivos.
 
 2013-2017
 Años escenarios	Años de datos
