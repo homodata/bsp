@@ -1,5 +1,9 @@
-# Ocean Health Index for Ecuador [mse]
+# Ocean Health Index for Peru [bsp]
 
-This is the Ocean Health Index repository for Ecuador. 
+This is the Ocean Health Index repository for Bahia de Sechura.
+
+# Progress Report
+
+# Layer Updates
 
 For more information, please see http://ohi-science.org.
