@@ -310,7 +310,7 @@ MAR <- function(layers) {
   scores = rbind(status, trend) %>%
     dplyr::mutate(goal = 'MAR')
 
-  # MSE UPDATE: Filter to return only regions of interest 6:7 !
+  # FIXME MSE UPDATE: Filter to return only regions of interest 6:7 !
   # All uninhabited regions 1:250 are forced to zero (i.e. this edition
   # does not include island data)
   scores <- scores %>% filter(region_id %in% c(6:7))
@@ -545,7 +545,7 @@ NP <- function(scores, layers) {
     dplyr::mutate(gapfilled = ifelse(is.na(exposure), 1, 0)) %>%
     dplyr::mutate(method = ifelse(is.na(exposure), "prod_average", NA)) %>%
     dplyr::select(rgn_id = region_id, product, year, gapfilled, method)
-  write.csv(gap_fill, here('mse/temp/NP_exposure_gf.csv'), row.names = FALSE)
+  write.csv(gap_fill, here('temp/NP_exposure_gf.csv'), row.names = FALSE)
 
   ### add exposure for countries with (habitat extent == NA)
   np_exp <- np_exp %>%
@@ -798,7 +798,7 @@ CS <- function(layers) {
 
   write.csv(
     weights,
-    sprintf(here("mse/temp/element_wts_cs_km2_x_storage_%s.csv"), scen_year),
+    sprintf(here("temp/element_wts_cs_km2_x_storage_%s.csv"), scen_year),
     row.names = FALSE
   )
 
@@ -961,7 +961,7 @@ CP <- function(layers) {
 
   write.csv(
     weights,
-    sprintf(here("mse/temp/element_wts_cp_km2_x_protection_%s.csv"), scen_year),
+    sprintf(here("temp/element_wts_cp_km2_x_protection_%s.csv"), scen_year),
     row.names = FALSE
   )
 
@@ -1065,7 +1065,7 @@ TR <- function(layers) {
 
 LIV <- function(layers) {
 
-  # NOTE: scripts and related files for calculating these subgoals is located:
+  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
   # mse/archive
   # These data are no longer available and status/trend have not been updated since 2013
 
@@ -1099,7 +1099,7 @@ LIV <- function(layers) {
 
 ECO <- function(layers) {
 
-  # NOTE: scripts and related files for calculating these subgoals is located:
+  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
   # mse/archive
   # These data are no longer available and status/trend have not been updated since 2013
 
@@ -1521,7 +1521,7 @@ HAB <- function(layers) {
     dplyr::select(rgn_id = region_id, habitat, boolean, layer)
 
   write.csv(weights,
-            sprintf(here("mse/temp/element_wts_hab_pres_abs_%s.csv"), scen_year),
+            sprintf(here("temp/element_wts_hab_pres_abs_%s.csv"), scen_year),
             row.names = FALSE)
 
   layers$data$element_wts_hab_pres_abs <- weights
