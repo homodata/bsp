@@ -10,17 +10,24 @@ output: html_document
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
 # FIXMEs in functions.R
+- [ ] Fixme 313
+```
 313:  # FIXME MSE UPDATE: Filter to return only regions of interest 6:7 !
 314-  # All uninhabited regions 1:250 are forced to zero (i.e. this edition
 315-  # does not include island data)
-
+```
+- [ ] Fixme 1068
+```
 1068:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
 1069-  # mse/archive
 1070-  # These data are no longer available and status/trend have not been updated since 2013
-
+```
+- [ ] Fixme 1102
+```
 1102:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
 1103-  # mse/archive
 1104-  # These data are no longer available and status/trend have not been updated since 2013
+```
 
 # To Do List
  - [ ] move to region2021
@@ -300,7 +307,4 @@ Called from: tbl_varsy)
 137   SPP    status         7  94.82
 138   SPP     trend         6   0.00
 139   SPP     trend         7   0.00
-
-# Layer Updates
-
-For more information, please see http://ohi-science.org.
+```
