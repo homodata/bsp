@@ -5,7 +5,7 @@ date: "23/04/2021"
 output: html_document
 ---
 
-# Ocean Health Index of BSP - Bahia de Sechura (Peru)
+# Ocean Health Index for Bahia de Sechura (Peru) [bsp]
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
