@@ -12,9 +12,10 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
  * `Spatial/`
      - [ ] need region id names north and south
      - [ ] `regions_list.csv` (requires km2 from each region id)
+     - [ ] `regions_gcs.geojson` file for `bsp`
  * `reports/figures/`
      - [ ] `regions_figs.csv` (3 regions: 0 Bahía de Sechura, 1 South, 2 North)
-     - [ ] 
+
  * `functions.R`
      - [ ] Fixme L313
 ```
