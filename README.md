@@ -8,21 +8,27 @@ output: html_document
 # Ocean Health Index for Bahia de Sechura (Peru) [bsp]
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
-
-# FIXMEs in functions.R
-- [ ] Fixme 313
+# To update from `mse` to `bsp`
+ * `Spatial/`
+     - [ ] need region id names north and south
+     - [ ] `regions_list.csv` (requires km2 from each region id)
+ * `reports/figures/`
+     - [ ] `regions_figs.csv` (3 regions: 0 Bahía de Sechura, 1 South, 2 North)
+     - [ ] 
+ * `functions.R`
+     - [ ] Fixme L313
 ```
 313:  # FIXME MSE UPDATE: Filter to return only regions of interest 6:7 !
 314-  # All uninhabited regions 1:250 are forced to zero (i.e. this edition
 315-  # does not include island data)
 ```
-- [ ] Fixme 1068
+     - [ ] Fixme L1068
 ```
 1068:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
 1069-  # mse/archive
 1070-  # These data are no longer available and status/trend have not been updated since 2013
 ```
-- [ ] Fixme 1102
+     - [ ] Fixme L1102
 ```
 1102:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
 1103-  # mse/archive
@@ -30,9 +36,9 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 ```
 
 # To Do List
- - [ ] move to region2021
- - [ ] add shapefiles and geo data
- - [ ] move regions 6 (Manabi) and 7 (Santa Elena) to 1 (South)  and 2 (North)
+ - [ ] Rename `region2019` to `region2021`
+ - [ ] Add shapefiles and geo data (missing geojson file)
+ - [ ] Rename regions 6 (Manabi) and 7 (Santa Elena) to 1 (South)  and 2 (North)
  - [ ] Run scores
 
 # Progress Report
