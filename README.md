@@ -8,6 +8,13 @@ output: html_document
 # Ocean Health Index for Bahia de Sechura (Peru) [bsp]
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
+
+# Transition progress `mse` to `bsp`
+  - [ ] Stash current scores
+  - [ ] Rename `region2019` to `region2021`
+  - [ ] Compare new scores with stashed
+  - [ ] ...
+
 # To update from `mse` to `bsp`
  * `Spatial/`
      - [ ] need region id names north and south
@@ -42,8 +49,7 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 }
 ```
  * `reports/figures/`
-     - [ ] `regions_figs.csv` (3 regions: 0 Bahía de Sechura, 1 South, 2 North)
-     - [ ] 
+     - [ ] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
  * `functions.R`
      - [ ] Fixme L313
 ```
