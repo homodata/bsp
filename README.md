@@ -10,7 +10,7 @@ output: html_document
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
 # Transition progress `mse` to `bsp`
-  - [ ] Stash current scores
+  - [x] Stash current scores
   - [ ] Rename `region2019` to `region2021`
   - [ ] Compare new scores with stashed
   - [ ] ...
