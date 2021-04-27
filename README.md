@@ -26,7 +26,7 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 The following changes will produce diffs with current score reference table!
 
   - [ ] Rename `region2019` to `region2021`
-  - [ ] Add new `*_bsp2021.csv` layers
+  - [ ] Add new `*_bsp2021.csv` layers and update in `layers.csv`
   - [ ] Add spatial surface `km2` to `rgn_*.csv` layers
   - [ ] [MARIO] geojson file with the two regions, with the following features
 ```{geojson}
