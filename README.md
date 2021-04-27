@@ -69,7 +69,7 @@ Available tables
 
 # Goals Progress Report
 
-goal|status|layer issues | action  | Completion 
+goal|region|layer issues | action  | Completion 
 ----|------|-------------|---------|-------------
 FIS | GL   | <span style="color:orange">Global data  </span> | Use local data | 0%
 MAR | GL   | <span style="color:orange">Global data  </span> | Use local data | 0%
@@ -89,6 +89,7 @@ CW  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 
 HAB | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 SPP | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 BD  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
+**rgn_area** | BSP | Missing sp data | Use local data | 75%
 
 # Plots
 
