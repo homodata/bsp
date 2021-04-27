@@ -43,7 +43,7 @@ The following changes will produce diffs with current score reference table!
   "id":0,
   "properties":{
     "rgn_id":1, 
-    "rgn_name":"Sur Bsp 1",
+    "rgn_name":"Sur Bsp",
     "area_km2": 35813.45}, 
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 },
@@ -52,7 +52,7 @@ The following changes will produce diffs with current score reference table!
   "properties":{
     "rgn_id":2,
     "area_km2":10598.97,
-    "rgn_name":"Norte Bsp 2"},
+    "rgn_name":"Norte Bsp"},
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 ]
 }
