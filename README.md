@@ -1,6 +1,6 @@
 ---
 title: "OHI of BSP"
-author: ""
+author: "HomoData"
 date: "27/04/2021"
 output: html_document
 ---
@@ -20,8 +20,8 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 # Transition progress 2019 `mse` to 2021 `bsp`
   - [x] Stash current scores
   - [x] Rename region id 6 to 1 and 7 to 2, also change names (include `rgn_*` layers)
+  - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
   - [x] Compare new scores with stashed
-
 The following changes will produce diffs with current score reference table!
   - [ ] Rename `region2019` to `region2021`
   - [ ] Add spatial surface to `reg_*.csv` layers
@@ -54,38 +54,13 @@ The following changes will produce diffs with current score reference table!
 ]
 }
 ```
- * `reports/figures/`
-     - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
- * `functions.R`
-     - [x] Fixme L313
-```
-313:  # FIXME MSE UPDATE: Filter to return only regions of interest 6:7 !
-314-  # All uninhabited regions 1:250 are forced to zero (i.e. this edition
-315-  # does not include island data)
-```
-     - [ ] Fixme L1068
-```
-1068:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
-1069-  # mse/archive
-1070-  # These data are no longer available and status/trend have not been updated since 2013
-```
-     - [ ] Fixme L1102
-```
-1102:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
-1103-  # mse/archive
-1104-  # These data are no longer available and status/trend have not been updated since 2013
-```
-     - [ ] Plot flower
-```
-Using layers/fp_wildcaught_weight_gl2018.csv to plot FIS and MAR with unequal weighting
-```
+
 # Score Tables
 Score tables are generated using
 `> scores %>% filter(dimension %in% c("status","trend", "score"))`
 Available tables:
  * 2021/04/26 [Reference (last from mse) `scores_reference.tbl`](scores_reference.tbl)
  * 2021/04/27 [Score table with region ID change (`6` to `1` and `7` to `2`) `scores_bsp_rgns.tbl`](scores_bsp_rgns.tbl)
-
 
 # Goals Progress Report
 
@@ -109,6 +84,40 @@ CW  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 
 HAB | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 SPP | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 BD  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
+
+# Plots
+
+<table><tr>
+<td><img src="./region2019/reports/figures/flower_BahiadeSechura(Peru).png" width="375px" alt="Bahia de Sechura (Peru)"/></td>
+<td><img src="./region2019/reports/figures/flower_SurBSP.png" width="375px" alt="Sur BSP"/></td>
+<td><img src="./region2019/reports/figures/flower_NorteBSP.png" width="375px" alt="Norte BSP"/></td>
+</tr></table>
+
+# To Do list
+  * Plot flower
+```
+Using layers/fp_wildcaught_weight_gl2018.csv to plot FIS and MAR with unequal weighting
+```
+
+## FIXME in `functions.R`
+  - [x] Fixme L313
+```
+313:  # FIXME MSE UPDATE: Filter to return only regions of interest 1:2 !
+314-  # All uninhabited regions 1:250 are forced to zero (i.e. this edition
+315-  # does not include island data)
+```
+  - [ ] Fixme L1068
+```
+1068:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
+1069-  # mse/archive
+1070-  # These data are no longer available and status/trend have not been updated since 2013
+```
+  - [ ] Fixme L1102
+```
+1102:  # FIXME NOTE: scripts and related files for calculating these subgoals is located:
+1103-  # mse/archive
+1104-  # These data are no longer available and status/trend have not been updated since 2013
+```
 
 ## Scores (MSE and GL data)
 ```
