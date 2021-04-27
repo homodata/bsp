@@ -11,8 +11,9 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
 # Transition progress `mse` to `bsp`
   - [x] Stash current scores
-  - [ ] Rename `region2019` to `region2021`
+  - [ ] Rename region id 6 to 1 and 7 to 2, also change names (include `rgn_*` layers)
   - [ ] Compare new scores with stashed
+  - [ ] Rename `region2019` to `region2021`
   - [ ] ...
 
 # To update from `mse` to `bsp`
