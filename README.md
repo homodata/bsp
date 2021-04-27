@@ -1,7 +1,7 @@
 ---
 title: "OHI of BSP"
 author: ""
-date: "23/04/2021"
+date: "27/04/2021"
 output: html_document
 ---
 
@@ -12,10 +12,38 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
  * `Spatial/`
      - [ ] need region id names north and south
      - [ ] `regions_list.csv` (requires km2 from each region id)
-     - [ ] `regions_gcs.geojson` file for `bsp`
+     - [ ] geojson file with the two regions, with the following features
+```{geojson}
+{
+"type": "FeatureCollection",
+"crs":{
+  "type":"name",
+  "properties":{
+    "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+},
+"features":[
+{ "type": "Feature",
+  "id":0,
+  "properties":{
+    "rgn_id":1, 
+    "rgn_name":"Sur Bsp 1",
+    "area_km2": 35813.45}, 
+  "geometry": { "type": "MultiPolygon", "coordinates": ... }
+},
+  "type": "Feature",
+  "id":1,
+  "properties":{
+    "rgn_id":2,
+    "area_km2":10598.97,
+    "rgn_name":"Norte Bsp 2"},
+  "geometry": { "type": "MultiPolygon", "coordinates": ... }
+]
+}
+```
  * `reports/figures/`
      - [ ] `regions_figs.csv` (3 regions: 0 Bahía de Sechura, 1 South, 2 North)
-
+     - [ ] 
  * `functions.R`
      - [ ] Fixme L313
 ```
