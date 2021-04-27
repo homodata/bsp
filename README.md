@@ -22,9 +22,11 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
   - [x] Rename region id 6 to 1 and 7 to 2, also change names (include `rgn_*` layers)
   - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
   - [x] Compare new scores with stashed
+  
 The following changes will produce diffs with current score reference table!
+
   - [ ] Rename `region2019` to `region2021`
-  - [ ] Add spatial surface to `reg_*.csv` layers
+  - [ ] Add spatial surface `km2` to `reg_*.csv` layers
   - [ ] [MARIO] geojson file with the two regions, with the following features
 ```{geojson}
 {
@@ -55,10 +57,12 @@ The following changes will produce diffs with current score reference table!
 }
 ```
 
-# Score Tables
+# Score Tables BSP
 Score tables are generated using
 `> scores %>% filter(dimension %in% c("status","trend", "score"))`
-Available tables:
+
+Available tables
+
  * 2021/04/26 [Reference (last from mse) `scores_reference.tbl`](scores_reference.tbl)
  * 2021/04/27 [Score table with region ID change (`6` to `1` and `7` to `2`) `scores_bsp_rgns.tbl`](scores_bsp_rgns.tbl)
 
