@@ -310,10 +310,10 @@ MAR <- function(layers) {
   scores = rbind(status, trend) %>%
     dplyr::mutate(goal = 'MAR')
 
-  # FIXME MSE UPDATE: Filter to return only regions of interest 6:7 !
+  # FIXME BSP UPDATE: Filter to return only regions of interest 1:2 !
   # All uninhabited regions 1:250 are forced to zero (i.e. this edition
   # does not include island data)
-  scores <- scores %>% filter(region_id %in% c(6:7))
+  scores <- scores %>% filter(region_id %in% c(1:2))
   return(scores)
 }
 

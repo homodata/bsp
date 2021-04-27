@@ -1,21 +1,21 @@
 "region_id","stock_id","taxon_key","year","catch","score","gapfilled","method"
-6,"Chloroscombrus_orqueta-87",601937,2019,107.7,0.669813035876108,1,"Mean gapfilled"
-6,"Decapterus_macrosoma-87",601938,2019,10269.4,0.669813035876108,1,"Mean gapfilled"
-6,"Engraulis_ringens-87",600004,2019,0,0.669813035876108,1,"Mean gapfilled"
-6,"Euthynnus_lineatus-87",600098,2019,0.7,0.669813035876108,1,"Mean gapfilled"
-6,"Fistularia_corneta-87",608289,2019,2809.6,0.669813035876108,1,"Mean gapfilled"
-6,"Sardinops_sagax-87",601477,2019,0,0.669813035876108,1,"Mean gapfilled"
-6,"Scomber_japonicus-87",600117,2019,39851.9,0.521063529383451,0,NA
-6,"Scomberomorus_sierra-87",600136,2019,27.2,0.818562542368765,0,NA
-6,"Sphyraena-87",500372,2019,0.4,0.602831732288497,1,"Mean gapfilled"
-6,"Trachurus_murphyi-87",600367,2019,115.5,0.669813035876108,1,"Mean gapfilled"
-7,"Chloroscombrus_orqueta-87",601937,2019,107.7,0.669813035876108,1,"Mean gapfilled"
-7,"Decapterus_macrosoma-87",601938,2019,10269.4,0.669813035876108,1,"Mean gapfilled"
-7,"Engraulis_ringens-87",600004,2019,0,0.669813035876108,1,"Mean gapfilled"
-7,"Euthynnus_lineatus-87",600098,2019,0.7,0.669813035876108,1,"Mean gapfilled"
-7,"Fistularia_corneta-87",608289,2019,2809.6,0.669813035876108,1,"Mean gapfilled"
-7,"Sardinops_sagax-87",601477,2019,0,0.669813035876108,1,"Mean gapfilled"
-7,"Scomber_japonicus-87",600117,2019,39851.9,0.521063529383451,0,NA
-7,"Scomberomorus_sierra-87",600136,2019,27.2,0.818562542368765,0,NA
-7,"Sphyraena-87",500372,2019,0.4,0.602831732288497,1,"Mean gapfilled"
-7,"Trachurus_murphyi-87",600367,2019,115.5,0.669813035876108,1,"Mean gapfilled"
+1,"Chloroscombrus_orqueta-87",601937,2019,107.7,0.669813035876108,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2019,10269.4,0.669813035876108,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2019,0,0.669813035876108,1,"Mean gapfilled"
+1,"Euthynnus_lineatus-87",600098,2019,0.7,0.669813035876108,1,"Mean gapfilled"
+1,"Fistularia_corneta-87",608289,2019,2809.6,0.669813035876108,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2019,0,0.669813035876108,1,"Mean gapfilled"
+1,"Scomber_japonicus-87",600117,2019,39851.9,0.521063529383451,0,NA
+1,"Scomberomorus_sierra-87",600136,2019,27.2,0.818562542368765,0,NA
+1,"Sphyraena-87",500372,2019,0.4,0.602831732288497,1,"Mean gapfilled"
+1,"Trachurus_murphyi-87",600367,2019,115.5,0.669813035876108,1,"Mean gapfilled"
+2,"Chloroscombrus_orqueta-87",601937,2019,107.7,0.669813035876108,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2019,10269.4,0.669813035876108,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2019,0,0.669813035876108,1,"Mean gapfilled"
+2,"Euthynnus_lineatus-87",600098,2019,0.7,0.669813035876108,1,"Mean gapfilled"
+2,"Fistularia_corneta-87",608289,2019,2809.6,0.669813035876108,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2019,0,0.669813035876108,1,"Mean gapfilled"
+2,"Scomber_japonicus-87",600117,2019,39851.9,0.521063529383451,0,NA
+2,"Scomberomorus_sierra-87",600136,2019,27.2,0.818562542368765,0,NA
+2,"Sphyraena-87",500372,2019,0.4,0.602831732288497,1,"Mean gapfilled"
+2,"Trachurus_murphyi-87",600367,2019,115.5,0.669813035876108,1,"Mean gapfilled"
