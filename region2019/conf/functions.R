@@ -152,7 +152,7 @@ FIS <- function(layers) {
                   method) %>%
     dplyr::filter(year == scen_year)
 
-  write.csv(gap_fill_data, here('region2019/temp/FIS_summary_gf.csv'), row.names = FALSE)
+  write.csv(gap_fill_data, here('temp/FIS_summary_gf.csv'), row.names = FALSE)
 
   status_data <- data_fis_gf %>%
     dplyr::select(region_id, stock_id, year, catch, score)
