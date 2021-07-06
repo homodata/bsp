@@ -9,13 +9,16 @@ output: html_document
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
+**Note** to update `scenario_years` to `2020`, it is required to have back log data of at least 4 (5?) years
+for each score's input layers.
+
 # Region ID and names
 
- Id|Name
- --|-----
-0  | `Bahia de Sechura (Peru)`
-1  | `Sechura` `(Sur BSP)`
-2  | `Vice` `(Norte BSP)`
+ Id|Name                       | Alias
+ --|---------------------------|------
+0  | `Bahia de Sechura (Peru)` | 
+1  | `Sechura`                 | `Sur BSP`
+2  | `Vice`                    | `Norte BSP`
 
 # Transition progress 2019 `mse` to 2020 `bsp`
   - [x] Stash current scores
@@ -25,8 +28,7 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
   - [x] Rename region ids
   
 ## The following changes will produce diffs with current score reference table!
-
-  - [ ] Rename `region2019` to `region2020` (diffs due to `scenario_year` changing)
+  - [x] Rename `region2019` to `region2020` (diffs due to `scenario_year` changing)
   - [x] Add new `*_bsp2020.csv` layers and update in `layers.csv`
   - [x] Add spatial surface `km2` to `rgn_*.csv` layers
         - [x] Add **NEW** spatial layers and registered in `layers.csv`
