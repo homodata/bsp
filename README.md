@@ -101,9 +101,9 @@ BD  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 
 # Plots
 
 <table><tr>
-<td><img src="./region2019/reports/figures/flower_BahiadeSechura(Peru).png" width="375px" alt="Bahia de Sechura (Peru)"/></td>
-<td><img src="./region2019/reports/figures/flower_SurBSP.png" width="375px" alt="Sur BSP"/></td>
-<td><img src="./region2019/reports/figures/flower_NorteBSP.png" width="375px" alt="Norte BSP"/></td>
+<td><img src="./region2020/reports/figures/flower_BahiadeSechura(Peru).png" width="375px" alt="Bahia de Sechura (Peru)"/></td>
+<td><img src="./region2020/reports/figures/flower_Sechura.png" width="375px" alt="Sechura (Sur BSP)"/></td>
+<td><img src="./region2020/reports/figures/flower_Vice.png" width="375px" alt="Vice (Norte BSP)"/></td>
 </tr></table>
 
 # To Do list
