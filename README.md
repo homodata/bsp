@@ -1,7 +1,7 @@
 ---
 title: "OHI for BSP"
 author: "HomoData"
-date: "27/04/2021"
+date: "6/7/2021"
 output: html_document
 ---
 
@@ -14,21 +14,26 @@ This is the Ocean Health Index repository for Bahia de Sechura (Peru)
  Id|Name
  --|-----
 0  | `Bahia de Sechura (Peru)`
-1  | `Sur BSP`
-2  | `Norte BSP`
+1  | `Sechura` `(Sur BSP)`
+2  | `Vice` `(Norte BSP)`
 
-# Transition progress 2019 `mse` to 2021 `bsp`
+# Transition progress 2019 `mse` to 2020 `bsp`
   - [x] Stash current scores
   - [x] Rename region id 6 to 1 and 7 to 2, also change names (include `rgn_*` layers)
   - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
   - [x] Compare new scores with stashed
+  - [x] Rename region ids
   
-The following changes will produce diffs with current score reference table!
+## The following changes will produce diffs with current score reference table!
 
-  - [ ] Rename `region2019` to `region2021` (diffs due to `scenario_year` changing)
-  - [ ] Add new `*_bsp2021.csv` layers and update in `layers.csv`
-  - [ ] Add spatial surface `km2` to `rgn_*.csv` layers
-  - [x] [MARIO] geojson file of `AE_200MN` with the two regions, with the following features
+  - [ ] Rename `region2019` to `region2020` (diffs due to `scenario_year` changing)
+  - [x] Add new `*_bsp2020.csv` layers and update in `layers.csv`
+  - [x] Add spatial surface `km2` to `rgn_*.csv` layers
+        - [x] Add **NEW** spatial layers and registered in `layers.csv`
+        - [x] `reg_area_offshore3nm_bsp2020.csv` (taken from `MAPA BASE10.pdf`)
+        - [x] `reg_area_inland1km_bsp2020.csv` (taken from `MAPA BASE10.pdf`)
+  - [x] `regions_list.csv` new region names and km2 units (taken from geojson file)
+  - [x] geojson file of `AE_200MN` with the two regions, with the following features
 ```{geojson}
 {
 "type": "FeatureCollection",
@@ -43,7 +48,7 @@ The following changes will produce diffs with current score reference table!
   "id":0,
   "properties":{
     "rgn_id":1, 
-    "rgn_name":"Sur Bsp",
+    "rgn_name":"Sur Bsp", <- cambiado para Sechura
     "area_km2": 35813.45}, 
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 },
@@ -52,7 +57,7 @@ The following changes will produce diffs with current score reference table!
   "properties":{
     "rgn_id":2,
     "area_km2":10598.97,
-    "rgn_name":"Norte Bsp"},
+    "rgn_name":"Norte Bsp"}, <- cambiado para Vice
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 ]
 }
