@@ -96,7 +96,7 @@ CW  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 
 HAB | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 SPP | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 BD  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
-**rgn_area** | BSP | Missing sp data | Use local data | 75%
+**rgn**|BSP| Complete                                        | local data     | 100%
 
 # Plots
 
