@@ -4,7 +4,7 @@ author: "HomoData"
 date: "6/7/2021"
 output: html_document
 ---
-# Pruba de sincronizacion: lelys
+# Prueba de sincronizacion: lelys
 # Ocean Health Index for Bahia de Sechura (Peru) [bsp]
 # Prueba Karla
 
