@@ -102,8 +102,8 @@ FIS,score,2,57.74
 FIS,status,0,55.5
 FIS,status,1,55.5
 FIS,status,2,55.5
-FIS,trend,1,0
-FIS,trend,2,0
+FIS,trend,1,-0
+FIS,trend,2,-0
 FP,future,0,79.31
 FP,future,1,79.31
 FP,future,2,79.31
