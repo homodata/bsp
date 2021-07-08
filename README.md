@@ -25,7 +25,9 @@ for each score's input layers.
   - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
   - [x] Compare new scores with stashed
   - [x] Rename region ids
-  
+
+## SSH Keys for all users (Add ssh-passwordless access)
+
 ## The following changes will produce diffs with current score reference table!
   - [x] Rename `region2019` to `region2020` (diffs due to `scenario_year` changing)
   - [x] Add new `*_bsp2020.csv` layers and update in `layers.csv`
