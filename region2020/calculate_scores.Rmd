@@ -35,8 +35,11 @@ library(zoo)
 library(here)
 library(ohicore)
 
+## select scenario year for the assessment
+scenario_years <- 2019
+
 ## set the working directory to a filepath we all have
-setwd(here::here('region2019'))
+setwd(here::here('region2020'))
 ```
 
 ## Configure Toolbox
@@ -52,9 +55,6 @@ ohicore::CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_field
 
 ## load scenario layers for ohicore to access. Layers files are not modified.
 layers <- ohicore::Layers('layers.csv', 'layers')
-
-## select scenario year for the assessment
-scenario_years <- 2019
 layers$data$scenario_year <- scenario_years
 ```
 

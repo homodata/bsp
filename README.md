@@ -1,34 +1,40 @@
 ---
 title: "OHI for BSP"
 author: "HomoData"
-date: "27/04/2021"
+date: "6/7/2021"
 output: html_document
 ---
-
 # Ocean Health Index for Bahia de Sechura (Peru) [bsp]
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
+**Note** to update `scenario_years` to `2020`, it is required to have back log data of at least 4 (5?) years
+for each score's input layers.
+
 # Region ID and names
 
- Id|Name
- --|-----
-0  | `Bahia de Sechura (Peru)`
-1  | `Sur BSP`
-2  | `Norte BSP`
+ Id|Name                       | Alias
+ --|---------------------------|------
+0  | `Bahia de Sechura (Peru)` | 
+1  | `Sechura`                 | `Sur BSP`
+2  | `Vice`                    | `Norte BSP`
 
-# Transition progress 2019 `mse` to 2021 `bsp`
+# Transition progress 2019 `mse` to 2020 `bsp`
   - [x] Stash current scores
   - [x] Rename region id 6 to 1 and 7 to 2, also change names (include `rgn_*` layers)
   - [x] `regions_figs.csv` (3 regions: `0` "Bahía de Sechura", `1` "Sur BSP", `2` "Norte BSP")
   - [x] Compare new scores with stashed
+  - [x] Rename region ids
   
-The following changes will produce diffs with current score reference table!
-
-  - [ ] Rename `region2019` to `region2021` (diffs due to `scenario_year` changing)
-  - [ ] Add new `*_bsp2021.csv` layers and update in `layers.csv`
-  - [ ] Add spatial surface `km2` to `rgn_*.csv` layers
-  - [x] [MARIO] geojson file of `AE_200MN` with the two regions, with the following features
+## The following changes will produce diffs with current score reference table!
+  - [x] Rename `region2019` to `region2020` (diffs due to `scenario_year` changing)
+  - [x] Add new `*_bsp2020.csv` layers and update in `layers.csv`
+  - [x] Add spatial surface `km2` to `rgn_*.csv` layers
+        - [x] Add **NEW** spatial layers and registered in `layers.csv`
+        - [x] `reg_area_offshore3nm_bsp2020.csv` (taken from `MAPA BASE10.pdf`)
+        - [x] `reg_area_inland1km_bsp2020.csv` (taken from `MAPA BASE10.pdf`)
+  - [x] `regions_list.csv` new region names and km2 units (taken from geojson file)
+  - [x] geojson file of `AE_200MN` with the two regions, with the following features
 ```{geojson}
 {
 "type": "FeatureCollection",
@@ -43,7 +49,7 @@ The following changes will produce diffs with current score reference table!
   "id":0,
   "properties":{
     "rgn_id":1, 
-    "rgn_name":"Sur Bsp",
+    "rgn_name":"Sur Bsp", <- cambiado para Sechura
     "area_km2": 35813.45}, 
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 },
@@ -52,7 +58,7 @@ The following changes will produce diffs with current score reference table!
   "properties":{
     "rgn_id":2,
     "area_km2":10598.97,
-    "rgn_name":"Norte Bsp"},
+    "rgn_name":"Norte Bsp"}, <- cambiado para Vice
   "geometry": { "type": "MultiPolygon", "coordinates": ... }
 ]
 }
@@ -89,14 +95,14 @@ CW  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 
 HAB | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 SPP | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
 BD  | MSE  | <span style="color:red">   MSE data     </span> | Use local data | 0%
-**rgn_area** | BSP | Missing sp data | Use local data | 75%
+**rgn**|BSP| Complete                                        | local data     | 100%
 
 # Plots
 
 <table><tr>
-<td><img src="./region2019/reports/figures/flower_BahiadeSechura(Peru).png" width="375px" alt="Bahia de Sechura (Peru)"/></td>
-<td><img src="./region2019/reports/figures/flower_SurBSP.png" width="375px" alt="Sur BSP"/></td>
-<td><img src="./region2019/reports/figures/flower_NorteBSP.png" width="375px" alt="Norte BSP"/></td>
+<td><img src="./region2020/reports/figures/flower_BahiadeSechura(Peru).png" width="375px" alt="Bahia de Sechura (Peru)"/></td>
+<td><img src="./region2020/reports/figures/flower_Sechura.png" width="375px" alt="Sechura (Sur BSP)"/></td>
+<td><img src="./region2020/reports/figures/flower_Vice.png" width="375px" alt="Vice (Norte BSP)"/></td>
 </tr></table>
 
 # To Do list
