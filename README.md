@@ -6,7 +6,7 @@ output: html_document
 ---
 # Prueba de sincronizacion: lelys
 # Ocean Health Index for Bahia de Sechura (Peru) [bsp]
-# Prueba Karla
+# Prueba Karla 2
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
