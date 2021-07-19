@@ -1,0 +1,49 @@
+rgn_id,habitat,year,km2
+6,mangrove,1969 ,1.44
+6,mangrove_inland1km,1969 ,1.44
+6,mangrove_offshore,1969 ,0
+6,mangrove,1984 ,1.44
+6,mangrove_inland1km,1984 ,1.44
+6,mangrove_offshore,1984 ,0.00
+6,mangrove,1987 ,1.44
+6,mangrove_inland1km,1987 ,1.44
+6,mangrove_offshore,1987 ,0
+6,mangrove,1991 ,1.44
+6,mangrove_inland1km,1991 ,1.44
+6,mangrove_offshore,1991 ,0
+6,mangrove,1995 ,1.286
+6,mangrove_inland1km,1995 ,1.286
+6,mangrove_offshore,1995 ,0
+6,mangrove,1999 ,0.3686
+6,mangrove_inland1km,1999 ,0.3686
+6,mangrove_offshore,1999 ,0
+6,mangrove, 2006 ,0.32
+6,mangrove_inland1km, 2006 ,0.32
+6,mangrove_offshore, 2006 ,0
+6,mangrove,2016 ,0.30
+6,mangrove_inland1km,2016 ,0.30
+6,mangrove_offshore,2016 ,0
+7,mangrove,1969 ,143.575
+7,mangrove_inland1km,1969 ,143.575
+7,mangrove_offshore,1969 ,0
+7,mangrove,1984 ,96.025
+7,mangrove_inland1km,1984 ,96.025
+7,mangrove_offshore,1984 ,0
+7,mangrove,1987 ,76.17
+7,mangrove_inland1km,1987 ,76.17
+7,mangrove_offshore,1987 ,0
+7,mangrove,1991 ,65.3052
+7,mangrove_inland1km,1991 ,65.3052
+7,mangrove_offshore,1991 ,0
+7,mangrove,1995 ,40.3832
+7,mangrove_inland1km,1995 ,40.3832
+7,mangrove_offshore,1995 ,0
+7,mangrove,1999 ,24.1489
+7,mangrove_inland1km,1999 ,24.1489
+7,mangrove_offshore,1999 ,0
+7,mangrove, 2006 ,34.02
+7,mangrove_inland1km, 2006 ,34.02
+7,mangrove_offshore, 2006 ,0
+7,mangrove,2016 ,28.05
+7,mangrove_inland1km,2016 ,28.05
+7,mangrove_offshore,2016 ,0
