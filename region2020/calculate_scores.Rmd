@@ -36,7 +36,7 @@ library(here)
 library(ohicore)
 
 ## select scenario year for the assessment
-scenario_years <- 2019
+scenario_years <- 2020
 
 ## set the working directory to a filepath we all have
 setwd(here::here('region2020'))
