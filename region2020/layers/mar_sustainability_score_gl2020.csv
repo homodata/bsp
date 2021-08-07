@@ -1,11 +1,11 @@
-﻿rgn_id,year,taxa_code,sust_coeff
-1,2021,False abalone_476,0.73
-1,2021,Flatfishes nei_477,0.466666667
-1,2021,Pacific cupped oyster_478,0.83
-1,2021,Peruvian calico scallop_479,0.833333333
-1,2021,Whiteleg shrimp_480,0.37
-2,2021,False abalone_476,0.73
-2,2021,Flatfishes nei_477,0.466666667
-2,2021,Pacific cupped oyster_478,0.83
-2,2021,Peruvian calico scallop_479,0.833333333
-2,2021,Whiteleg shrimp_480,0.37
+rgn_id,year,taxa_code,sust_coeff
+1,2020,False abalone_476,0.73
+1,2020,Flatfishes nei_477,0.466666667
+1,2020,Pacific cupped oyster_478,0.83
+1,2020,Peruvian calico scallop_479,0.833333333
+1,2020,Whiteleg shrimp_480,0.37
+2,2020,False abalone_476,0.73
+2,2020,Flatfishes nei_477,0.466666667
+2,2020,Pacific cupped oyster_478,0.83
+2,2020,Peruvian calico scallop_479,0.833333333
+2,2020,Whiteleg shrimp_480,0.37
