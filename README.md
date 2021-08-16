@@ -8,7 +8,7 @@ output: html_document
 
 This is the Ocean Health Index repository for Bahia de Sechura (Peru)
 
-**Note** to update `scenario_years` to `2020`, it is required to have back log data of at least 4 (5?) years
+**Note** to update `scenario_years` to `2020`, it is required to have back log data of at least 5 years
 for each score's input layers.
 
 # Region ID and names
