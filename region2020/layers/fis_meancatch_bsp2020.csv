@@ -22,12 +22,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2000,3
 1,Katsuwonus_pelamis-87_600107,2000,0
 1,Larimus_pacificus-87_614009,2000,2
-1,Menticirrhus-87_502790,2000,0.00
+1,Menticirrhus-87_502790,2000,0
 1,Merluccius_gayi_peruanus-87_614693,2000,1563
 1,Mugil_cephalus-87_600785,2000,790
 1,Muraenidae-87_400056,2000,0
 1,Mustelus_whitneyi-87_605939,2000,99
-1,Myliobatidae-87_400022,2000,896.00
+1,Myliobatidae-87_400022,2000,896
 1,Octopus-87_590013,2000,53
 1,Panulirus_gracilis-87_690619,2000,28
 1,Paralabrax_humeralis-87_600352,2000,241
@@ -37,12 +37,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2000,93
 1,Peprilus-87_501164,2000,25
 1,Perciformes-87_300060,2000,1
-1,Pomacentridae-87_400350,2000,0.00
+1,Pomacentridae-87_400350,2000,0
 1,Pteriida-87_490109,2000,25
 1,Rhinobatos_planiceps-87_600149,2000,443
 1,Sarda_chiliensis-87_600113,2000,10
 1,Sardinops_sagax-87_601477,2000,30
-1,Sciaenidae-87_400331,2000,197.00
+1,Sciaenidae-87_400331,2000,197
 1,Scomber_japonicus-87_600117,2000,113
 1,Scomberomorus_sierra-87_600136,2000,0
 1,Scorpaena-87_500134,2000,0
@@ -79,7 +79,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2001,81
 1,Katsuwonus_pelamis-87_600107,2001,0
 1,Larimus_pacificus-87_614009,2001,19
-1,Menticirrhus-87_502790,2001,0.00
+1,Menticirrhus-87_502790,2001,0
 1,Merluccius_gayi_peruanus-87_614693,2001,1
 1,Mugil_cephalus-87_600785,2001,6533.425
 1,Muraenidae-87_400056,2001,0
@@ -94,7 +94,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2001,262
 1,Peprilus-87_501164,2001,101
 1,Perciformes-87_300060,2001,2
-1,Pomacentridae-87_400350,2001,0.00
+1,Pomacentridae-87_400350,2001,0
 1,Pteriida-87_490109,2001,0
 1,Rhinobatos_planiceps-87_600149,2001,48
 1,Sarda_chiliensis-87_600113,2001,129.25
@@ -138,13 +138,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2002,310
 1,Katsuwonus_pelamis-87_600107,2002,0
 1,Larimus_pacificus-87_614009,2002,61
-1,Menticirrhus-87_502790,2002,0.00
+1,Menticirrhus-87_502790,2002,0
 1,Merluccius_gayi_peruanus-87_614693,2002,80
 1,Miscellaneous_marine_crustaceans-87_100047,2002,2
 1,Mugil_cephalus-87_600785,2002,4532
 1,Muraenidae-87_400056,2002,21
 1,Mustelus_whitneyi-87_605939,2002,363
-1,Myliobatidae-87_400022,2002,5262.00
+1,Myliobatidae-87_400022,2002,5262
 1,Octopus-87_590013,2002,228
 1,Panulirus_gracilis-87_690619,2002,0
 1,Paralabrax_humeralis-87_600352,2002,447
@@ -154,12 +154,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2002,276
 1,Peprilus-87_501164,2002,114
 1,Perciformes-87_300060,2002,0
-1,Pomacentridae-87_400350,2002,0.00
+1,Pomacentridae-87_400350,2002,0
 1,Pteriida-87_490109,2002,0
 1,Rhinobatos_planiceps-87_600149,2002,70
 1,Sarda_chiliensis-87_600113,2002,170
 1,Sardinops_sagax-87_601477,2002,373
-1,Sciaenidae-87_400331,2002,2336.00
+1,Sciaenidae-87_400331,2002,2336
 1,Scomber_japonicus-87_600117,2002,1596
 1,Scomberomorus_sierra-87_600136,2002,0
 1,Scorpaena-87_500134,2002,1
@@ -202,13 +202,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2003,40
 1,Katsuwonus_pelamis-87_600107,2003,0
 1,Larimus_pacificus-87_614009,2003,12
-1,Menticirrhus-87_502790,2003,5.00
+1,Menticirrhus-87_502790,2003,5
 1,Merluccius_gayi_peruanus-87_614693,2003,63
 1,Miscellaneous_marine_crustaceans-87_100047,2003,0
 1,Mugil_cephalus-87_600785,2003,3227
 1,Muraenidae-87_400056,2003,0
 1,Mustelus_whitneyi-87_605939,2003,243
-1,Myliobatidae-87_400022,2003,3732.00
+1,Myliobatidae-87_400022,2003,3732
 1,Octopus-87_590013,2003,42
 1,Odontesthes_regia-87_608172,2003,8
 1,Panulirus_gracilis-87_690619,2003,0
@@ -219,12 +219,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2003,320
 1,Peprilus-87_501164,2003,81
 1,Perciformes-87_300060,2003,0
-1,Pomacentridae-87_400350,2003,0.00
+1,Pomacentridae-87_400350,2003,0
 1,Pteriida-87_490109,2003,0
 1,Rhinobatos_planiceps-87_600149,2003,33
 1,Sarda_chiliensis-87_600113,2003,203
 1,Sardinops_sagax-87_601477,2003,289
-1,Sciaenidae-87_400331,2003,1976.00
+1,Sciaenidae-87_400331,2003,1976
 1,Scomber_japonicus-87_600117,2003,1940
 1,Scomberomorus_sierra-87_600136,2003,0
 1,Scorpaena-87_500134,2003,0
@@ -268,13 +268,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2004,10
 1,Katsuwonus_pelamis-87_600107,2004,0
 1,Larimus_pacificus-87_614009,2004,0
-1,Menticirrhus-87_502790,2004,2.00
+1,Menticirrhus-87_502790,2004,2
 1,Merluccius_gayi_peruanus-87_614693,2004,111
 1,Miscellaneous_marine_crustaceans-87_100047,2004,0
 1,Mugil_cephalus-87_600785,2004,947
 1,Muraenidae-87_400056,2004,0
 1,Mustelus_whitneyi-87_605939,2004,184
-1,Myliobatidae-87_400022,2004,1354.00
+1,Myliobatidae-87_400022,2004,1354
 1,Octopus-87_590013,2004,72
 1,Odontesthes_regia-87_608172,2004,24
 1,Panulirus_gracilis-87_690619,2004,0
@@ -285,13 +285,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2004,461
 1,Peprilus-87_501164,2004,43
 1,Perciformes-87_300060,2004,1
-1,Pomacentridae-87_400350,2004,0.00
+1,Pomacentridae-87_400350,2004,0
 1,Pristidae-87_400016,2004,0
 1,Pteriida-87_490109,2004,0
 1,Rhinobatos_planiceps-87_600149,2004,28
 1,Sarda_chiliensis-87_600113,2004,123
 1,Sardinops_sagax-87_601477,2004,246
-1,Sciaenidae-87_400331,2004,959.00
+1,Sciaenidae-87_400331,2004,959
 1,Scomber_japonicus-87_600117,2004,908
 1,Scomberomorus_sierra-87_600136,2004,0
 1,Scorpaena-87_500134,2004,0
@@ -326,7 +326,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2005,1500
 1,Dosidicus_gigas-87_690206,2005,4138
 1,Engraulis_ringens-87_600004,2005,492973
-1,Ensis_macha-87_69130701,2005,116
 1,Epinephelus-87_500366,2005,2
 1,Ethmidium_maculatum-87_601593,2005,0
 1,Gastropoda-87_290006,2005,244
@@ -336,13 +335,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2005,41
 1,Katsuwonus_pelamis-87_600107,2005,0
 1,Larimus_pacificus-87_614009,2005,0
-1,Menticirrhus-87_502790,2005,3.00
+1,Menticirrhus-87_502790,2005,3
 1,Merluccius_gayi_peruanus-87_614693,2005,783
 1,Miscellaneous_marine_crustaceans-87_100047,2005,0
 1,Mugil_cephalus-87_600785,2005,1055
 1,Muraenidae-87_400056,2005,0
 1,Mustelus_whitneyi-87_605939,2005,181
-1,Myliobatidae-87_400022,2005,1456.00
+1,Myliobatidae-87_400022,2005,1456
 1,Octopus-87_590013,2005,15
 1,Odontesthes_regia-87_608172,2005,8
 1,Panulirus_gracilis-87_690619,2005,0
@@ -353,13 +352,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Penaeus_californiensis-87_690444,2005,527
 1,Peprilus-87_501164,2005,62
 1,Perciformes-87_300060,2005,46
-1,Pomacentridae-87_400350,2005,0.00
+1,Pomacentridae-87_400350,2005,0
 1,Pristidae-87_400016,2005,0
 1,Pteriida-87_490109,2005,0
 1,Rhinobatos_planiceps-87_600149,2005,35
 1,Sarda_chiliensis-87_600113,2005,139
 1,Sardinops_sagax-87_601477,2005,241
-1,Sciaenidae-87_400331,2005,678.00
+1,Sciaenidae-87_400331,2005,678
 1,Scomber_japonicus-87_600117,2005,646
 1,Scomberomorus_sierra-87_600136,2005,0
 1,Scorpaena-87_500134,2005,0
@@ -377,7 +376,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2006,0
 1,Albula_vulpes-87_600228,2006,0
 1,Alopias_vulpinus-87_602535,2006,0
-1,Anadara_tuberculosa-87_6947322,2006,20
 1,Anisotremus_scapularis-87_608255,2006,0
 1,Argopecten_purpuratus-87_690303,2006,3727
 1,Ariidae-87_400145,2006,0
@@ -401,7 +399,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2006,4199.428
 1,Dosidicus_gigas-87_690206,2006,5771
 1,Engraulis_ringens-87_600004,2006,251825
-1,Ensis_macha-87_69130701,2006,52
 1,Epinephelus-87_500366,2006,0
 1,Ethmidium_maculatum-87_601593,2006,0
 1,Gastropoda-87_290006,2006,355
@@ -414,13 +411,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2006,24
 1,Katsuwonus_pelamis-87_600107,2006,0
 1,Larimus_pacificus-87_614009,2006,0
-1,Menticirrhus-87_502790,2006,1.00
+1,Menticirrhus-87_502790,2006,1
 1,Merluccius_gayi_peruanus-87_614693,2006,53
 1,Miscellaneous_marine_crustaceans-87_100047,2006,0
 1,Mugil_cephalus-87_600785,2006,834
 1,Muraenidae-87_400056,2006,0
 1,Mustelus_whitneyi-87_605939,2006,130
-1,Myliobatidae-87_400022,2006,1180.00
+1,Myliobatidae-87_400022,2006,1180
 1,Octopus-87_590013,2006,56
 1,Odontesthes_regia-87_608172,2006,20
 1,Opisthonema_libertate-87_601484,2006,0.375
@@ -442,7 +439,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Rhinobatos_planiceps-87_600149,2006,15
 1,Sarda_chiliensis-87_600113,2006,816
 1,Sardinops_sagax-87_601477,2006,0
-1,Sciaenidae-87_400331,2006,623.60
+1,Sciaenidae-87_400331,2006,623.6
 1,Scomber_japonicus-87_600117,2006,545
 1,Scomberomorus_sierra-87_600136,2006,0
 1,Scorpaena-87_500134,2006,2
@@ -452,7 +449,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2006,9
 1,Sphyrna_zygaena-87_600917,2006,0
 1,Squatina_californica-87_600729,2006,5
-1,Thaisella_chocolata-87_6983866,2006,305.001
 1,Thunnus_albacares-87_600143,2006,0
 1,Trachinotus_paitensis-87_601972,2006,0
 1,Trachurus_murphyi-87_600367,2006,1011
@@ -462,7 +458,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2007,0
 1,Albula_vulpes-87_600228,2007,0
 1,Alopias_vulpinus-87_602535,2007,0
-1,Anadara_tuberculosa-87_6947322,2007,0
 1,Anisotremus_scapularis-87_608255,2007,0
 1,Argopecten_purpuratus-87_690303,2007,3464
 1,Ariidae-87_400145,2007,6
@@ -487,7 +482,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2007,4555.53
 1,Dosidicus_gigas-87_690206,2007,3264
 1,Engraulis_ringens-87_600004,2007,346317
-1,Ensis_macha-87_69130701,2007,89
 1,Epinephelus-87_500366,2007,0
 1,Ethmidium_maculatum-87_601593,2007,0
 1,Gastropoda-87_290006,2007,478
@@ -500,7 +494,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2007,80
 1,Katsuwonus_pelamis-87_600107,2007,0
 1,Larimus_pacificus-87_614009,2007,1
-1,Menticirrhus-87_502790,2007,1.00
+1,Menticirrhus-87_502790,2007,1
 1,Merluccius_gayi_peruanus-87_614693,2007,58
 1,Miscellaneous_marine_crustaceans-87_100047,2007,0
 1,Mugil_cephalus-87_600785,2007,2501
@@ -539,7 +533,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2007,104
 1,Sphyrna_zygaena-87_600917,2007,0
 1,Squatina_californica-87_600729,2007,5
-1,Thaisella_chocolata-87_6983866,2007,236.472
 1,Thunnus_albacares-87_600143,2007,0
 1,Trachinotus_paitensis-87_601972,2007,2
 1,Trachurus_murphyi-87_600367,2007,1038
@@ -549,7 +542,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2008,0
 1,Albula_vulpes-87_600228,2008,0
 1,Alopias_vulpinus-87_602535,2008,0
-1,Anadara_tuberculosa-87_6947322,2008,0
 1,Anisotremus_scapularis-87_608255,2008,0
 1,Argopecten_purpuratus-87_690303,2008,667
 1,Ariidae-87_400145,2008,0
@@ -574,7 +566,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2008,1763.549
 1,Dosidicus_gigas-87_690206,2008,5619
 1,Engraulis_ringens-87_600004,2008,308148
-1,Ensis_macha-87_69130701,2008,1088
 1,Epinephelus-87_500366,2008,0
 1,Ethmidium_maculatum-87_601593,2008,1
 1,Gastropoda-87_290006,2008,428
@@ -587,13 +578,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2008,113
 1,Katsuwonus_pelamis-87_600107,2008,21
 1,Larimus_pacificus-87_614009,2008,29
-1,Menticirrhus-87_502790,2008,1.00
+1,Menticirrhus-87_502790,2008,1
 1,Merluccius_gayi_peruanus-87_614693,2008,163
 1,Miscellaneous_marine_crustaceans-87_100047,2008,0
 1,Mugil_cephalus-87_600785,2008,2877
 1,Muraenidae-87_400056,2008,0
 1,Mustelus_whitneyi-87_605939,2008,315
-1,Myliobatidae-87_400022,2008,3675.00
+1,Myliobatidae-87_400022,2008,3675
 1,Octopus-87_590013,2008,34
 1,Odontesthes_regia-87_608172,2008,1
 1,Opisthonema_libertate-87_601484,2008,6.711
@@ -626,7 +617,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2008,1
 1,Sphyrna_zygaena-87_600917,2008,0
 1,Squatina_californica-87_600729,2008,2
-1,Thaisella_chocolata-87_6983866,2008,129.997
 1,Thunnus_albacares-87_600143,2008,0
 1,Trachinotus_paitensis-87_601972,2008,5
 1,Trachurus_murphyi-87_600367,2008,1795
@@ -636,7 +626,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2009,0
 1,Albula_vulpes-87_600228,2009,0
 1,Alopias_vulpinus-87_602535,2009,36.764
-1,Anadara_tuberculosa-87_6947322,2009,0
 1,Anisotremus_scapularis-87_608255,2009,0
 1,Argopecten_purpuratus-87_690303,2009,1100
 1,Ariidae-87_400145,2009,0
@@ -661,7 +650,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2009,3086.537
 1,Dosidicus_gigas-87_690206,2009,6304
 1,Engraulis_ringens-87_600004,2009,259564
-1,Ensis_macha-87_69130701,2009,393
 1,Epinephelus-87_500366,2009,0
 1,Ethmidium_maculatum-87_601593,2009,6
 1,Gastropoda-87_290006,2009,196
@@ -674,7 +662,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2009,155
 1,Katsuwonus_pelamis-87_600107,2009,20
 1,Larimus_pacificus-87_614009,2009,33
-1,Menticirrhus-87_502790,2009,1.00
+1,Menticirrhus-87_502790,2009,1
 1,Merluccius_gayi_peruanus-87_614693,2009,151
 1,Miscellaneous_marine_crustaceans-87_100047,2009,0
 1,Mugil_cephalus-87_600785,2009,3013
@@ -713,7 +701,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2009,31
 1,Sphyrna_zygaena-87_600917,2009,0
 1,Squatina_californica-87_600729,2009,16
-1,Thaisella_chocolata-87_6983866,2009,53.974
 1,Thunnus_alalunga-87_600142,2009,113
 1,Thunnus_albacares-87_600143,2009,0.919
 1,Trachinotus_paitensis-87_601972,2009,4
@@ -724,7 +711,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2010,0
 1,Albula_vulpes-87_600228,2010,0
 1,Alopias_vulpinus-87_602535,2010,4.897
-1,Anadara_tuberculosa-87_6947322,2010,0
 1,Anchoa_nasus-87_601163,2010,5675
 1,Anisotremus_scapularis-87_608255,2010,0
 1,Argopecten_purpuratus-87_690303,2010,828
@@ -750,7 +736,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2010,970.018
 1,Dosidicus_gigas-87_690206,2010,1756
 1,Engraulis_ringens-87_600004,2010,106816
-1,Ensis_macha-87_69130701,2010,258
 1,Epinephelus-87_500366,2010,0
 1,Ethmidium_maculatum-87_601593,2010,129
 1,Gastropoda-87_290006,2010,510
@@ -763,7 +748,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2010,1048
 1,Katsuwonus_pelamis-87_600107,2010,58
 1,Larimus_pacificus-87_614009,2010,24
-1,Menticirrhus-87_502790,2010,37.00
+1,Menticirrhus-87_502790,2010,37
 1,Merluccius_gayi_peruanus-87_614693,2010,98
 1,Miscellaneous_marine_crustaceans-87_100047,2010,0
 1,Mugil_cephalus-87_600785,2010,2462
@@ -783,7 +768,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Peprilus_snyderi-87_614146,2010,0
 1,Peprilus-87_501164,2010,641
 1,Perciformes-87_300060,2010,8
-1,Pomacentridae-87_400350,2010,0.00
+1,Pomacentridae-87_400350,2010,0
 1,Pontinus-87_502730,2010,0.043
 1,Prionace_glauca-87_600898,2010,0
 1,Prionotus_stephanophrys-87_604029,2010,0
@@ -802,7 +787,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2010,35
 1,Sphyrna_zygaena-87_600917,2010,0
 1,Squatina_californica-87_600729,2010,0
-1,Thaisella_chocolata-87_6983866,2010,92.849
 1,Thunnus_alalunga-87_600142,2010,0
 1,Thunnus_albacares-87_600143,2010,0.229
 1,Trachinotus_paitensis-87_601972,2010,4
@@ -813,7 +797,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2011,0
 1,Albula_vulpes-87_600228,2011,0
 1,Alopias_vulpinus-87_602535,2011,1.838
-1,Anadara_tuberculosa-87_6947322,2011,475
 1,Anchoa_nasus-87_601163,2011,343
 1,Anisotremus_scapularis-87_608255,2011,0
 1,Argopecten_purpuratus-87_690303,2011,850
@@ -839,7 +822,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2011,306.119
 1,Dosidicus_gigas-87_690206,2011,4203
 1,Engraulis_ringens-87_600004,2011,295744
-1,Ensis_macha-87_69130701,2011,900
 1,Epinephelus-87_500366,2011,1
 1,Ethmidium_maculatum-87_601593,2011,3
 1,Gastropoda-87_290006,2011,1008
@@ -852,7 +834,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2011,86
 1,Katsuwonus_pelamis-87_600107,2011,0
 1,Larimus_pacificus-87_614009,2011,7
-1,Menticirrhus-87_502790,2011,0.00
+1,Menticirrhus-87_502790,2011,0
 1,Merluccius_gayi_peruanus-87_614693,2011,116
 1,Miscellaneous_marine_crustaceans-87_100047,2011,0
 1,Mugil_cephalus-87_600785,2011,1961
@@ -881,7 +863,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Rhinobatos_planiceps-87_600149,2011,0
 1,Sarda_chiliensis-87_600113,2011,2991
 1,Sardinops_sagax-87_601477,2011,0
-1,Sciaenidae-87_400331,2011,1428.60
+1,Sciaenidae-87_400331,2011,1428.6
 1,Scomber_japonicus-87_600117,2011,1209
 1,Scomberomorus_sierra-87_600136,2011,0
 1,Scorpaena-87_500134,2011,0
@@ -891,7 +873,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2011,147
 1,Sphyrna_zygaena-87_600917,2011,0
 1,Squatina_californica-87_600729,2011,4
-1,Thaisella_chocolata-87_6983866,2011,112.581
 1,Thunnus_alalunga-87_600142,2011,0
 1,Thunnus_albacares-87_600143,2011,0
 1,Trachinotus_paitensis-87_601972,2011,0
@@ -903,7 +884,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2012,0
 1,Albula_vulpes-87_600228,2012,0
 1,Alopias_vulpinus-87_602535,2012,3.133
-1,Anadara_tuberculosa-87_6947322,2012,655
 1,Anchoa_nasus-87_601163,2012,0
 1,Anisotremus_scapularis-87_608255,2012,0
 1,Argopecten_purpuratus-87_690303,2012,665
@@ -929,7 +909,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2012,13101.482
 1,Dosidicus_gigas-87_690206,2012,13562
 1,Engraulis_ringens-87_600004,2012,148451
-1,Ensis_macha-87_69130701,2012,900
 1,Epinephelus-87_500366,2012,0
 1,Ethmidium_maculatum-87_601593,2012,0
 1,Gastropoda-87_290006,2012,321
@@ -942,13 +921,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2012,7
 1,Katsuwonus_pelamis-87_600107,2012,3
 1,Larimus_pacificus-87_614009,2012,1
-1,Menticirrhus-87_502790,2012,0.00
+1,Menticirrhus-87_502790,2012,0
 1,Merluccius_gayi_peruanus-87_614693,2012,116
 1,Miscellaneous_marine_crustaceans-87_100047,2012,0
 1,Mugil_cephalus-87_600785,2012,1396
 1,Muraenidae-87_400056,2012,0
 1,Mustelus_whitneyi-87_605939,2012,403
-1,Myliobatidae-87_400022,2012,2225.00
+1,Myliobatidae-87_400022,2012,2225
 1,Octopus-87_590013,2012,30
 1,Odontesthes_regia-87_608172,2012,13
 1,Opisthonema_libertate-87_601484,2012,15
@@ -981,7 +960,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2012,0
 1,Sphyrna_zygaena-87_600917,2012,0
 1,Squatina_californica-87_600729,2012,1
-1,Thaisella_chocolata-87_6983866,2012,124.472
 1,Thunnus_alalunga-87_600142,2012,0
 1,Thunnus_albacares-87_600143,2012,0.598
 1,Trachinotus_paitensis-87_601972,2012,0
@@ -993,7 +971,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2013,0
 1,Albula_vulpes-87_600228,2013,0
 1,Alopias_vulpinus-87_602535,2013,1.248
-1,Anadara_tuberculosa-87_6947322,2013,0
 1,Anchoa_nasus-87_601163,2013,0
 1,Anisotremus_scapularis-87_608255,2013,0
 1,Argopecten_purpuratus-87_690303,2013,27086.40115
@@ -1019,7 +996,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2013,13542.98556
 1,Dosidicus_gigas-87_690206,2013,20381.39542
 1,Engraulis_ringens-87_600004,2013,28353.13394
-1,Ensis_macha-87_69130701,2013,459.873
 1,Epinephelus-87_500366,2013,0.5
 1,Ethmidium_maculatum-87_601593,2013,0
 1,Gastropoda-87_290006,2013,328.021
@@ -1032,7 +1008,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2013,7.065
 1,Katsuwonus_pelamis-87_600107,2013,0
 1,Larimus_pacificus-87_614009,2013,0.85
-1,Menticirrhus-87_502790,2013,0.00
+1,Menticirrhus-87_502790,2013,0
 1,Merluccius_gayi_peruanus-87_614693,2013,132.8373733
 1,Miscellaneous_marine_crustaceans-87_100047,2013,0
 1,Mugil_cephalus-87_600785,2013,2820.64824
@@ -1071,8 +1047,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2013,148.919
 1,Sphyrna_zygaena-87_600917,2013,0
 1,Squatina_californica-87_600729,2013,0.417
-1,Tagelus_dombeii-87_69130459,2013,147.532
-1,Thaisella_chocolata-87_6983866,2013,58.023
 1,Thunnus_alalunga-87_600142,2013,0
 1,Thunnus_albacares-87_600143,2013,0
 1,Trachinotus_paitensis-87_601972,2013,1.034
@@ -1084,7 +1058,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2014,0
 1,Albula_vulpes-87_600228,2014,0
 1,Alopias_vulpinus-87_602535,2014,34.796
-1,Anadara_tuberculosa-87_6947322,2014,139.0466
 1,Anchoa_nasus-87_601163,2014,0
 1,Anisotremus_scapularis-87_608255,2014,6.61248
 1,Argopecten_purpuratus-87_690303,2014,16539.39826
@@ -1110,7 +1083,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2014,7811.932
 1,Dosidicus_gigas-87_690206,2014,16928.84191
 1,Engraulis_ringens-87_600004,2014,37959.04
-1,Ensis_macha-87_69130701,2014,830.739
 1,Epinephelus-87_500366,2014,0
 1,Ethmidium_maculatum-87_601593,2014,0
 1,Gastropoda-87_290006,2014,995.138
@@ -1163,8 +1135,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2014,13.3342
 1,Sphyrna_zygaena-87_600917,2014,0
 1,Squatina_californica-87_600729,2014,0
-1,Tagelus_dombeii-87_69130459,2014,169.41
-1,Thaisella_chocolata-87_6983866,2014,19.487
 1,Thunnus_alalunga-87_600142,2014,0
 1,Thunnus_albacares-87_600143,2014,7.637
 1,Trachinotus_paitensis-87_601972,2014,0
@@ -1176,7 +1146,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2015,0
 1,Albula_vulpes-87_600228,2015,0.102
 1,Alopias_vulpinus-87_602535,2015,12.414
-1,Anadara_tuberculosa-87_6947322,2015,0
 1,Anchoa_nasus-87_601163,2015,0
 1,Anisotremus_scapularis-87_608255,2015,0
 1,Argopecten_purpuratus-87_690303,2015,8223.529
@@ -1203,7 +1172,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2015,5525.903
 1,Dosidicus_gigas-87_690206,2015,21251.42636
 1,Engraulis_ringens-87_600004,2015,89650.2343
-1,Ensis_macha-87_69130701,2015,330.528
 1,Epinephelus-87_500366,2015,0
 1,Ethmidium_maculatum-87_601593,2015,0
 1,Gastropoda-87_290006,2015,967.163
@@ -1216,7 +1184,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Isacia_conceptionis-87_600397,2015,107.753
 1,Katsuwonus_pelamis-87_600107,2015,709.494
 1,Larimus_pacificus-87_614009,2015,0.9
-1,Menticirrhus-87_502790,2015,0.00
+1,Menticirrhus-87_502790,2015,0
 1,Merluccius_gayi_peruanus-87_614693,2015,121.7030763
 1,Miscellaneous_marine_crustaceans-87_100047,2015,0
 1,Mugil_cephalus-87_600785,2015,2305.527991
@@ -1256,8 +1224,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2015,146.7351
 1,Sphyrna_zygaena-87_600917,2015,0
 1,Squatina_californica-87_600729,2015,1.773
-1,Tagelus_dombeii-87_69130459,2015,190.72
-1,Thaisella_chocolata-87_6983866,2015,42.497
 1,Thunnus_alalunga-87_600142,2015,0
 1,Thunnus_albacares-87_600143,2015,1.247
 1,Trachinotus_paitensis-87_601972,2015,1.371
@@ -1269,7 +1235,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2016,5.15
 1,Albula_vulpes-87_600228,2016,0
 1,Alopias_vulpinus-87_602535,2016,38.952
-1,Anadara_tuberculosa-87_6947322,2016,0
 1,Anchoa_nasus-87_601163,2016,0
 1,Anisotremus_scapularis-87_608255,2016,1.496
 1,Argopecten_purpuratus-87_690303,2016,6261.128
@@ -1296,7 +1261,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2016,181.2986
 1,Dosidicus_gigas-87_690206,2016,22007.31
 1,Engraulis_ringens-87_600004,2016,87235.08
-1,Ensis_macha-87_69130701,2016,159.293
 1,Epinephelus-87_500366,2016,2.636
 1,Ethmidium_maculatum-87_601593,2016,15.69456
 1,Gastropoda-87_290006,2016,676.837
@@ -1311,7 +1275,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Katsuwonus_pelamis-87_600107,2016,2043.6088
 1,Larimus_pacificus-87_614009,2016,2.19
 1,Makaira_nigricans-87_600216,2016,0.3
-1,Menticirrhus-87_502790,2016,0.00
+1,Menticirrhus-87_502790,2016,0
 1,Merluccius_gayi_peruanus-87_614693,2016,132
 1,Miscellaneous_marine_crustaceans-87_100047,2016,0
 1,Mugil_cephalus-87_600785,2016,4105.902133
@@ -1332,7 +1296,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Peprilus_snyderi-87_614146,2016,107.059
 1,Peprilus-87_501164,2016,685.18164
 1,Perciformes-87_300060,2016,9.398
-1,Pomacentridae-87_400350,2016,7.30
+1,Pomacentridae-87_400350,2016,7.3
 1,Pontinus-87_502730,2016,1.508
 1,Prionace_glauca-87_600898,2016,17.57
 1,Prionotus_stephanophrys-87_604029,2016,0
@@ -1351,8 +1315,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2016,221.653
 1,Sphyrna_zygaena-87_600917,2016,0
 1,Squatina_californica-87_600729,2016,4.265
-1,Tagelus_dombeii-87_69130459,2016,38.74
-1,Thaisella_chocolata-87_6983866,2016,46.874
 1,Thunnus_alalunga-87_600142,2016,5.8
 1,Thunnus_albacares-87_600143,2016,1.875
 1,Trachinotus_paitensis-87_601972,2016,10.281
@@ -1364,7 +1326,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2017,0
 1,Albula_vulpes-87_600228,2017,2
 1,Alopias_vulpinus-87_602535,2017,110.869
-1,Anadara_tuberculosa-87_6947322,2017,0
 1,Anchoa_nasus-87_601163,2017,0
 1,Anisotremus_scapularis-87_608255,2017,0.897
 1,Argopecten_purpuratus-87_690303,2017,505.9500856
@@ -1391,7 +1352,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2017,95.48706491
 1,Dosidicus_gigas-87_690206,2017,21333.03781
 1,Engraulis_ringens-87_600004,2017,149936.5207
-1,Ensis_macha-87_69130701,2017,256.832
 1,Epinephelus-87_500366,2017,3.089
 1,Ethmidium_maculatum-87_601593,2017,0
 1,Gastropoda-87_290006,2017,113.944
@@ -1446,8 +1406,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2017,34.455
 1,Sphyrna_zygaena-87_600917,2017,0
 1,Squatina_californica-87_600729,2017,2.739
-1,Tagelus_dombeii-87_69130459,2017,144.545
-1,Thaisella_chocolata-87_6983866,2017,5.652
 1,Thunnus_alalunga-87_600142,2017,146.101
 1,Thunnus_albacares-87_600143,2017,483.336
 1,Trachinotus_paitensis-87_601972,2017,2.658
@@ -1459,7 +1417,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2018,87.368
 1,Albula_vulpes-87_600228,2018,0
 1,Alopias_vulpinus-87_602535,2018,67.06
-1,Anadara_tuberculosa-87_6947322,2018,0
 1,Anchoa_nasus-87_601163,2018,0
 1,Anisotremus_scapularis-87_608255,2018,1.102
 1,Argopecten_purpuratus-87_690303,2018,4719.513188
@@ -1486,7 +1443,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2018,91.7775503
 1,Dosidicus_gigas-87_690206,2018,29274.21653
 1,Engraulis_ringens-87_600004,2018,162123.062
-1,Ensis_macha-87_69130701,2018,451.596
 1,Epinephelus-87_500366,2018,0.172
 1,Ethmidium_maculatum-87_601593,2018,6.189952173
 1,Gastropoda-87_290006,2018,450.602
@@ -1542,8 +1498,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2018,31.624
 1,Sphyrna_zygaena-87_600917,2018,0
 1,Squatina_californica-87_600729,2018,12.168
-1,Tagelus_dombeii-87_69130459,2018,0
-1,Thaisella_chocolata-87_6983866,2018,15.833
 1,Thunnus_alalunga-87_600142,2018,11.918
 1,Thunnus_albacares-87_600143,2018,2.466
 1,Trachinotus_paitensis-87_601972,2018,11.716
@@ -1555,7 +1509,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2019,14.0750516
 1,Albula_vulpes-87_600228,2019,0
 1,Alopias_vulpinus-87_602535,2019,27.255
-1,Anadara_tuberculosa-87_6947322,2019,0
 1,Anchoa_nasus-87_601163,2019,0
 1,Anisotremus_scapularis-87_608255,2019,4.118917519
 1,Argopecten_purpuratus-87_690303,2019,787.8048972
@@ -1583,7 +1536,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2019,1722.771127
 1,Dosidicus_gigas-87_690206,2019,24203.63715
 1,Engraulis_ringens-87_600004,2019,143271.2303
-1,Ensis_macha-87_69130701,2019,0
 1,Epinephelus-87_500366,2019,0.187730855
 1,Ethmidium_maculatum-87_601593,2019,10.54153149
 1,Gastropoda-87_290006,2019,401.22
@@ -1640,8 +1592,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2019,38.9358714
 1,Sphyrna_zygaena-87_600917,2019,0
 1,Squatina_californica-87_600729,2019,5.029446683
-1,Tagelus_dombeii-87_69130459,2019,0
-1,Thaisella_chocolata-87_6983866,2019,32.124
 1,Thunnus_alalunga-87_600142,2019,22.11
 1,Thunnus_albacares-87_600143,2019,17.081
 1,Trachinotus_paitensis-87_601972,2019,68.86
@@ -1653,7 +1603,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Actinopterygii-87_200006,2020,0
 1,Albula_vulpes-87_600228,2020,0
 1,Alopias_vulpinus-87_602535,2020,4
-1,Anadara_tuberculosa-87_6947322,2020,0
 1,Anchoa_nasus-87_601163,2020,0
 1,Anisotremus_scapularis-87_608255,2020,0
 1,Argopecten_purpuratus-87_690303,2020,0
@@ -1681,7 +1630,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Doryteuthis_gahi-87_690296,2020,32.491
 1,Dosidicus_gigas-87_690206,2020,27978.01879
 1,Engraulis_ringens-87_600004,2020,183896.7208
-1,Ensis_macha-87_69130701,2020,0
 1,Epinephelus-87_500366,2020,0
 1,Ethmidium_maculatum-87_601593,2020,93.435
 1,Gastropoda-87_290006,2020,0
@@ -1698,13 +1646,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Katsuwonus_pelamis-87_600107,2020,16.769
 1,Larimus_pacificus-87_614009,2020,0
 1,Makaira_nigricans-87_600216,2020,0
-1,Menticirrhus-87_502790,2020,0.00
+1,Menticirrhus-87_502790,2020,0
 1,Merluccius_gayi_peruanus-87_614693,2020,0
 1,Miscellaneous_marine_crustaceans-87_100047,2020,0
 1,Mugil_cephalus-87_600785,2020,0
 1,Muraenidae-87_400056,2020,0
 1,Mustelus_whitneyi-87_605939,2020,0
-1,Myliobatidae-87_400022,2020,0.70
+1,Myliobatidae-87_400022,2020,0.7
 1,Octopus-87_590013,2020,0
 1,Odontesthes_regia-87_608172,2020,0
 1,Ophichthus-87_501991,2020,1394.044
@@ -1738,8 +1686,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Seriolella_violacea-87_613020,2020,0
 1,Sphyrna_zygaena-87_600917,2020,0
 1,Squatina_californica-87_600729,2020,0
-1,Tagelus_dombeii-87_69130459,2020,0
-1,Thaisella_chocolata-87_6983866,2020,18.124
 1,Thunnus_alalunga-87_600142,2020,0
 1,Thunnus_albacares-87_600143,2020,0
 1,Trachinotus_paitensis-87_601972,2020,0
@@ -1770,12 +1716,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2000,3
 2,Katsuwonus_pelamis-87_600107,2000,0
 2,Larimus_pacificus-87_614009,2000,2
-2,Menticirrhus-87_502790,2000,0.00
+2,Menticirrhus-87_502790,2000,0
 2,Merluccius_gayi_peruanus-87_614693,2000,1563
 2,Mugil_cephalus-87_600785,2000,790
 2,Muraenidae-87_400056,2000,0
 2,Mustelus_whitneyi-87_605939,2000,99
-2,Myliobatidae-87_400022,2000,896.00
+2,Myliobatidae-87_400022,2000,896
 2,Octopus-87_590013,2000,53
 2,Panulirus_gracilis-87_690619,2000,28
 2,Paralabrax_humeralis-87_600352,2000,241
@@ -1785,12 +1731,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2000,93
 2,Peprilus-87_501164,2000,25
 2,Perciformes-87_300060,2000,1
-2,Pomacentridae-87_400350,2000,0.00
+2,Pomacentridae-87_400350,2000,0
 2,Pteriida-87_490109,2000,25
 2,Rhinobatos_planiceps-87_600149,2000,443
 2,Sarda_chiliensis-87_600113,2000,10
 2,Sardinops_sagax-87_601477,2000,30
-2,Sciaenidae-87_400331,2000,197.00
+2,Sciaenidae-87_400331,2000,197
 2,Scomber_japonicus-87_600117,2000,113
 2,Scomberomorus_sierra-87_600136,2000,0
 2,Scorpaena-87_500134,2000,0
@@ -1827,7 +1773,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2001,81
 2,Katsuwonus_pelamis-87_600107,2001,0
 2,Larimus_pacificus-87_614009,2001,19
-2,Menticirrhus-87_502790,2001,0.00
+2,Menticirrhus-87_502790,2001,0
 2,Merluccius_gayi_peruanus-87_614693,2001,1
 2,Mugil_cephalus-87_600785,2001,6533.425
 2,Muraenidae-87_400056,2001,0
@@ -1842,7 +1788,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2001,262
 2,Peprilus-87_501164,2001,101
 2,Perciformes-87_300060,2001,2
-2,Pomacentridae-87_400350,2001,0.00
+2,Pomacentridae-87_400350,2001,0
 2,Pteriida-87_490109,2001,0
 2,Rhinobatos_planiceps-87_600149,2001,48
 2,Sarda_chiliensis-87_600113,2001,129.25
@@ -1886,13 +1832,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2002,310
 2,Katsuwonus_pelamis-87_600107,2002,0
 2,Larimus_pacificus-87_614009,2002,61
-2,Menticirrhus-87_502790,2002,0.00
+2,Menticirrhus-87_502790,2002,0
 2,Merluccius_gayi_peruanus-87_614693,2002,80
 2,Miscellaneous_marine_crustaceans-87_100047,2002,2
 2,Mugil_cephalus-87_600785,2002,4532
 2,Muraenidae-87_400056,2002,21
 2,Mustelus_whitneyi-87_605939,2002,363
-2,Myliobatidae-87_400022,2002,5262.00
+2,Myliobatidae-87_400022,2002,5262
 2,Octopus-87_590013,2002,228
 2,Panulirus_gracilis-87_690619,2002,0
 2,Paralabrax_humeralis-87_600352,2002,447
@@ -1902,12 +1848,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2002,276
 2,Peprilus-87_501164,2002,114
 2,Perciformes-87_300060,2002,0
-2,Pomacentridae-87_400350,2002,0.00
+2,Pomacentridae-87_400350,2002,0
 2,Pteriida-87_490109,2002,0
 2,Rhinobatos_planiceps-87_600149,2002,70
 2,Sarda_chiliensis-87_600113,2002,170
 2,Sardinops_sagax-87_601477,2002,373
-2,Sciaenidae-87_400331,2002,2336.00
+2,Sciaenidae-87_400331,2002,2336
 2,Scomber_japonicus-87_600117,2002,1596
 2,Scomberomorus_sierra-87_600136,2002,0
 2,Scorpaena-87_500134,2002,1
@@ -1950,13 +1896,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2003,40
 2,Katsuwonus_pelamis-87_600107,2003,0
 2,Larimus_pacificus-87_614009,2003,12
-2,Menticirrhus-87_502790,2003,5.00
+2,Menticirrhus-87_502790,2003,5
 2,Merluccius_gayi_peruanus-87_614693,2003,63
 2,Miscellaneous_marine_crustaceans-87_100047,2003,0
 2,Mugil_cephalus-87_600785,2003,3227
 2,Muraenidae-87_400056,2003,0
 2,Mustelus_whitneyi-87_605939,2003,243
-2,Myliobatidae-87_400022,2003,3732.00
+2,Myliobatidae-87_400022,2003,3732
 2,Octopus-87_590013,2003,42
 2,Odontesthes_regia-87_608172,2003,8
 2,Panulirus_gracilis-87_690619,2003,0
@@ -1967,12 +1913,12 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2003,320
 2,Peprilus-87_501164,2003,81
 2,Perciformes-87_300060,2003,0
-2,Pomacentridae-87_400350,2003,0.00
+2,Pomacentridae-87_400350,2003,0
 2,Pteriida-87_490109,2003,0
 2,Rhinobatos_planiceps-87_600149,2003,33
 2,Sarda_chiliensis-87_600113,2003,203
 2,Sardinops_sagax-87_601477,2003,289
-2,Sciaenidae-87_400331,2003,1976.00
+2,Sciaenidae-87_400331,2003,1976
 2,Scomber_japonicus-87_600117,2003,1940
 2,Scomberomorus_sierra-87_600136,2003,0
 2,Scorpaena-87_500134,2003,0
@@ -2016,13 +1962,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2004,10
 2,Katsuwonus_pelamis-87_600107,2004,0
 2,Larimus_pacificus-87_614009,2004,0
-2,Menticirrhus-87_502790,2004,2.00
+2,Menticirrhus-87_502790,2004,2
 2,Merluccius_gayi_peruanus-87_614693,2004,111
 2,Miscellaneous_marine_crustaceans-87_100047,2004,0
 2,Mugil_cephalus-87_600785,2004,947
 2,Muraenidae-87_400056,2004,0
 2,Mustelus_whitneyi-87_605939,2004,184
-2,Myliobatidae-87_400022,2004,1354.00
+2,Myliobatidae-87_400022,2004,1354
 2,Octopus-87_590013,2004,72
 2,Odontesthes_regia-87_608172,2004,24
 2,Panulirus_gracilis-87_690619,2004,0
@@ -2033,13 +1979,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2004,461
 2,Peprilus-87_501164,2004,43
 2,Perciformes-87_300060,2004,1
-2,Pomacentridae-87_400350,2004,0.00
+2,Pomacentridae-87_400350,2004,0
 2,Pristidae-87_400016,2004,0
 2,Pteriida-87_490109,2004,0
 2,Rhinobatos_planiceps-87_600149,2004,28
 2,Sarda_chiliensis-87_600113,2004,123
 2,Sardinops_sagax-87_601477,2004,246
-2,Sciaenidae-87_400331,2004,959.00
+2,Sciaenidae-87_400331,2004,959
 2,Scomber_japonicus-87_600117,2004,908
 2,Scomberomorus_sierra-87_600136,2004,0
 2,Scorpaena-87_500134,2004,0
@@ -2074,7 +2020,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2005,1500
 2,Dosidicus_gigas-87_690206,2005,4138
 2,Engraulis_ringens-87_600004,2005,492973
-2,Ensis_macha-87_69130701,2005,116
 2,Epinephelus-87_500366,2005,2
 2,Ethmidium_maculatum-87_601593,2005,0
 2,Gastropoda-87_290006,2005,244
@@ -2084,13 +2029,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2005,41
 2,Katsuwonus_pelamis-87_600107,2005,0
 2,Larimus_pacificus-87_614009,2005,0
-2,Menticirrhus-87_502790,2005,3.00
+2,Menticirrhus-87_502790,2005,3
 2,Merluccius_gayi_peruanus-87_614693,2005,783
 2,Miscellaneous_marine_crustaceans-87_100047,2005,0
 2,Mugil_cephalus-87_600785,2005,1055
 2,Muraenidae-87_400056,2005,0
 2,Mustelus_whitneyi-87_605939,2005,181
-2,Myliobatidae-87_400022,2005,1456.00
+2,Myliobatidae-87_400022,2005,1456
 2,Octopus-87_590013,2005,15
 2,Odontesthes_regia-87_608172,2005,8
 2,Panulirus_gracilis-87_690619,2005,0
@@ -2101,13 +2046,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Penaeus_californiensis-87_690444,2005,527
 2,Peprilus-87_501164,2005,62
 2,Perciformes-87_300060,2005,46
-2,Pomacentridae-87_400350,2005,0.00
+2,Pomacentridae-87_400350,2005,0
 2,Pristidae-87_400016,2005,0
 2,Pteriida-87_490109,2005,0
 2,Rhinobatos_planiceps-87_600149,2005,35
 2,Sarda_chiliensis-87_600113,2005,139
 2,Sardinops_sagax-87_601477,2005,241
-2,Sciaenidae-87_400331,2005,678.00
+2,Sciaenidae-87_400331,2005,678
 2,Scomber_japonicus-87_600117,2005,646
 2,Scomberomorus_sierra-87_600136,2005,0
 2,Scorpaena-87_500134,2005,0
@@ -2125,7 +2070,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2006,0
 2,Albula_vulpes-87_600228,2006,0
 2,Alopias_vulpinus-87_602535,2006,0
-2,Anadara_tuberculosa-87_6947322,2006,20
 2,Anisotremus_scapularis-87_608255,2006,0
 2,Argopecten_purpuratus-87_690303,2006,3727
 2,Ariidae-87_400145,2006,0
@@ -2149,7 +2093,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2006,4199.428
 2,Dosidicus_gigas-87_690206,2006,5771
 2,Engraulis_ringens-87_600004,2006,251825
-2,Ensis_macha-87_69130701,2006,52
 2,Epinephelus-87_500366,2006,0
 2,Ethmidium_maculatum-87_601593,2006,0
 2,Gastropoda-87_290006,2006,355
@@ -2162,13 +2105,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2006,24
 2,Katsuwonus_pelamis-87_600107,2006,0
 2,Larimus_pacificus-87_614009,2006,0
-2,Menticirrhus-87_502790,2006,1.00
+2,Menticirrhus-87_502790,2006,1
 2,Merluccius_gayi_peruanus-87_614693,2006,53
 2,Miscellaneous_marine_crustaceans-87_100047,2006,0
 2,Mugil_cephalus-87_600785,2006,834
 2,Muraenidae-87_400056,2006,0
 2,Mustelus_whitneyi-87_605939,2006,130
-2,Myliobatidae-87_400022,2006,1180.00
+2,Myliobatidae-87_400022,2006,1180
 2,Octopus-87_590013,2006,56
 2,Odontesthes_regia-87_608172,2006,20
 2,Opisthonema_libertate-87_601484,2006,0.375
@@ -2190,7 +2133,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Rhinobatos_planiceps-87_600149,2006,15
 2,Sarda_chiliensis-87_600113,2006,816
 2,Sardinops_sagax-87_601477,2006,0
-2,Sciaenidae-87_400331,2006,623.60
+2,Sciaenidae-87_400331,2006,623.6
 2,Scomber_japonicus-87_600117,2006,545
 2,Scomberomorus_sierra-87_600136,2006,0
 2,Scorpaena-87_500134,2006,2
@@ -2200,7 +2143,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2006,9
 2,Sphyrna_zygaena-87_600917,2006,0
 2,Squatina_californica-87_600729,2006,5
-2,Thaisella_chocolata-87_6983866,2006,305.001
 2,Thunnus_albacares-87_600143,2006,0
 2,Trachinotus_paitensis-87_601972,2006,0
 2,Trachurus_murphyi-87_600367,2006,1011
@@ -2210,7 +2152,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2007,0
 2,Albula_vulpes-87_600228,2007,0
 2,Alopias_vulpinus-87_602535,2007,0
-2,Anadara_tuberculosa-87_6947322,2007,0
 2,Anisotremus_scapularis-87_608255,2007,0
 2,Argopecten_purpuratus-87_690303,2007,3464
 2,Ariidae-87_400145,2007,6
@@ -2235,7 +2176,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2007,4555.53
 2,Dosidicus_gigas-87_690206,2007,3264
 2,Engraulis_ringens-87_600004,2007,346317
-2,Ensis_macha-87_69130701,2007,89
 2,Epinephelus-87_500366,2007,0
 2,Ethmidium_maculatum-87_601593,2007,0
 2,Gastropoda-87_290006,2007,478
@@ -2248,7 +2188,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2007,80
 2,Katsuwonus_pelamis-87_600107,2007,0
 2,Larimus_pacificus-87_614009,2007,1
-2,Menticirrhus-87_502790,2007,1.00
+2,Menticirrhus-87_502790,2007,1
 2,Merluccius_gayi_peruanus-87_614693,2007,58
 2,Miscellaneous_marine_crustaceans-87_100047,2007,0
 2,Mugil_cephalus-87_600785,2007,2501
@@ -2287,7 +2227,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2007,104
 2,Sphyrna_zygaena-87_600917,2007,0
 2,Squatina_californica-87_600729,2007,5
-2,Thaisella_chocolata-87_6983866,2007,236.472
 2,Thunnus_albacares-87_600143,2007,0
 2,Trachinotus_paitensis-87_601972,2007,2
 2,Trachurus_murphyi-87_600367,2007,1038
@@ -2297,7 +2236,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2008,0
 2,Albula_vulpes-87_600228,2008,0
 2,Alopias_vulpinus-87_602535,2008,0
-2,Anadara_tuberculosa-87_6947322,2008,0
 2,Anisotremus_scapularis-87_608255,2008,0
 2,Argopecten_purpuratus-87_690303,2008,667
 2,Ariidae-87_400145,2008,0
@@ -2322,7 +2260,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2008,1763.549
 2,Dosidicus_gigas-87_690206,2008,5619
 2,Engraulis_ringens-87_600004,2008,308148
-2,Ensis_macha-87_69130701,2008,1088
 2,Epinephelus-87_500366,2008,0
 2,Ethmidium_maculatum-87_601593,2008,1
 2,Gastropoda-87_290006,2008,428
@@ -2335,13 +2272,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2008,113
 2,Katsuwonus_pelamis-87_600107,2008,21
 2,Larimus_pacificus-87_614009,2008,29
-2,Menticirrhus-87_502790,2008,1.00
+2,Menticirrhus-87_502790,2008,1
 2,Merluccius_gayi_peruanus-87_614693,2008,163
 2,Miscellaneous_marine_crustaceans-87_100047,2008,0
 2,Mugil_cephalus-87_600785,2008,2877
 2,Muraenidae-87_400056,2008,0
 2,Mustelus_whitneyi-87_605939,2008,315
-2,Myliobatidae-87_400022,2008,3675.00
+2,Myliobatidae-87_400022,2008,3675
 2,Octopus-87_590013,2008,34
 2,Odontesthes_regia-87_608172,2008,1
 2,Opisthonema_libertate-87_601484,2008,6.711
@@ -2374,7 +2311,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2008,1
 2,Sphyrna_zygaena-87_600917,2008,0
 2,Squatina_californica-87_600729,2008,2
-2,Thaisella_chocolata-87_6983866,2008,129.997
 2,Thunnus_albacares-87_600143,2008,0
 2,Trachinotus_paitensis-87_601972,2008,5
 2,Trachurus_murphyi-87_600367,2008,1795
@@ -2384,7 +2320,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2009,0
 2,Albula_vulpes-87_600228,2009,0
 2,Alopias_vulpinus-87_602535,2009,36.764
-2,Anadara_tuberculosa-87_6947322,2009,0
 2,Anisotremus_scapularis-87_608255,2009,0
 2,Argopecten_purpuratus-87_690303,2009,1100
 2,Ariidae-87_400145,2009,0
@@ -2409,7 +2344,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2009,3086.537
 2,Dosidicus_gigas-87_690206,2009,6304
 2,Engraulis_ringens-87_600004,2009,259564
-2,Ensis_macha-87_69130701,2009,393
 2,Epinephelus-87_500366,2009,0
 2,Ethmidium_maculatum-87_601593,2009,6
 2,Gastropoda-87_290006,2009,196
@@ -2422,7 +2356,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2009,155
 2,Katsuwonus_pelamis-87_600107,2009,20
 2,Larimus_pacificus-87_614009,2009,33
-2,Menticirrhus-87_502790,2009,1.00
+2,Menticirrhus-87_502790,2009,1
 2,Merluccius_gayi_peruanus-87_614693,2009,151
 2,Miscellaneous_marine_crustaceans-87_100047,2009,0
 2,Mugil_cephalus-87_600785,2009,3013
@@ -2461,7 +2395,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2009,31
 2,Sphyrna_zygaena-87_600917,2009,0
 2,Squatina_californica-87_600729,2009,16
-2,Thaisella_chocolata-87_6983866,2009,53.974
 2,Thunnus_alalunga-87_600142,2009,113
 2,Thunnus_albacares-87_600143,2009,0.919
 2,Trachinotus_paitensis-87_601972,2009,4
@@ -2472,7 +2405,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2010,0
 2,Albula_vulpes-87_600228,2010,0
 2,Alopias_vulpinus-87_602535,2010,4.897
-2,Anadara_tuberculosa-87_6947322,2010,0
 2,Anchoa_nasus-87_601163,2010,5675
 2,Anisotremus_scapularis-87_608255,2010,0
 2,Argopecten_purpuratus-87_690303,2010,828
@@ -2498,7 +2430,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2010,970.018
 2,Dosidicus_gigas-87_690206,2010,1756
 2,Engraulis_ringens-87_600004,2010,106816
-2,Ensis_macha-87_69130701,2010,258
 2,Epinephelus-87_500366,2010,0
 2,Ethmidium_maculatum-87_601593,2010,129
 2,Gastropoda-87_290006,2010,510
@@ -2511,7 +2442,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2010,1048
 2,Katsuwonus_pelamis-87_600107,2010,58
 2,Larimus_pacificus-87_614009,2010,24
-2,Menticirrhus-87_502790,2010,37.00
+2,Menticirrhus-87_502790,2010,37
 2,Merluccius_gayi_peruanus-87_614693,2010,98
 2,Miscellaneous_marine_crustaceans-87_100047,2010,0
 2,Mugil_cephalus-87_600785,2010,2462
@@ -2531,7 +2462,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Peprilus_snyderi-87_614146,2010,0
 2,Peprilus-87_501164,2010,641
 2,Perciformes-87_300060,2010,8
-2,Pomacentridae-87_400350,2010,0.00
+2,Pomacentridae-87_400350,2010,0
 2,Pontinus-87_502730,2010,0.043
 2,Prionace_glauca-87_600898,2010,0
 2,Prionotus_stephanophrys-87_604029,2010,0
@@ -2550,7 +2481,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2010,35
 2,Sphyrna_zygaena-87_600917,2010,0
 2,Squatina_californica-87_600729,2010,0
-2,Thaisella_chocolata-87_6983866,2010,92.849
 2,Thunnus_alalunga-87_600142,2010,0
 2,Thunnus_albacares-87_600143,2010,0.229
 2,Trachinotus_paitensis-87_601972,2010,4
@@ -2561,7 +2491,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2011,0
 2,Albula_vulpes-87_600228,2011,0
 2,Alopias_vulpinus-87_602535,2011,1.838
-2,Anadara_tuberculosa-87_6947322,2011,475
 2,Anchoa_nasus-87_601163,2011,343
 2,Anisotremus_scapularis-87_608255,2011,0
 2,Argopecten_purpuratus-87_690303,2011,850
@@ -2587,7 +2516,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2011,306.119
 2,Dosidicus_gigas-87_690206,2011,4203
 2,Engraulis_ringens-87_600004,2011,295744
-2,Ensis_macha-87_69130701,2011,900
 2,Epinephelus-87_500366,2011,1
 2,Ethmidium_maculatum-87_601593,2011,3
 2,Gastropoda-87_290006,2011,1008
@@ -2600,7 +2528,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2011,86
 2,Katsuwonus_pelamis-87_600107,2011,0
 2,Larimus_pacificus-87_614009,2011,7
-2,Menticirrhus-87_502790,2011,0.00
+2,Menticirrhus-87_502790,2011,0
 2,Merluccius_gayi_peruanus-87_614693,2011,116
 2,Miscellaneous_marine_crustaceans-87_100047,2011,0
 2,Mugil_cephalus-87_600785,2011,1961
@@ -2629,7 +2557,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Rhinobatos_planiceps-87_600149,2011,0
 2,Sarda_chiliensis-87_600113,2011,2991
 2,Sardinops_sagax-87_601477,2011,0
-2,Sciaenidae-87_400331,2011,1428.60
+2,Sciaenidae-87_400331,2011,1428.6
 2,Scomber_japonicus-87_600117,2011,1209
 2,Scomberomorus_sierra-87_600136,2011,0
 2,Scorpaena-87_500134,2011,0
@@ -2639,7 +2567,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2011,147
 2,Sphyrna_zygaena-87_600917,2011,0
 2,Squatina_californica-87_600729,2011,4
-2,Thaisella_chocolata-87_6983866,2011,112.581
 2,Thunnus_alalunga-87_600142,2011,0
 2,Thunnus_albacares-87_600143,2011,0
 2,Trachinotus_paitensis-87_601972,2011,0
@@ -2651,7 +2578,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2012,0
 2,Albula_vulpes-87_600228,2012,0
 2,Alopias_vulpinus-87_602535,2012,3.133
-2,Anadara_tuberculosa-87_6947322,2012,655
 2,Anchoa_nasus-87_601163,2012,0
 2,Anisotremus_scapularis-87_608255,2012,0
 2,Argopecten_purpuratus-87_690303,2012,665
@@ -2677,7 +2603,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2012,13101.482
 2,Dosidicus_gigas-87_690206,2012,13562
 2,Engraulis_ringens-87_600004,2012,148451
-2,Ensis_macha-87_69130701,2012,900
 2,Epinephelus-87_500366,2012,0
 2,Ethmidium_maculatum-87_601593,2012,0
 2,Gastropoda-87_290006,2012,321
@@ -2690,13 +2615,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2012,7
 2,Katsuwonus_pelamis-87_600107,2012,3
 2,Larimus_pacificus-87_614009,2012,1
-2,Menticirrhus-87_502790,2012,0.00
+2,Menticirrhus-87_502790,2012,0
 2,Merluccius_gayi_peruanus-87_614693,2012,116
 2,Miscellaneous_marine_crustaceans-87_100047,2012,0
 2,Mugil_cephalus-87_600785,2012,1396
 2,Muraenidae-87_400056,2012,0
 2,Mustelus_whitneyi-87_605939,2012,403
-2,Myliobatidae-87_400022,2012,2225.00
+2,Myliobatidae-87_400022,2012,2225
 2,Octopus-87_590013,2012,30
 2,Odontesthes_regia-87_608172,2012,13
 2,Opisthonema_libertate-87_601484,2012,15
@@ -2729,7 +2654,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2012,0
 2,Sphyrna_zygaena-87_600917,2012,0
 2,Squatina_californica-87_600729,2012,1
-2,Thaisella_chocolata-87_6983866,2012,124.472
 2,Thunnus_alalunga-87_600142,2012,0
 2,Thunnus_albacares-87_600143,2012,0.598
 2,Trachinotus_paitensis-87_601972,2012,0
@@ -2741,7 +2665,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2013,0
 2,Albula_vulpes-87_600228,2013,0
 2,Alopias_vulpinus-87_602535,2013,1.248
-2,Anadara_tuberculosa-87_6947322,2013,0
 2,Anchoa_nasus-87_601163,2013,0
 2,Anisotremus_scapularis-87_608255,2013,0
 2,Argopecten_purpuratus-87_690303,2013,27086.40115
@@ -2767,7 +2690,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2013,13542.98556
 2,Dosidicus_gigas-87_690206,2013,20381.39542
 2,Engraulis_ringens-87_600004,2013,28353.13394
-2,Ensis_macha-87_69130701,2013,459.873
 2,Epinephelus-87_500366,2013,0.5
 2,Ethmidium_maculatum-87_601593,2013,0
 2,Gastropoda-87_290006,2013,328.021
@@ -2780,7 +2702,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2013,7.065
 2,Katsuwonus_pelamis-87_600107,2013,0
 2,Larimus_pacificus-87_614009,2013,0.85
-2,Menticirrhus-87_502790,2013,0.00
+2,Menticirrhus-87_502790,2013,0
 2,Merluccius_gayi_peruanus-87_614693,2013,132.8373733
 2,Miscellaneous_marine_crustaceans-87_100047,2013,0
 2,Mugil_cephalus-87_600785,2013,2820.64824
@@ -2819,8 +2741,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2013,148.919
 2,Sphyrna_zygaena-87_600917,2013,0
 2,Squatina_californica-87_600729,2013,0.417
-2,Tagelus_dombeii-87_69130459,2013,147.532
-2,Thaisella_chocolata-87_6983866,2013,58.023
 2,Thunnus_alalunga-87_600142,2013,0
 2,Thunnus_albacares-87_600143,2013,0
 2,Trachinotus_paitensis-87_601972,2013,1.034
@@ -2832,7 +2752,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2014,0
 2,Albula_vulpes-87_600228,2014,0
 2,Alopias_vulpinus-87_602535,2014,34.796
-2,Anadara_tuberculosa-87_6947322,2014,139.0466
 2,Anchoa_nasus-87_601163,2014,0
 2,Anisotremus_scapularis-87_608255,2014,6.61248
 2,Argopecten_purpuratus-87_690303,2014,16539.39826
@@ -2858,7 +2777,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2014,7811.932
 2,Dosidicus_gigas-87_690206,2014,16928.84191
 2,Engraulis_ringens-87_600004,2014,37959.04
-2,Ensis_macha-87_69130701,2014,830.739
 2,Epinephelus-87_500366,2014,0
 2,Ethmidium_maculatum-87_601593,2014,0
 2,Gastropoda-87_290006,2014,995.138
@@ -2911,8 +2829,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2014,13.3342
 2,Sphyrna_zygaena-87_600917,2014,0
 2,Squatina_californica-87_600729,2014,0
-2,Tagelus_dombeii-87_69130459,2014,169.41
-2,Thaisella_chocolata-87_6983866,2014,19.487
 2,Thunnus_alalunga-87_600142,2014,0
 2,Thunnus_albacares-87_600143,2014,7.637
 2,Trachinotus_paitensis-87_601972,2014,0
@@ -2924,7 +2840,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2015,0
 2,Albula_vulpes-87_600228,2015,0.102
 2,Alopias_vulpinus-87_602535,2015,12.414
-2,Anadara_tuberculosa-87_6947322,2015,0
 2,Anchoa_nasus-87_601163,2015,0
 2,Anisotremus_scapularis-87_608255,2015,0
 2,Argopecten_purpuratus-87_690303,2015,8223.529
@@ -2951,7 +2866,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2015,5525.903
 2,Dosidicus_gigas-87_690206,2015,21251.42636
 2,Engraulis_ringens-87_600004,2015,89650.2343
-2,Ensis_macha-87_69130701,2015,330.528
 2,Epinephelus-87_500366,2015,0
 2,Ethmidium_maculatum-87_601593,2015,0
 2,Gastropoda-87_290006,2015,967.163
@@ -2964,7 +2878,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Isacia_conceptionis-87_600397,2015,107.753
 2,Katsuwonus_pelamis-87_600107,2015,709.494
 2,Larimus_pacificus-87_614009,2015,0.9
-2,Menticirrhus-87_502790,2015,0.00
+2,Menticirrhus-87_502790,2015,0
 2,Merluccius_gayi_peruanus-87_614693,2015,121.7030763
 2,Miscellaneous_marine_crustaceans-87_100047,2015,0
 2,Mugil_cephalus-87_600785,2015,2305.527991
@@ -3004,8 +2918,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2015,146.7351
 2,Sphyrna_zygaena-87_600917,2015,0
 2,Squatina_californica-87_600729,2015,1.773
-2,Tagelus_dombeii-87_69130459,2015,190.72
-2,Thaisella_chocolata-87_6983866,2015,42.497
 2,Thunnus_alalunga-87_600142,2015,0
 2,Thunnus_albacares-87_600143,2015,1.247
 2,Trachinotus_paitensis-87_601972,2015,1.371
@@ -3017,7 +2929,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2016,5.15
 2,Albula_vulpes-87_600228,2016,0
 2,Alopias_vulpinus-87_602535,2016,38.952
-2,Anadara_tuberculosa-87_6947322,2016,0
 2,Anchoa_nasus-87_601163,2016,0
 2,Anisotremus_scapularis-87_608255,2016,1.496
 2,Argopecten_purpuratus-87_690303,2016,6261.128
@@ -3044,7 +2955,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2016,181.2986
 2,Dosidicus_gigas-87_690206,2016,22007.31
 2,Engraulis_ringens-87_600004,2016,87235.08
-2,Ensis_macha-87_69130701,2016,159.293
 2,Epinephelus-87_500366,2016,2.636
 2,Ethmidium_maculatum-87_601593,2016,15.69456
 2,Gastropoda-87_290006,2016,676.837
@@ -3059,7 +2969,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Katsuwonus_pelamis-87_600107,2016,2043.6088
 2,Larimus_pacificus-87_614009,2016,2.19
 2,Makaira_nigricans-87_600216,2016,0.3
-2,Menticirrhus-87_502790,2016,0.00
+2,Menticirrhus-87_502790,2016,0
 2,Merluccius_gayi_peruanus-87_614693,2016,132
 2,Miscellaneous_marine_crustaceans-87_100047,2016,0
 2,Mugil_cephalus-87_600785,2016,4105.902133
@@ -3080,7 +2990,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Peprilus_snyderi-87_614146,2016,107.059
 2,Peprilus-87_501164,2016,685.18164
 2,Perciformes-87_300060,2016,9.398
-2,Pomacentridae-87_400350,2016,7.30
+2,Pomacentridae-87_400350,2016,7.3
 2,Pontinus-87_502730,2016,1.508
 2,Prionace_glauca-87_600898,2016,17.57
 2,Prionotus_stephanophrys-87_604029,2016,0
@@ -3099,8 +3009,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2016,221.653
 2,Sphyrna_zygaena-87_600917,2016,0
 2,Squatina_californica-87_600729,2016,4.265
-2,Tagelus_dombeii-87_69130459,2016,38.74
-2,Thaisella_chocolata-87_6983866,2016,46.874
 2,Thunnus_alalunga-87_600142,2016,5.8
 2,Thunnus_albacares-87_600143,2016,1.875
 2,Trachinotus_paitensis-87_601972,2016,10.281
@@ -3112,7 +3020,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2017,0
 2,Albula_vulpes-87_600228,2017,2
 2,Alopias_vulpinus-87_602535,2017,110.869
-2,Anadara_tuberculosa-87_6947322,2017,0
 2,Anchoa_nasus-87_601163,2017,0
 2,Anisotremus_scapularis-87_608255,2017,0.897
 2,Argopecten_purpuratus-87_690303,2017,505.9500856
@@ -3139,7 +3046,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2017,95.48706491
 2,Dosidicus_gigas-87_690206,2017,21333.03781
 2,Engraulis_ringens-87_600004,2017,149936.5207
-2,Ensis_macha-87_69130701,2017,256.832
 2,Epinephelus-87_500366,2017,3.089
 2,Ethmidium_maculatum-87_601593,2017,0
 2,Gastropoda-87_290006,2017,113.944
@@ -3194,8 +3100,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2017,34.455
 2,Sphyrna_zygaena-87_600917,2017,0
 2,Squatina_californica-87_600729,2017,2.739
-2,Tagelus_dombeii-87_69130459,2017,144.545
-2,Thaisella_chocolata-87_6983866,2017,5.652
 2,Thunnus_alalunga-87_600142,2017,146.101
 2,Thunnus_albacares-87_600143,2017,483.336
 2,Trachinotus_paitensis-87_601972,2017,2.658
@@ -3207,7 +3111,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2018,87.368
 2,Albula_vulpes-87_600228,2018,0
 2,Alopias_vulpinus-87_602535,2018,67.06
-2,Anadara_tuberculosa-87_6947322,2018,0
 2,Anchoa_nasus-87_601163,2018,0
 2,Anisotremus_scapularis-87_608255,2018,1.102
 2,Argopecten_purpuratus-87_690303,2018,4719.513188
@@ -3234,7 +3137,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2018,91.7775503
 2,Dosidicus_gigas-87_690206,2018,29274.21653
 2,Engraulis_ringens-87_600004,2018,162123.062
-2,Ensis_macha-87_69130701,2018,451.596
 2,Epinephelus-87_500366,2018,0.172
 2,Ethmidium_maculatum-87_601593,2018,6.189952173
 2,Gastropoda-87_290006,2018,450.602
@@ -3290,8 +3192,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2018,31.624
 2,Sphyrna_zygaena-87_600917,2018,0
 2,Squatina_californica-87_600729,2018,12.168
-2,Tagelus_dombeii-87_69130459,2018,0
-2,Thaisella_chocolata-87_6983866,2018,15.833
 2,Thunnus_alalunga-87_600142,2018,11.918
 2,Thunnus_albacares-87_600143,2018,2.466
 2,Trachinotus_paitensis-87_601972,2018,11.716
@@ -3303,7 +3203,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2019,14.0750516
 2,Albula_vulpes-87_600228,2019,0
 2,Alopias_vulpinus-87_602535,2019,27.255
-2,Anadara_tuberculosa-87_6947322,2019,0
 2,Anchoa_nasus-87_601163,2019,0
 2,Anisotremus_scapularis-87_608255,2019,4.118917519
 2,Argopecten_purpuratus-87_690303,2019,787.8048972
@@ -3331,7 +3230,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2019,1722.771127
 2,Dosidicus_gigas-87_690206,2019,24203.63715
 2,Engraulis_ringens-87_600004,2019,143271.2303
-2,Ensis_macha-87_69130701,2019,0
 2,Epinephelus-87_500366,2019,0.187730855
 2,Ethmidium_maculatum-87_601593,2019,10.54153149
 2,Gastropoda-87_290006,2019,401.22
@@ -3388,8 +3286,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2019,38.9358714
 2,Sphyrna_zygaena-87_600917,2019,0
 2,Squatina_californica-87_600729,2019,5.029446683
-2,Tagelus_dombeii-87_69130459,2019,0
-2,Thaisella_chocolata-87_6983866,2019,32.124
 2,Thunnus_alalunga-87_600142,2019,22.11
 2,Thunnus_albacares-87_600143,2019,17.081
 2,Trachinotus_paitensis-87_601972,2019,68.86
@@ -3401,7 +3297,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Actinopterygii-87_200006,2020,0
 2,Albula_vulpes-87_600228,2020,0
 2,Alopias_vulpinus-87_602535,2020,4
-2,Anadara_tuberculosa-87_6947322,2020,0
 2,Anchoa_nasus-87_601163,2020,0
 2,Anisotremus_scapularis-87_608255,2020,0
 2,Argopecten_purpuratus-87_690303,2020,0
@@ -3429,7 +3324,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Doryteuthis_gahi-87_690296,2020,32.491
 2,Dosidicus_gigas-87_690206,2020,27978.01879
 2,Engraulis_ringens-87_600004,2020,183896.7208
-2,Ensis_macha-87_69130701,2020,0
 2,Epinephelus-87_500366,2020,0
 2,Ethmidium_maculatum-87_601593,2020,93.435
 2,Gastropoda-87_290006,2020,0
@@ -3446,13 +3340,13 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Katsuwonus_pelamis-87_600107,2020,16.769
 2,Larimus_pacificus-87_614009,2020,0
 2,Makaira_nigricans-87_600216,2020,0
-2,Menticirrhus-87_502790,2020,0.00
+2,Menticirrhus-87_502790,2020,0
 2,Merluccius_gayi_peruanus-87_614693,2020,0
 2,Miscellaneous_marine_crustaceans-87_100047,2020,0
 2,Mugil_cephalus-87_600785,2020,0
 2,Muraenidae-87_400056,2020,0
 2,Mustelus_whitneyi-87_605939,2020,0
-2,Myliobatidae-87_400022,2020,0.70
+2,Myliobatidae-87_400022,2020,0.7
 2,Octopus-87_590013,2020,0
 2,Odontesthes_regia-87_608172,2020,0
 2,Ophichthus-87_501991,2020,1394.044
@@ -3486,8 +3380,6 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Seriolella_violacea-87_613020,2020,0
 2,Sphyrna_zygaena-87_600917,2020,0
 2,Squatina_californica-87_600729,2020,0
-2,Tagelus_dombeii-87_69130459,2020,0
-2,Thaisella_chocolata-87_6983866,2020,18.124
 2,Thunnus_alalunga-87_600142,2020,0
 2,Thunnus_albacares-87_600143,2020,0
 2,Trachinotus_paitensis-87_601972,2020,0
