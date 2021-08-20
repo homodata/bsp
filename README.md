@@ -133,7 +133,7 @@ Using layers/fp_wildcaught_weight_gl2018.csv to plot FIS and MAR with unequal we
 1104-  # These data are no longer available and status/trend have not been updated since 2013
 ```
 
-## Scores (MSE and GL data)
+## Scores (BSP and PERU-GL data)
 ```
 > FIS(layers)
 `summarise()` has grouped output by 'region_id'. You can override using the `.groups` argument.
