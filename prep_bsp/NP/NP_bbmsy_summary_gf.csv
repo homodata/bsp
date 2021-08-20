@@ -1,0 +1,361 @@
+"rgn_id","stock_id","taxon_key","year","catch","score","gapfilled","method"
+1,"Cheilodactylus_variegatus-87",600461,2000,0.9,NA,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2000,2.7,NA,1,"Mean gapfilled"
+1,"Isacia_conceptionis-87",600397,2000,2.7,NA,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2000,27,NA,1,"Mean gapfilled"
+1,"Scomber_japonicus-87",600117,2000,101.7,NA,1,"Mean gapfilled"
+1,"Trachurus_murphyi-87",600367,2000,473.4,NA,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2001,8.1,0.845589125,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2001,19.8,0.88882,0,NA
+1,"Isacia_conceptionis-87",600397,2001,72.9,0.6667495,0,NA
+1,"Sardinops_sagax-87",601477,2001,128.7,0.8921505,0,NA
+1,"Scomber_japonicus-87",600117,2001,1706.625,0.9346365,0,NA
+1,"Trachurus_murphyi-87",600367,2001,19163.475,0.845589125,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2002,0.9,0.87601375,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2002,1.8,0.9367765,0,NA
+1,"Isacia_conceptionis-87",600397,2002,279,0.690305,0,NA
+1,"Sardinops_sagax-87",601477,2002,335.7,0.920779,0,NA
+1,"Scomber_japonicus-87",600117,2002,1436.4,0.9561945,0,NA
+1,"Trachurus_murphyi-87",600367,2002,14010.3,0.87601375,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2003,8.1,0.900192125,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2003,0,0.9249005,0,NA
+1,"Isacia_conceptionis-87",600397,2003,36,0.7355435,0,NA
+1,"Sardinops_sagax-87",601477,2003,260.1,0.9569015,0,NA
+1,"Scomber_japonicus-87",600117,2003,1746,0.983423,0,NA
+1,"Trachurus_murphyi-87",600367,2003,2403,0.900192125,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2004,0,0.923460125,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2004,0,0.908012,0,NA
+1,"Isacia_conceptionis-87",600397,2004,9,0.7869375,0,NA
+1,"Sardinops_sagax-87",601477,2004,221.4,0.998891,0,NA
+1,"Scomber_japonicus-87",600117,2004,817.2,1,0,NA
+1,"Trachurus_murphyi-87",600367,2004,1227.6,0.923460125,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2005,0,0.9290655,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2005,0,0.8898165,0,NA
+1,"Isacia_conceptionis-87",600397,2005,36.9,0.8264455,0,NA
+1,"Sardinops_sagax-87",601477,2005,216.9,1,0,NA
+1,"Scomber_japonicus-87",600117,2005,581.4,1,0,NA
+1,"Trachurus_murphyi-87",600367,2005,358.2,0.9290655,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2006,0,0.70319,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2006,0,0.86435818,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2006,0.0522,0.86435818,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2006,0,0.907085,0,NA
+1,"Isacia_conceptionis-87",600397,2006,21.6,0.853248,0,NA
+1,"Opisthonema_libertate-87",601484,2006,0.3375,0.86435818,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2006,0,0.9405858,0,NA
+1,"Scomber_japonicus-87",600117,2006,490.5,0.9176821,0,NA
+1,"Trachurus_murphyi-87",600367,2006,909.9,0.86435818,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2007,0,0.707374,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2007,1.8,0.84833598,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2007,8.9235,0.84833598,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2007,0,0.9157535,0,NA
+1,"Isacia_conceptionis-87",600397,2007,72,0.8599795,0,NA
+1,"Opisthonema_libertate-87",601484,2007,0,0.84833598,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2007,0,0.9084025,0,NA
+1,"Scomber_japonicus-87",600117,2007,671.4,0.8501704,0,NA
+1,"Trachurus_murphyi-87",600367,2007,934.2,0.84833598,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2008,0,0.7117385,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2008,0,0.83366302,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2008,109.5084,0.83366302,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2008,0.9,0.943249,0,NA
+1,"Isacia_conceptionis-87",600397,2008,101.7,0.844035,0,NA
+1,"Opisthonema_libertate-87",601484,2008,6.0399,0.83366302,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2008,0,0.8688584,0,NA
+1,"Scomber_japonicus-87",600117,2008,1165.5,0.8004342,0,NA
+1,"Trachurus_murphyi-87",600367,2008,1615.5,0.83366302,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2009,0,0.7287805,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2009,2.7,0.759787216666667,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2009,60.255,0.759787216666667,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2009,5.4,0.9909,0,NA
+1,"Isacia_conceptionis-87",600397,2009,139.5,0.8218555,0,NA
+1,"Opisthonema_libertate-87",601484,2009,4.878,0.759787216666667,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2009,0,0.8136706,0,NA
+1,"Scomber_japonicus-87",600117,2009,1932.3,0.7684196,0,NA
+1,"Trachurus_murphyi-87",600367,2009,1122.3,0.4350971,0,NA
+1,"Cetengraulis_mysticetus-87",600548,2010,0,0.721314,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2010,0,0.72657795,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2010,217.2978,0.72657795,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2010,116.1,1,0,NA
+1,"Isacia_conceptionis-87",600397,2010,943.2,0.8044975,0,NA
+1,"Opisthonema_libertate-87",601484,2010,212.7663,0.72657795,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2010,0,0.7280567,0,NA
+1,"Scomber_japonicus-87",600117,2010,2298.6,0.7349745,0,NA
+1,"Trachurus_murphyi-87",600367,2010,929.7,0.370625,0,NA
+1,"Cetengraulis_mysticetus-87",600548,2011,0,0.723596,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2011,0.9,0.77697706,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2011,5.9814,0.77697706,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2011,2.7,1,0,NA
+1,"Isacia_conceptionis-87",600397,2011,77.4,0.835318,0,NA
+1,"Opisthonema_libertate-87",601484,2011,0,0.77697706,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2011,0,0.6143935,0,NA
+1,"Scomber_japonicus-87",600117,2011,1088.1,0.7115778,0,NA
+1,"Trachurus_murphyi-87",600367,2011,793.8,0.77697706,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2012,111.1905,0.796456,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2012,2.7,0.790287366666667,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2012,317.9448,0.790287366666667,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2012,148289.68,0.858749,0,NA
+1,"Ethmidium_maculatum-87",601593,2012,0,1,0,NA
+1,"Isacia_conceptionis-87",600397,2012,6.3,0.88442,0,NA
+1,"Opisthonema_libertate-87",601484,2012,13.5,0.790287366666667,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2012,0,0.5025301,0,NA
+1,"Scomber_japonicus-87",600117,2012,2943,0.6995691,0,NA
+1,"Trachurus_murphyi-87",600367,2012,276.3,0.790287366666667,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2013,0,0.9103515,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2013,0.9963,0.778193,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2013,148.0905,0.778193,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2013,25142.47,0.755344,0,NA
+1,"Ethmidium_maculatum-87",601593,2013,0,0.9652905,0,NA
+1,"Isacia_conceptionis-87",600397,2013,6.3585,0.9411165,0,NA
+1,"Opisthonema_libertate-87",601484,2013,0,0.778193,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2013,0,0.4114742,0,NA
+1,"Scomber_japonicus-87",600117,2013,4831.668254,0.6855813,0,NA
+1,"Trachurus_murphyi-87",600367,2013,830.2386627,0.778193,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2014,0,1,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2014,0,0.81157005,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2014,19.9629,0.81157005,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2014,37769.84,0.9661555,0,NA
+1,"Ethmidium_maculatum-87",601593,2014,0,0.8843475,0,NA
+1,"Isacia_conceptionis-87",600397,2014,66.9339,1,0,NA
+1,"Opisthonema_libertate-87",601484,2014,16.5618,0.81157005,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2014,0,0.3475832,0,NA
+1,"Scomber_japonicus-87",600117,2014,4090.896608,0.6713341,0,NA
+1,"Trachurus_murphyi-87",600367,2014,813.8018475,0.81157005,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2015,0,0.7324686,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2015,2.0601,0.736863066666667,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2015,13.131,0.736863066666667,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2015,88732.52,1,0,NA
+1,"Ethmidium_maculatum-87",601593,2015,0,0.820019,0,NA
+1,"Isacia_conceptionis-87",600397,2015,96.9777,0.8923569,0,NA
+1,"Opisthonema_libertate-87",601484,2015,0,0.736863066666667,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2015,0,0.3189209,0,NA
+1,"Scomber_japonicus-87",600117,2015,11453.01289,0.657413,0,NA
+1,"Trachurus_murphyi-87",600367,2015,1645.300374,0.736863066666667,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2016,0,0.5163413,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2016,4.5693,0.651328983333333,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2016,24.2469,0.651328983333333,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2016,86588.07,0.8949213,0,NA
+1,"Ethmidium_maculatum-87",601593,2016,14.125104,0.7736835,0,NA
+1,"Isacia_conceptionis-87",600397,2016,131.5107,0.7694735,0,NA
+1,"Opisthonema_libertate-87",601484,2016,12.0438,0.651328983333333,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2016,0,0.323264,0,NA
+1,"Scomber_japonicus-87",600117,2016,4750.309122,0.6302903,0,NA
+1,"Trachurus_murphyi-87",600367,2016,1174.15358,0.651328983333333,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2017,0,0.4236021,0,NA
+1,"Cheilodactylus_variegatus-87",600461,2017,1.1214,0.572154914285714,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2017,15.8094,0.572154914285714,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2017,144059.3,0.8500085,0,NA
+1,"Ethmidium_maculatum-87",601593,2017,0,0.782104,0,NA
+1,"Isacia_conceptionis-87",600397,2017,0,0.6525679,0,NA
+1,"Opisthonema_libertate-87",601484,2017,7.3341,0.572154914285714,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2017,0,0.3491305,0,NA
+1,"Scomber_japonicus-87",600117,2017,4993.217392,0.5874088,0,NA
+1,"Trachurus_murphyi-87",600367,2017,475.0913741,0.3602626,0,NA
+1,"Cetengraulis_mysticetus-87",600548,2018,0,NA,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2018,1.4319,NA,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2018,1.4202,NA,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2018,155139.26,NA,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2018,5.570956956,NA,1,"Mean gapfilled"
+1,"Isacia_conceptionis-87",600397,2018,47.0529,NA,1,"Mean gapfilled"
+1,"Opisthonema_libertate-87",601484,2018,10.7262,NA,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2018,0,NA,1,"Mean gapfilled"
+1,"Scomber_japonicus-87",600117,2018,6504.696709,NA,1,"Mean gapfilled"
+1,"Trachurus_murphyi-87",600367,2018,613.4253318,NA,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2019,3.4353,NA,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2019,2.019255688,NA,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2019,41.319,NA,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2019,140240.08,NA,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2019,9.487378345,NA,1,"Mean gapfilled"
+1,"Isacia_conceptionis-87",600397,2019,17.2575,NA,1,"Mean gapfilled"
+1,"Opisthonema_libertate-87",601484,2019,1.494,NA,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2019,0,NA,1,"Mean gapfilled"
+1,"Scomber_japonicus-87",600117,2019,5790.293571,NA,1,"Mean gapfilled"
+1,"Trachurus_murphyi-87",600367,2019,326.4786437,NA,1,"Mean gapfilled"
+1,"Cetengraulis_mysticetus-87",600548,2020,0,NA,1,"Mean gapfilled"
+1,"Cheilodactylus_variegatus-87",600461,2020,0,NA,1,"Mean gapfilled"
+1,"Decapterus_macrosoma-87",601938,2020,30.2238,NA,1,"Mean gapfilled"
+1,"Engraulis_ringens-87",600004,2020,181305.9,NA,1,"Mean gapfilled"
+1,"Ethmidium_maculatum-87",601593,2020,84.0915,NA,1,"Mean gapfilled"
+1,"Isacia_conceptionis-87",600397,2020,0,NA,1,"Mean gapfilled"
+1,"Opisthonema_libertate-87",601484,2020,0.9,NA,1,"Mean gapfilled"
+1,"Sardinops_sagax-87",601477,2020,0,NA,1,"Mean gapfilled"
+1,"Scomber_japonicus-87",600117,2020,212.41395,NA,1,"Mean gapfilled"
+1,"Trachurus_murphyi-87",600367,2020,12.834,NA,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2000,0.9,NA,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2000,2.7,NA,1,"Mean gapfilled"
+2,"Isacia_conceptionis-87",600397,2000,2.7,NA,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2000,27,NA,1,"Mean gapfilled"
+2,"Scomber_japonicus-87",600117,2000,101.7,NA,1,"Mean gapfilled"
+2,"Trachurus_murphyi-87",600367,2000,473.4,NA,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2001,8.1,0.845589125,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2001,19.8,0.88882,0,NA
+2,"Isacia_conceptionis-87",600397,2001,72.9,0.6667495,0,NA
+2,"Sardinops_sagax-87",601477,2001,128.7,0.8921505,0,NA
+2,"Scomber_japonicus-87",600117,2001,1706.625,0.9346365,0,NA
+2,"Trachurus_murphyi-87",600367,2001,19163.475,0.845589125,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2002,0.9,0.87601375,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2002,1.8,0.9367765,0,NA
+2,"Isacia_conceptionis-87",600397,2002,279,0.690305,0,NA
+2,"Sardinops_sagax-87",601477,2002,335.7,0.920779,0,NA
+2,"Scomber_japonicus-87",600117,2002,1436.4,0.9561945,0,NA
+2,"Trachurus_murphyi-87",600367,2002,14010.3,0.87601375,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2003,8.1,0.900192125,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2003,0,0.9249005,0,NA
+2,"Isacia_conceptionis-87",600397,2003,36,0.7355435,0,NA
+2,"Sardinops_sagax-87",601477,2003,260.1,0.9569015,0,NA
+2,"Scomber_japonicus-87",600117,2003,1746,0.983423,0,NA
+2,"Trachurus_murphyi-87",600367,2003,2403,0.900192125,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2004,0,0.923460125,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2004,0,0.908012,0,NA
+2,"Isacia_conceptionis-87",600397,2004,9,0.7869375,0,NA
+2,"Sardinops_sagax-87",601477,2004,221.4,0.998891,0,NA
+2,"Scomber_japonicus-87",600117,2004,817.2,1,0,NA
+2,"Trachurus_murphyi-87",600367,2004,1227.6,0.923460125,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2005,0,0.9290655,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2005,0,0.8898165,0,NA
+2,"Isacia_conceptionis-87",600397,2005,36.9,0.8264455,0,NA
+2,"Sardinops_sagax-87",601477,2005,216.9,1,0,NA
+2,"Scomber_japonicus-87",600117,2005,581.4,1,0,NA
+2,"Trachurus_murphyi-87",600367,2005,358.2,0.9290655,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2006,0,0.70319,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2006,0,0.86435818,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2006,0.0522,0.86435818,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2006,0,0.907085,0,NA
+2,"Isacia_conceptionis-87",600397,2006,21.6,0.853248,0,NA
+2,"Opisthonema_libertate-87",601484,2006,0.3375,0.86435818,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2006,0,0.9405858,0,NA
+2,"Scomber_japonicus-87",600117,2006,490.5,0.9176821,0,NA
+2,"Trachurus_murphyi-87",600367,2006,909.9,0.86435818,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2007,0,0.707374,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2007,1.8,0.84833598,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2007,8.9235,0.84833598,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2007,0,0.9157535,0,NA
+2,"Isacia_conceptionis-87",600397,2007,72,0.8599795,0,NA
+2,"Opisthonema_libertate-87",601484,2007,0,0.84833598,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2007,0,0.9084025,0,NA
+2,"Scomber_japonicus-87",600117,2007,671.4,0.8501704,0,NA
+2,"Trachurus_murphyi-87",600367,2007,934.2,0.84833598,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2008,0,0.7117385,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2008,0,0.83366302,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2008,109.5084,0.83366302,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2008,0.9,0.943249,0,NA
+2,"Isacia_conceptionis-87",600397,2008,101.7,0.844035,0,NA
+2,"Opisthonema_libertate-87",601484,2008,6.0399,0.83366302,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2008,0,0.8688584,0,NA
+2,"Scomber_japonicus-87",600117,2008,1165.5,0.8004342,0,NA
+2,"Trachurus_murphyi-87",600367,2008,1615.5,0.83366302,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2009,0,0.7287805,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2009,2.7,0.759787216666667,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2009,60.255,0.759787216666667,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2009,5.4,0.9909,0,NA
+2,"Isacia_conceptionis-87",600397,2009,139.5,0.8218555,0,NA
+2,"Opisthonema_libertate-87",601484,2009,4.878,0.759787216666667,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2009,0,0.8136706,0,NA
+2,"Scomber_japonicus-87",600117,2009,1932.3,0.7684196,0,NA
+2,"Trachurus_murphyi-87",600367,2009,1122.3,0.4350971,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2010,0,0.721314,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2010,0,0.72657795,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2010,217.2978,0.72657795,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2010,116.1,1,0,NA
+2,"Isacia_conceptionis-87",600397,2010,943.2,0.8044975,0,NA
+2,"Opisthonema_libertate-87",601484,2010,212.7663,0.72657795,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2010,0,0.7280567,0,NA
+2,"Scomber_japonicus-87",600117,2010,2298.6,0.7349745,0,NA
+2,"Trachurus_murphyi-87",600367,2010,929.7,0.370625,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2011,0,0.723596,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2011,0.9,0.77697706,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2011,5.9814,0.77697706,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2011,2.7,1,0,NA
+2,"Isacia_conceptionis-87",600397,2011,77.4,0.835318,0,NA
+2,"Opisthonema_libertate-87",601484,2011,0,0.77697706,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2011,0,0.6143935,0,NA
+2,"Scomber_japonicus-87",600117,2011,1088.1,0.7115778,0,NA
+2,"Trachurus_murphyi-87",600367,2011,793.8,0.77697706,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2012,111.1905,0.796456,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2012,2.7,0.790287366666667,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2012,317.9448,0.790287366666667,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2012,0,1,0,NA
+2,"Isacia_conceptionis-87",600397,2012,6.3,0.88442,0,NA
+2,"Opisthonema_libertate-87",601484,2012,13.5,0.790287366666667,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2012,0,0.5025301,0,NA
+2,"Scomber_japonicus-87",600117,2012,2943,0.6995691,0,NA
+2,"Trachurus_murphyi-87",600367,2012,276.3,0.790287366666667,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2012,148289.68,0.858749,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2013,0,0.9103515,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2013,0.9963,0.778193,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2013,148.0905,0.778193,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2013,0,0.9652905,0,NA
+2,"Isacia_conceptionis-87",600397,2013,6.3585,0.9411165,0,NA
+2,"Opisthonema_libertate-87",601484,2013,0,0.778193,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2013,0,0.4114742,0,NA
+2,"Scomber_japonicus-87",600117,2013,4831.668254,0.6855813,0,NA
+2,"Trachurus_murphyi-87",600367,2013,830.2386627,0.778193,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2013,25142.47,0.755344,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2014,0,1,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2014,0,0.81157005,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2014,19.9629,0.81157005,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2014,0,0.8843475,0,NA
+2,"Isacia_conceptionis-87",600397,2014,66.9339,1,0,NA
+2,"Opisthonema_libertate-87",601484,2014,16.5618,0.81157005,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2014,0,0.3475832,0,NA
+2,"Scomber_japonicus-87",600117,2014,4090.896608,0.6713341,0,NA
+2,"Trachurus_murphyi-87",600367,2014,813.8018475,0.81157005,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2014,37769.84,0.9661555,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2015,0,0.7324686,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2015,2.0601,0.736863066666667,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2015,13.131,0.736863066666667,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2015,0,0.820019,0,NA
+2,"Isacia_conceptionis-87",600397,2015,96.9777,0.8923569,0,NA
+2,"Opisthonema_libertate-87",601484,2015,0,0.736863066666667,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2015,0,0.3189209,0,NA
+2,"Scomber_japonicus-87",600117,2015,11453.01289,0.657413,0,NA
+2,"Trachurus_murphyi-87",600367,2015,1645.300374,0.736863066666667,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2015,88732.52,1,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2016,0,0.5163413,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2016,4.5693,0.651328983333333,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2016,24.2469,0.651328983333333,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2016,14.125104,0.7736835,0,NA
+2,"Isacia_conceptionis-87",600397,2016,131.5107,0.7694735,0,NA
+2,"Opisthonema_libertate-87",601484,2016,12.0438,0.651328983333333,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2016,0,0.323264,0,NA
+2,"Scomber_japonicus-87",600117,2016,4750.309122,0.6302903,0,NA
+2,"Trachurus_murphyi-87",600367,2016,1174.15358,0.651328983333333,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2016,86588.07,0.8949213,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2017,0,0.4236021,0,NA
+2,"Cheilodactylus_variegatus-87",600461,2017,1.1214,0.572154914285714,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2017,15.8094,0.572154914285714,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2017,0,0.782104,0,NA
+2,"Isacia_conceptionis-87",600397,2017,0,0.6525679,0,NA
+2,"Opisthonema_libertate-87",601484,2017,7.3341,0.572154914285714,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2017,0,0.3491305,0,NA
+2,"Scomber_japonicus-87",600117,2017,4993.217392,0.5874088,0,NA
+2,"Trachurus_murphyi-87",600367,2017,475.0913741,0.3602626,0,NA
+2,"Engraulis_ringens-87",600004,2017,144059.3,0.8500085,0,NA
+2,"Cetengraulis_mysticetus-87",600548,2018,0,NA,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2018,1.4319,NA,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2018,1.4202,NA,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2018,5.570956956,NA,1,"Mean gapfilled"
+2,"Isacia_conceptionis-87",600397,2018,47.0529,NA,1,"Mean gapfilled"
+2,"Opisthonema_libertate-87",601484,2018,10.7262,NA,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2018,0,NA,1,"Mean gapfilled"
+2,"Scomber_japonicus-87",600117,2018,6504.696709,NA,1,"Mean gapfilled"
+2,"Trachurus_murphyi-87",600367,2018,613.4253318,NA,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2018,155139.26,NA,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2019,3.4353,NA,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2019,2.019255688,NA,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2019,41.319,NA,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2019,9.487378345,NA,1,"Mean gapfilled"
+2,"Isacia_conceptionis-87",600397,2019,17.2575,NA,1,"Mean gapfilled"
+2,"Opisthonema_libertate-87",601484,2019,1.494,NA,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2019,0,NA,1,"Mean gapfilled"
+2,"Scomber_japonicus-87",600117,2019,5790.293571,NA,1,"Mean gapfilled"
+2,"Trachurus_murphyi-87",600367,2019,326.4786437,NA,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2019,140240.08,NA,1,"Mean gapfilled"
+2,"Cetengraulis_mysticetus-87",600548,2020,0,NA,1,"Mean gapfilled"
+2,"Cheilodactylus_variegatus-87",600461,2020,0,NA,1,"Mean gapfilled"
+2,"Decapterus_macrosoma-87",601938,2020,30.2238,NA,1,"Mean gapfilled"
+2,"Ethmidium_maculatum-87",601593,2020,84.0915,NA,1,"Mean gapfilled"
+2,"Isacia_conceptionis-87",600397,2020,0,NA,1,"Mean gapfilled"
+2,"Opisthonema_libertate-87",601484,2020,0.9,NA,1,"Mean gapfilled"
+2,"Sardinops_sagax-87",601477,2020,0,NA,1,"Mean gapfilled"
+2,"Scomber_japonicus-87",600117,2020,212.41395,NA,1,"Mean gapfilled"
+2,"Trachurus_murphyi-87",600367,2020,12.834,NA,1,"Mean gapfilled"
+2,"Engraulis_ringens-87",600004,2020,181305.9,NA,1,"Mean gapfilled"

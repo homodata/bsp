@@ -1,0 +1,149 @@
+```{r}
+fis_bbmsy <- read_csv(file.path(here(),"prep_bsp/NP/fis_b_bmsy_bsp2020.csv"))
+
+catch_FOFM <- read_csv(file.path(here(),"prep_bsp/NP/mean_catch_FOFM_bsp2020.csv")) 
+
+
+  # The following stocks are fished in multiple regions and often have high b/bmsy values
+  # Due to the underfishing penalty, this actually penalizes the regions that have the highest
+  # proportion of catch of these stocks.  
+  
+high_bmsy_filter <- dplyr::filter(fis_bbmsy, bbmsy>1.5 & year == 2015) %>%
+    dplyr::group_by(stock_id) %>%
+    dplyr::summarise(n = dplyr::n()) %>%
+    data.frame() %>%
+    dplyr::filter(n>3)
+  
+high_bmsy <- high_bmsy_filter$stock_id
+   
+b <- fis_bbmsy %>%
+    dplyr::mutate(bbmsy = ifelse(stock_id %in% high_bmsy &
+                             bbmsy > 1, 1, bbmsy))
+
+c <- catch_FOFM %>%
+    dplyr::mutate(stock_id_taxonkey = as.character(stock_id_taxonkey)) %>%
+    dplyr::mutate(taxon_key = stringr::str_sub(stock_id_taxonkey,-6,-1)) %>%
+    dplyr::mutate(stock_id = substr(stock_id_taxonkey, 1, nchar(stock_id_taxonkey) -
+                               7)) %>%
+    dplyr::mutate(catch = as.numeric(catch)) %>%
+    dplyr::mutate(year = as.numeric(as.character(year))) %>%
+    dplyr::mutate(region_id = as.numeric(as.character(rgn_id))) %>%
+    dplyr::mutate(taxon_key = as.numeric(as.character(taxon_key))) %>%
+    dplyr::select(rgn_id, year, stock_id, taxon_key, catch)
+
+b <- b %>%
+    dplyr::mutate(bbmsy = as.numeric(bbmsy)) %>%
+    dplyr::mutate(region_id = as.numeric(as.character(rgn_id))) %>%
+    dplyr::mutate(year = as.numeric(as.character(year))) %>%
+    dplyr::mutate(stock_id = as.character(stock_id))
+  
+
+####
+  #  Calculate scores for Bbmsy values
+  ####
+  #  *************NOTE *****************************
+  #  These values can be altered
+  #  ***********************************************
+  alpha <- 0.5
+  beta <- 0.25
+  lowerBuffer <- 0.95
+  upperBuffer <- 1.05
+  
+  b$score = ifelse(
+    b$bbmsy < lowerBuffer,
+    b$bbmsy,
+    ifelse (b$bbmsy >= lowerBuffer &
+              b$bbmsy <= upperBuffer, 1, NA)
+  )
+  b$score = ifelse(!is.na(b$score),
+                   b$score,
+                   ifelse(
+                     1 - alpha * (b$bbmsy - upperBuffer) > beta,
+                     1 - alpha * (b$bbmsy - upperBuffer),
+                     beta
+                   ))
+  
+  
+  ####
+  # Merge the b/bmsy data with catch data
+  ####
+  data_fis <- c %>%
+    dplyr::left_join(b, by = c('rgn_id', 'stock_id', 'year')) %>%
+    dplyr::select(rgn_id, stock_id, year, taxon_key, catch, bbmsy, score)
+  
+  
+  ###
+  #  Estimate scores for taxa without b/bmsy values
+  # Median score of other fish in the region is the starting point
+  # Then a penalty is applied based on the level the taxa are reported at
+  ###
+  
+  ## this takes the mean score within each region and year
+  data_fis_gf <- data_fis %>%
+    dplyr::group_by(rgn_id, year) %>%
+    dplyr::mutate(mean_score = mean(score, na.rm = TRUE)) %>%
+    dplyr::ungroup()
+  
+  ## this takes the mean score across all regions within a year
+  # (when no stocks have scores within a region)
+  data_fis_gf <- data_fis_gf %>%
+    dplyr::group_by(year) %>%
+    dplyr::mutate(mean_score_global = mean(score, na.rm = TRUE)) %>%
+    dplyr::ungroup() %>%
+    dplyr::mutate(mean_score = ifelse(is.na(mean_score), mean_score_global, mean_score)) %>%
+    dplyr::select(-mean_score_global)
+  
+   #  *************NOTE *****************************
+  #  In some cases, it may make sense to alter the
+  #  penalty for not identifying fisheries catch data to
+  #  species level.
+  #  ***********************************************
+  
+ penaltyTable <- data.frame(TaxonPenaltyCode = 1:6,
+                             penalty = c(0.1, 0.25, 0.5, 0.8, 0.9, 1))
+  
+  data_fis_gf <- data_fis_gf %>%
+    dplyr::mutate(TaxonPenaltyCode = as.numeric(substring(taxon_key, 1, 1))) %>%
+    dplyr::left_join(penaltyTable, by = 'TaxonPenaltyCode') %>%
+    dplyr::mutate(score_gf = mean_score * penalty) %>%
+    dplyr::mutate(method = ifelse(is.na(score), "Mean gapfilled", NA)) %>%
+    dplyr::mutate(gapfilled = ifelse(is.na(score), 1, 0)) %>%
+    dplyr::mutate(score = ifelse(is.na(score), score_gf, score))
+  
+  
+  gap_fill_data <- data_fis_gf %>%
+    dplyr::select(rgn_id,
+           stock_id,
+           taxon_key,
+           year,
+           catch,
+           score,
+           gapfilled,
+           method) 
+  
+  write.csv(gap_fill_data, here('prep_bsp/NP/NP_bbmsy_summary_gf.csv'), row.names = FALSE)
+  
+  score_data <- data_fis_gf %>%
+    dplyr::select(rgn_id, stock_id, year, catch, score)
+  
+   ###
+  # Calculate status for each region
+  ###
+
+  ## Take a catch weighted average of B/Bmsy scores for each region/year.
+
+  score_data <- score_data %>%
+    dplyr::group_by(year, rgn_id) %>%
+    dplyr::mutate(SumCatch = sum(catch)) %>%
+    dplyr::ungroup()  
+  
+  score_data <- score_data %>%
+    dplyr::group_by(rgn_id, year) %>%
+    dplyr::summarize(score = weighted.mean(score, catch)) %>%
+    dplyr::ungroup() 
+
+summary(score_data)
+
+write.csv(score_data, here('prep_bsp/NP/np_fofm_scores.csv'), row.names = FALSE)
+```
+
