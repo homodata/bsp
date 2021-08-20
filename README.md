@@ -133,107 +133,64 @@ Using layers/fp_wildcaught_weight_gl2018.csv to plot FIS and MAR with unequal we
 1104-  # These data are no longer available and status/trend have not been updated since 2013
 ```
 
-## Scores (MSE and GL data)
+## Scores (BSP and GL data)
+```
+> FIS(layers)
+`summarise()` has grouped output by 'region_id'. You can override using the `.groups` argument.
+  region_id   score dimension goal
+1         1 58.3000    status  FIS
+2         2 58.3000    status  FIS
+3         1  0.0529     trend  FIS
+4         2  0.0529     trend  FIS
+
+```
 ```
 > AO(layers)
-  region_id   score dimension goal
-1         6 80.7150    status   AO
-2         7 82.3390    status   AO
-3         6  0.0298     trend   AO
-4         7  0.0741     trend   AO
+  region_id    score dimension goal
+1         1 100.0000    status   AO
+2         2 100.0000    status   AO
+3         1   0.0777     trend   AO
+4         2   0.0000     trend   AO
 
-```
-```
-> CS(layers)
-# A tibble: 4 x 4
-  goal  dimension region_id  score
-  <chr> <chr>         <int>  <dbl>
-1 CS    status            6 21.0  
-2 CS    status            7 19.5  
-3 CS    trend             6 -1    
-4 CS    trend             7 -0.619
-```
-```
-> CP(layers)
-# A tibble: 4 x 4
-  region_id goal  dimension  score
-      <int> <chr> <chr>      <dbl>
-1         6 CP    status    21.0  
-2         7 CP    status    19.5  
-3         6 CP    trend     -1    
-4         7 CP    trend     -0.619
-> 
-```
-### TR: revision required
-
-```
-> TR(layers)
-  region_id goal dimension    score
-1         6   TR    status 97.96545
-2         7   TR    status 69.08675
-3         6   TR     trend -0.02480
-4         7   TR     trend -0.05590
-```
-```
-> LIV(layers)
-  region_id goal dimension      score
-1         6  LIV    status 98.9924668
-2         7  LIV    status 98.9924668
-3         6  LIV     trend  0.9519295
-4         7  LIV     trend  0.9342872
 ```
 ```
 > ECO(layers)
-  region_id goal dimension       score
-1         6  ECO    status  97.3600000
-2         7  ECO    status 100.0000000
-3         6  ECO     trend   0.4523954
-4         7  ECO     trend  -1.0000000
+  region_id goal dimension   score
+1         1  ECO    status 95.7472
+2         2  ECO    status 95.7472
+3         1  ECO     trend  0.5700
+4         2  ECO     trend  0.5700
 ```
 ```
-> CW(layers)
-  region_id goal dimension       score
-1         6   CW    status 72.29151383
-2         7   CW    status 79.40565609
-3         6   CW     trend -0.09486703
-4         7   CW     trend -0.25114921
-```
-
-
-
-```
-> SPP(layers)
-  region_id goal dimension        score
-1         6  SPP    status 94.824902700
-2         7  SPP    status 94.824902700
-3         6  SPP     trend -0.004867257
-4         7  SPP     trend -0.004867257
-```
-
-
-### ICO: gives R code error
-```
-> ICO(layers)
-Error in tbl_vars(y) : object 'un_regions' not found
-Called from: tbl_varsy)
+> LIV(layers)
+  region_id goal dimension     score
+1         1  LIV    status 76.051906
+2         2  LIV    status 76.051906
+3         1  LIV     trend -0.082433
+4         2  LIV     trend -0.082433
+ 
 ```
 
 ```
-> HAB(layers)
+> TR(layers)
+  region_id goal dimension   score
+1         1   TR    status 97.1831
+2         2   TR    status 97.1831
+3         1   TR     trend -0.0201
+4         2   TR     trend -0.0201
+```
+```
+> NP(scores,layers)
+`summarise()` has grouped output by 'year', 'region_id'. You can override using the `.groups` argument.
+`summarise()` has grouped output by 'region_id', 'year'. You can override using the `.groups` argument.
+Joining, by = c("year", "region_id", "product")
+`summarise()` has grouped output by 'region_id'. You can override using the `.groups` argument.
 # A tibble: 4 x 4
-  region_id goal  dimension  score
-      <int> <chr> <chr>      <dbl>
-1         6 HAB   status    37.9  
-2         7 HAB   status    37.9  
-3         6 HAB   trend     -0.876
-4         7 HAB   trend     -0.674
-```
-
-```
-> SPP(layers)
-  region_id goal dimension        score
-1         6  SPP    status 94.824902700
-2         7  SPP    status 94.824902700
-3         6  SPP     trend -0.004867257
-4         7  SPP     trend -0.004867257
+  goal  dimension region_id   score
+  <chr> <chr>         <int>   <dbl>
+1 NP    status            1 84.0   
+2 NP    status            2 84.0   
+3 NP    trend             1  0.0883
+4 NP    trend             2  0.0883
+>
 ```
