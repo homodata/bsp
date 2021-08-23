@@ -135,6 +135,14 @@ Using layers/fp_wildcaught_weight_gl2018.csv to plot FIS and MAR with unequal we
 
 ## Scores (BSP and PERU-GL data)
 ```
+> MAR(layers)
+  region_id score dimension goal
+1         1 60.32    status  MAR
+2         2 60.32    status  MAR
+3         1 -0.16     trend  MAR
+4         2 -0.16     trend  MAR
+```
+```
 > FIS(layers)
 `summarise()` has grouped output by 'region_id'. You can override using the `.groups` argument.
   region_id   score dimension goal
