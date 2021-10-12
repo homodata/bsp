@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "OHI for BSP"
 author: "HomoData"
