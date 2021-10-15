@@ -484,6 +484,10 @@ hd_subtidal_sb,2016,2013
 hd_subtidal_sb,2017,2014
 hd_subtidal_sb,2018,2015
 hd_subtidal_sb,2019,2015
+ico_spp_iucn_status,1988,1988
+ico_spp_iucn_status,1989,1989
+ico_spp_iucn_status,1990,1990
+ico_spp_iucn_status,1991,1991
 ico_spp_iucn_status,1992,1992
 ico_spp_iucn_status,1993,1993
 ico_spp_iucn_status,1994,1994
@@ -511,7 +515,8 @@ ico_spp_iucn_status,2015,2015
 ico_spp_iucn_status,2016,2016
 ico_spp_iucn_status,2017,2017
 ico_spp_iucn_status,2018,2018
-ico_spp_iucn_status,2019,2018
+ico_spp_iucn_status,2019,2019
+ico_spp_iucn_status,2020,2020
 li_gci,2012,2011
 li_gci,2013,2012
 li_gci,2014,2013
