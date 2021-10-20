@@ -484,6 +484,10 @@ hd_subtidal_sb,2016,2013
 hd_subtidal_sb,2017,2014
 hd_subtidal_sb,2018,2015
 hd_subtidal_sb,2019,2015
+ico_spp_iucn_status,1988,1988
+ico_spp_iucn_status,1989,1989
+ico_spp_iucn_status,1990,1990
+ico_spp_iucn_status,1991,1991
 ico_spp_iucn_status,1992,1992
 ico_spp_iucn_status,1993,1993
 ico_spp_iucn_status,1994,1994
@@ -511,7 +515,8 @@ ico_spp_iucn_status,2015,2015
 ico_spp_iucn_status,2016,2016
 ico_spp_iucn_status,2017,2017
 ico_spp_iucn_status,2018,2018
-ico_spp_iucn_status,2019,2018
+ico_spp_iucn_status,2019,2019
+ico_spp_iucn_status,2020,2020
 li_gci,2012,2011
 li_gci,2013,2012
 li_gci,2014,2013
@@ -540,6 +545,8 @@ lsp_prot_area_inland1km,2016,2016
 lsp_prot_area_inland1km,2017,2017
 lsp_prot_area_inland1km,2018,2018
 lsp_prot_area_inland1km,2019,2019
+lsp_prot_area_inland1km,2020,2020
+lsp_prot_area_offshore3nm,2009,2009
 lsp_prot_area_offshore3nm,2010,2010
 lsp_prot_area_offshore3nm,2011,2011
 lsp_prot_area_offshore3nm,2012,2012
@@ -550,6 +557,7 @@ lsp_prot_area_offshore3nm,2016,2016
 lsp_prot_area_offshore3nm,2017,2017
 lsp_prot_area_offshore3nm,2018,2018
 lsp_prot_area_offshore3nm,2019,2019
+lsp_prot_area_offshore3nm,2020,2020
 mar_coastalpopn_inland25mi,2000,1998
 mar_coastalpopn_inland25mi,2001,1999
 mar_coastalpopn_inland25mi,2002,2000
