@@ -1302,7 +1302,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 1,Prionotus_stephanophrys-87_604029,2016,0
 1,Pristidae-87_400016,2016,0
 1,Pteriida-87_490109,2016,0.828
-1,Rhinobatos_planiceps-87_600149,2016,"1,90"
+1,Rhinobatos_planiceps-87_600149,2016,1.90
 1,Sarda_chiliensis-87_600113,2016,14940.37675
 1,Sardinops_sagax-87_601477,2016,0
 1,Sciaenidae-87_400331,2016,5642.38
@@ -2996,7 +2996,7 @@ rgn_id,stock_id_taxonkey,year,mean_catch
 2,Prionotus_stephanophrys-87_604029,2016,0
 2,Pristidae-87_400016,2016,0
 2,Pteriida-87_490109,2016,0.828
-2,Rhinobatos_planiceps-87_600149,2016,"1,90"
+2,Rhinobatos_planiceps-87_600149,2016,1.90
 2,Sarda_chiliensis-87_600113,2016,14940.37675
 2,Sardinops_sagax-87_601477,2016,0
 2,Sciaenidae-87_400331,2016,5642.38
