@@ -516,7 +516,7 @@ NP <- function(scores, layers) {
     dplyr::select(year = scenario_year, region_id = rgn_id, taxa_code, sust_coeff) %>%
     mutate(product = "seaweeds") %>%
     group_by(year, region_id, product) %>%
-    summarise(sust_coeff = mean(sust_coeff, na.rm = TRUE)) %>%
+    summarise(sust_coeff = mean(sust_coeff, na.rm = TRUE), .groups="drop_last") %>%
     ungroup()
 
   ### Summarize the sustainably harvested tonnes of
@@ -527,7 +527,7 @@ NP <- function(scores, layers) {
   ## sum per region id, year, and product to get tons
   seaweed_sum <- np_seaweed_tonnes %>%
     group_by(region_id, year, product) %>%
-    summarise(tonnes = sum(tonnes, na.rm = TRUE))
+    summarise(tonnes = sum(tonnes, na.rm = TRUE), .groups="drop_last")
 
   # Calculate Rolling Averages
   # Determine rolling averages for harvested tonnes in order to determine peak values.
@@ -563,7 +563,7 @@ NP <- function(scores, layers) {
     mutate(tonnes_rel = ifelse(tonnes >= tonnes_peak, 1, tonnes / tonnes_peak)) %>%
     # dplyr::select(year, region_id, product, taxa_code, tonnes_rel) %>%
     dplyr::select(year, region_id, product, tonnes_rel) %>%
-    left_join(np_seaweed_sust) %>%
+    left_join(np_seaweed_sust, by = c("year", "region_id", "product")) %>%
     mutate(product_status = tonnes_rel*sust_coeff) %>%
     dplyr::select(year, region_id, product, product_status)
 
@@ -598,7 +598,7 @@ NP <- function(scores, layers) {
     filter(!is.na(product_status) & !is.na(prod_weight)) %>%
     select(region_id, year, product, product_status, prod_weight) %>%
     group_by(region_id, year) %>%
-    summarize(status = weighted.mean(product_status, prod_weight)) %>%
+    summarize(status = weighted.mean(product_status, prod_weight), .groups="drop_last") %>%
     filter(!is.na(status)) %>% # 1/0 produces NaN
     ungroup()
 
@@ -1369,32 +1369,34 @@ CW <- function(layers) {
 HAB <- function(layers) {
   scen_year <- layers$data$scenario_year
 
-
+# Andres: BSP parece solo tener MANGROVE, SALTMARSHAL y SOFTBOTTOM
   extent_lyrs <-
     c(
       'hab_mangrove_extent',
-      'hab_seagrass_extent',
+#      'hab_seagrass_extent',
       'hab_saltmarsh_extent',
-      'hab_coral_extent',
-      'hab_seaice_extent',
+#      'hab_coral_extent',
+#      'hab_seaice_extent',
       'hab_softbottom_extent'
     )
+
+
   health_lyrs <-
     c(
       'hab_mangrove_health',
-      'hab_seagrass_health',
+#      'hab_seagrass_health',
       'hab_saltmarsh_health',
-      'hab_coral_health',
-      'hab_seaice_health',
+#      'hab_coral_health',
+#      'hab_seaice_health',
       'hab_softbottom_health'
     )
   trend_lyrs <-
     c(
       'hab_mangrove_trend',
-      'hab_seagrass_trend',
+#      'hab_seagrass_trend',
       'hab_saltmarsh_trend',
-      'hab_coral_trend',
-      'hab_seaice_trend',
+#      'hab_coral_trend',
+#      'hab_seaice_trend',
       'hab_softbottom_trend'
     )
 
