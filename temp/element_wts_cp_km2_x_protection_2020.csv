@@ -1,7 +1,2 @@
 "rgn_id","habitat","extent_rank","layer"
-1,"seagrass",10,"element_wts_cp_km2_x_protection"
-2,"seagrass",10,"element_wts_cp_km2_x_protection"
-1,"coral",8048,"element_wts_cp_km2_x_protection"
-2,"coral",8048,"element_wts_cp_km2_x_protection"
-1,"seaice",NA,"element_wts_cp_km2_x_protection"
-2,"seaice",NA,"element_wts_cp_km2_x_protection"
+1,"saltmarsh",78.2784,"element_wts_cp_km2_x_protection"
