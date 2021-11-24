@@ -645,15 +645,15 @@ CS <- function(layers) {
   # layers for carbon storage
   extent_lyrs <-
     c('hab_mangrove_extent',
-      'hab_seagrass_extent',
+#      'hab_seagrass_extent',
       'hab_saltmarsh_extent')
   health_lyrs <-
     c('hab_mangrove_health',
-      'hab_seagrass_health',
+#      'hab_seagrass_health',
       'hab_saltmarsh_health')
   trend_lyrs <-
     c('hab_mangrove_trend',
-      'hab_seagrass_trend',
+#      'hab_seagrass_trend',
       'hab_saltmarsh_trend')
 
   # get data together:
@@ -691,8 +691,8 @@ CS <- function(layers) {
 
   ## set ranks for each habitat
   habitat.rank <- c('mangrove'         = 139,
-                    'saltmarsh'        = 210,
-                    'seagrass'         = 83)
+                    'saltmarsh'        = 210)
+#                    'seagrass'         = 83)
 
   ## limit to CS habitats and add rank
   d <- d %>%
@@ -762,26 +762,26 @@ CP <- function(layers) {
   extent_lyrs <-
     c(
       'hab_mangrove_extent',
-      'hab_seagrass_extent',
-      'hab_saltmarsh_extent',
-      'hab_coral_extent',
-      'hab_seaice_extent'
+#      'hab_seagrass_extent',
+      'hab_saltmarsh_extent'
+#      'hab_coral_extent',
+#      'hab_seaice_extent'
     )
   health_lyrs <-
     c(
       'hab_mangrove_health',
-      'hab_seagrass_health',
-      'hab_saltmarsh_health',
-      'hab_coral_health',
-      'hab_seaice_health'
+#      'hab_seagrass_health',
+      'hab_saltmarsh_health'
+#      'hab_coral_health',
+#      'hab_seaice_health'
     )
   trend_lyrs <-
     c(
       'hab_mangrove_trend',
-      'hab_seagrass_trend',
-      'hab_saltmarsh_trend',
-      'hab_coral_trend',
-      'hab_seaice_trend'
+#      'hab_seagrass_trend',
+      'hab_saltmarsh_trend'
+#      'hab_coral_trend',
+#      'hab_seaice_trend'
     )
 
 
@@ -837,11 +837,11 @@ CP <- function(layers) {
 
   ## set ranks for each habitat
   habitat.rank <- c(
-    'coral'            = 4,
+#    'coral'            = 4,
     'mangrove'         = 4,
-    'saltmarsh'        = 3,
-    'seagrass'         = 1,
-    'seaice_shoreline' = 4
+    'saltmarsh'        = 3
+#    'seagrass'         = 1,
+#    'seaice_shoreline' = 4
   )
 
   ## limit to CP habitats and add rank
@@ -1373,10 +1373,10 @@ HAB <- function(layers) {
   extent_lyrs <-
     c(
       'hab_mangrove_extent',
-      'hab_seagrass_extent',
+#      'hab_seagrass_extent',
       'hab_saltmarsh_extent',
-      'hab_coral_extent',
-      'hab_seaice_extent',
+#      'hab_coral_extent',
+#      'hab_seaice_extent',
       'hab_softbottom_extent'
     )
 
@@ -1384,19 +1384,19 @@ HAB <- function(layers) {
   health_lyrs <-
     c(
       'hab_mangrove_health',
-      'hab_seagrass_health',
+#      'hab_seagrass_health',
       'hab_saltmarsh_health',
-      'hab_coral_health',
-      'hab_seaice_health',
+#      'hab_coral_health',
+#      'hab_seaice_health',
       'hab_softbottom_health'
     )
   trend_lyrs <-
     c(
       'hab_mangrove_trend',
-      'hab_seagrass_trend',
+#      'hab_seagrass_trend',
       'hab_saltmarsh_trend',
-      'hab_coral_trend',
-      'hab_seaice_trend',
+#      'hab_coral_trend',
+#      'hab_seaice_trend',
       'hab_softbottom_trend'
     )
 
@@ -1423,11 +1423,11 @@ HAB <- function(layers) {
     dplyr::full_join(extent, by = c('region_id', 'habitat')) %>%
     dplyr::filter(
       habitat %in% c(
-        'coral',
+#        'coral',
         'mangrove',
         'saltmarsh',
-        'seaice_edge',
-        'seagrass',
+#        'seaice_edge',
+#        'seagrass',
         'soft_bottom'
       )
     ) %>%
@@ -1472,11 +1472,11 @@ HAB <- function(layers) {
   weights <- extent %>%
     filter(
       habitat %in% c(
-        'seagrass',
+#        'seagrass',
         'saltmarsh',
         'mangrove',
-        'coral',
-        'seaice_edge',
+#        'coral',
+#        'seaice_edge',
         'soft_bottom'
       )
     ) %>%
