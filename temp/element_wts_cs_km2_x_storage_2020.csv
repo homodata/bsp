@@ -1,6 +1,4 @@
 "rgn_id","habitat","extent_rank","layer"
 1,"mangrove",415.28891,"element_wts_cs_km2_x_storage"
 2,"mangrove",660.03316,"element_wts_cs_km2_x_storage"
-1,"seagrass",830,"element_wts_cs_km2_x_storage"
-2,"seagrass",830,"element_wts_cs_km2_x_storage"
 1,"saltmarsh",5479.488,"element_wts_cs_km2_x_storage"
