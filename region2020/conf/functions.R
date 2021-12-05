@@ -805,20 +805,22 @@ CP <- function(layers) {
     dplyr::mutate(habitat = as.character(habitat))
 
   ## sum mangrove_offshore + mangrove_inland1km = mangrove to match with extent and trend
-  mangrove_extent <- extent %>%
-    dplyr::filter(habitat %in% c('mangrove_inland1km', 'mangrove_offshore'))
-
-  if (nrow(mangrove_extent) > 0) {
-    mangrove_extent <- mangrove_extent %>%
-      dplyr::group_by(region_id) %>%
-      dplyr::summarize(extent = sum(extent, na.rm = TRUE)) %>%
-      dplyr::mutate(habitat = 'mangrove') %>%
-      dplyr::ungroup()
-  }
-
-  extent <- extent %>%
-    dplyr::filter(!habitat %in% c('mangrove', 'mangrove_inland1km', 'mangrove_offshore')) %>%  #do not use all mangrove
-    rbind(mangrove_extent)  #just the inland 1km and offshore
+  ## Note for BSP 2020, regions 1 and 2 only have "magroove" (accumulated and is not differentiated)
+  ## so there is no need to do this extra step to match with extent and trend
+  #mangrove_extent <- extent %>%
+  #  dplyr::filter(habitat %in% c('mangrove_inland1km', 'mangrove_offshore'))
+  #
+  #if (nrow(mangrove_extent) > 0) {
+  #  mangrove_extent <- mangrove_extent %>%
+  #    dplyr::group_by(region_id) %>%
+  #    dplyr::summarize(extent = sum(extent, na.rm = TRUE)) %>%
+  #    dplyr::mutate(habitat = 'mangrove') %>%
+  #    dplyr::ungroup()
+  #}
+  #
+  #extent <- extent %>%
+  #  dplyr::filter(!habitat %in% c('mangrove', 'mangrove_inland1km', 'mangrove_offshore')) %>%  #do not use all mangrove
+  #  rbind(mangrove_extent)  #just the inland 1km and offshore
 
   ## join layer data
   d <-  extent %>%
@@ -837,11 +839,11 @@ CP <- function(layers) {
 
   ## set ranks for each habitat
   habitat.rank <- c(
-#    'coral'            = 4,
+    'coral'            = 4,
     'mangrove'         = 4,
-    'saltmarsh'        = 3
-#    'seagrass'         = 1,
-#    'seaice_shoreline' = 4
+    'saltmarsh'        = 3,
+    'seagrass'         = 1,
+    'seaice_shoreline' = 4
   )
 
   ## limit to CP habitats and add rank

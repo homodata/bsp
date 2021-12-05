@@ -1,3 +1,5 @@
 "rgn_id","habitat","extent_rank","layer"
+1,"mangrove",11.95076,"element_wts_cp_km2_x_protection"
+2,"mangrove",18.99376,"element_wts_cp_km2_x_protection"
 1,"saltmarsh",78.2784,"element_wts_cp_km2_x_protection"
 2,"saltmarsh",0.003,"element_wts_cp_km2_x_protection"
