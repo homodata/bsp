@@ -917,66 +917,83 @@ CP <- function(layers) {
 }
 
 TR <- function(layers) {
-  ## formula:
+  ## NEW formula:
+  ## V = % of tourist visiting each region, units [p] (same as Ep). Layer: tr_visit_pct_tourism.csv
+  ## Xtr = V
+  ## Note: There is no need to rescale using q90(Tr)=Xtr_q
+  ##
+  ## OLD formula:
   ##  E   = Ep                         # Ep: % of direct tourism jobs. tr_jobs_pct_tourism.csv
   ##  S   = (S_score - 1) / (7 - 1)    # S_score: raw TTCI score, not normalized (1-7). tr_sustainability.csv
   ##  Xtr = E * S
-  pct_ref <- 90
+
+  ## The model Xtr = V does not require to rescale so we set pct_ref = NA
+  ##  pct_ref <- 90
+  pct_ref <- NA
 
   scen_year <- layers$data$scenario_year
 
 
   ## read in layers
-  tourism <-
-    AlignDataYears(layer_nm = "tr_jobs_pct_tourism", layers_obj = layers) %>%
+  #tourism <-
+  #  AlignDataYears(layer_nm = "tr_jobs_pct_tourism", layers_obj = layers) %>%
+  #  dplyr::select(-layer_name)
+  #sustain <-
+  #  AlignDataYears(layer_nm = "tr_sustainability", layers_obj = layers) %>%
+  #  dplyr::select(-layer_name)
+  visits <-
+    AlignDataYears(layer_nm = "tr_visit_pct_tourism", layers_obj = layers) %>%
     dplyr::select(-layer_name)
-  sustain <-
-    AlignDataYears(layer_nm = "tr_sustainability", layers_obj = layers) %>%
-    dplyr::select(-layer_name)
 
-  tr_data  <-
-    dplyr::full_join(tourism, sustain, by = c('rgn_id', 'scenario_year'))
-
-  tr_model <- tr_data %>%
-    dplyr::mutate(E   = Ep,
-                  S   = (S_score - 1) / (7 - 1),
-                  # scale score from 1 to 7.
-                  Xtr = E * S)
-
-
+  #tr_data  <-
+  #  dplyr::full_join(tourism, sustain, by = c('rgn_id', 'scenario_year'))
+  #
+  #tr_model <- tr_data %>%
+  #  dplyr::mutate(E   = Ep,
+  #                S   = (S_score - 1) / (7 - 1),
+  #                # scale score from 1 to 7.
+  #                Xtr = E * S)
+  #
   # assign NA for uninhabitated islands (i.e., islands with <100 people)
-  if (conf$config$layer_region_labels == 'rgn_global') {
-    unpopulated = layers$data$uninhabited %>%
-      dplyr::filter(est_population < 100 | is.na(est_population)) %>%
-      dplyr::select(rgn_id)
-    tr_model$Xtr = ifelse(tr_model$rgn_id %in% unpopulated$rgn_id,
-                          NA,
-                          tr_model$Xtr)
+  #if (conf$config$layer_region_labels == 'rgn_global') {
+  #  unpopulated = layers$data$uninhabited %>%
+  #    dplyr::filter(est_population < 100 | is.na(est_population)) %>%
+  #    dplyr::select(rgn_id)
+  #  tr_model$Xtr = ifelse(tr_model$rgn_id %in% unpopulated$rgn_id,
+  #                        NA,
+  #                        tr_model$Xtr)
+  #}
+  tr_model <- visits %>% dplyr::mutate(Xtr = Ep)
+
+  if (is.na(pct_ref)) {
+    # Calculate status based on quantile reference (see function call for pct_ref)
+    tr_model <- tr_model %>%
+      dplyr::filter(scenario_year >= 2008) %>%
+      dplyr::mutate(status  = Xtr) %>%
+      dplyr::ungroup()
+  } else {
+    # Calculate status based on quantile reference (see function call for pct_ref)
+    tr_model <- tr_model %>%
+      dplyr::filter(scenario_year >= 2008) %>%
+      dplyr::mutate(Xtr_q = quantile(Xtr, probs = pct_ref / 100, na.rm = TRUE)) %>%
+      dplyr::mutate(status  = ifelse(Xtr / Xtr_q > 1, 1, Xtr / Xtr_q)) %>% # rescale to qth percentile, cap at 1
+      dplyr::ungroup()
+
+    ## Reference Point Accounting
+    ref_point <- tr_model %>%
+      dplyr::filter(scenario_year == scen_year) %>%
+      dplyr::select(Xtr_q) %>%
+      unique() %>%
+      data.frame() %>%
+      .$Xtr_q
+
+    WriteRefPoint(
+      goal = "TR",
+      method = paste0('spatial: ', as.character(pct_ref), "th quantile"),
+      ref_pt = as.character(ref_point)
+    )
+    ## Reference Point End
   }
-
-
-
-  ### Calculate status based on quantile reference (see function call for pct_ref)
-  tr_model <- tr_model %>%
-    dplyr::filter(scenario_year >=2008) %>%
-    dplyr::mutate(Xtr_q = quantile(Xtr, probs = pct_ref / 100, na.rm = TRUE)) %>%
-    dplyr::mutate(status  = ifelse(Xtr / Xtr_q > 1, 1, Xtr / Xtr_q)) %>% # rescale to qth percentile, cap at 1
-    dplyr::ungroup()
-
-  ## Reference Point Accounting
-  ref_point <- tr_model %>%
-    dplyr::filter(scenario_year == scen_year) %>%
-    dplyr::select(Xtr_q) %>%
-    unique() %>%
-    data.frame() %>%
-    .$Xtr_q
-
-  WriteRefPoint(
-    goal = "TR",
-    method = paste0('spatial: ', as.character(pct_ref), "th quantile"),
-    ref_pt = as.character(ref_point)
-  )
-  ## Reference Point End
 
   # get status
   tr_status <- tr_model %>%
@@ -992,6 +1009,10 @@ TR <- function(layers) {
     dplyr::filter(!is.na(status))
 
   trend_years <- (scen_year - 4):(scen_year)
+  if (!all( (scen_year-4):scen_year %in% trend_data$scenario_year)) {
+    warning(sprintf(paste("tr_visit_pct_tourism does not have enough data to calculate trend:\n",
+                          "make sure there is data for years %i to %i"), scenario_year-4, scenario_year))
+  }
 
   tr_trend <-
     CalculateTrend(status_data = trend_data, trend_years = trend_years)
