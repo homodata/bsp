@@ -918,8 +918,10 @@ CP <- function(layers) {
 
 TR <- function(layers) {
   ## NEW formula:
-  ## V = % of tourist visiting each region, units [p] (same as Ep). Layer: tr_visit_pct_tourism.csv
-  ## Xtr = V
+  ##  V   = Vp: Sanitary quality index due to tourist visiting each region (scaled 0-1)
+  ##        units [p] (same as Ep). Layer: tr_visit_sq_pct_tourism.csv
+  ##  S   = (S_score - 1) / (7 - 1)    # S_score: raw TTCI score, not normalized (1-7). tr_sustainability.csv
+  ##  Xtr = V * S
   ## Note: There is no need to rescale using q90(Tr)=Xtr_q
   ##
   ## OLD formula:
@@ -927,33 +929,32 @@ TR <- function(layers) {
   ##  S   = (S_score - 1) / (7 - 1)    # S_score: raw TTCI score, not normalized (1-7). tr_sustainability.csv
   ##  Xtr = E * S
 
-  ## The model Xtr = V does not require to rescale so we set pct_ref = NA
+  ## The model Xtr = V * S does NOT require to rescale so we set pct_ref = NA
   ##  pct_ref <- 90
   pct_ref <- NA
 
   scen_year <- layers$data$scenario_year
 
-
   ## read in layers
   #tourism <-
   #  AlignDataYears(layer_nm = "tr_jobs_pct_tourism", layers_obj = layers) %>%
   #  dplyr::select(-layer_name)
-  #sustain <-
-  #  AlignDataYears(layer_nm = "tr_sustainability", layers_obj = layers) %>%
-  #  dplyr::select(-layer_name)
+  sustain <-
+    AlignDataYears(layer_nm = "tr_sustainability", layers_obj = layers) %>%
+    dplyr::select(-layer_name)
   visits <-
-    AlignDataYears(layer_nm = "tr_visit_pct_tourism", layers_obj = layers) %>%
+    AlignDataYears(layer_nm = "tr_visit_sq_pct_tourism", layers_obj = layers) %>%
     dplyr::select(-layer_name)
 
-  #tr_data  <-
-  #  dplyr::full_join(tourism, sustain, by = c('rgn_id', 'scenario_year'))
-  #
-  #tr_model <- tr_data %>%
-  #  dplyr::mutate(E   = Ep,
-  #                S   = (S_score - 1) / (7 - 1),
-  #                # scale score from 1 to 7.
-  #                Xtr = E * S)
-  #
+  tr_data  <-
+    dplyr::full_join(visits, sustain, by = c('rgn_id', 'scenario_year'))
+
+  tr_model <- tr_data %>%
+    dplyr::mutate(V   = Vp,
+                  S   = (S_score - 1) / (7 - 1),
+                  # scale score from 1 to 7.
+                  Xtr = V * S)
+
   # assign NA for uninhabitated islands (i.e., islands with <100 people)
   #if (conf$config$layer_region_labels == 'rgn_global') {
   #  unpopulated = layers$data$uninhabited %>%
@@ -963,10 +964,9 @@ TR <- function(layers) {
   #                        NA,
   #                        tr_model$Xtr)
   #}
-  tr_model <- visits %>% dplyr::mutate(Xtr = Ep)
 
   if (is.na(pct_ref)) {
-    # Calculate status based on quantile reference (see function call for pct_ref)
+    # Calculate status
     tr_model <- tr_model %>%
       dplyr::filter(scenario_year >= 2008) %>%
       dplyr::mutate(status  = Xtr) %>%
@@ -1010,8 +1010,8 @@ TR <- function(layers) {
 
   trend_years <- (scen_year - 4):(scen_year)
   if (!all( (scen_year-4):scen_year %in% trend_data$scenario_year)) {
-    warning(sprintf(paste("tr_visit_pct_tourism does not have enough data to calculate trend:\n",
-                          "make sure there is data for years %i to %i"), scenario_year-4, scenario_year))
+    warning(sprintf(paste("tr_visit_sq_pct_tourism does not have enough data to calculate trend:\n",
+                          "make sure there is data for years %i to %i"), scen_year-4, scen_year))
   }
 
   tr_trend <-
